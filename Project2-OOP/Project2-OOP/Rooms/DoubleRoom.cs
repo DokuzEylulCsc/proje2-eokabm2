@@ -10,6 +10,7 @@ namespace Project2_OOP
     {
         public DoubleRoom(int no, int capacity, int price, bool hasAC, bool hasBalcony, bool hasSeaView, bool hasTV, bool hasMinibar) : base(no, capacity, price, hasAC, hasBalcony, hasSeaView, hasTV, hasMinibar)
         {
+
         }
     }
 }
