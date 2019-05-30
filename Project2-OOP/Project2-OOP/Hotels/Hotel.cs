@@ -6,60 +6,41 @@ using System.Threading.Tasks;
 
 namespace Project2_OOP
 {
-    abstract internal class Hotel : IReservation
+    abstract class Hotel : IReservation
     {
-        private int id;
-        private string name;
-        private string city;
         private int numberOfRooms;
-        private int numberOfStars;
         private int totalCapacity;
-        public List<Room> rooms; //
-        private static int hotelId = 0;
+        private int numberOfStars;
+        private List<Room> rooms;
 
-        internal Hotel(string name, string city, int numberOfStars)
+        public Hotel(int numberOfRooms, int totalCapacity, int numberOfStars)
         {
-            this.Name = name;
-            this.City = city;
-            this.NumberOfStars = numberOfStars;
-            this.NumberOfRooms = 0;
-            this.totalCapacity = 0;
-            hotelId++;
-            this.Id = hotelId;
-            this.rooms = new List<Room> { };
+            this.NumberOfRooms = numberOfRooms;
+            this.TotalCapacity = totalCapacity;
+            this.numberOfStars = numberOfStars;
+            this.Rooms = new List<Room> { };
         }
 
-        public string Name { get => name; set => name = value; }
-        public string City { get => city; set => city = value; }
-        public int NumberOfStars { get => numberOfStars; set => numberOfStars = value; }
         public int NumberOfRooms { get => numberOfRooms; set => numberOfRooms = value; }
-        public int Id { get => id; set => id = value; }
-
-        internal void AddRoom(Room room)
-        {
-            rooms.Add(room);
-            this.numberOfRooms++;
-            this.totalCapacity += room.Capacity;
-        }
-
-        public bool make_Reservation()
-        {
-            throw new NotImplementedException();
-        }
+        public int TotalCapacity { get => totalCapacity; set => totalCapacity = value; }
+        public int NumberOfStars { get => numberOfStars; set => numberOfStars = value; }
+        internal List<Room> Rooms { get => rooms; set => rooms = value; }
 
         public bool cancel_Reservation()
         {
-            throw new NotImplementedException();
+            return false;
         }
-
         public void list_Reservations()
         {
-            throw new NotImplementedException();
+            
         }
-
+        public bool make_Reservation()
+        {
+            return false;
+        }
         public bool update_Reservation()
         {
-            throw new NotImplementedException();
+            return false;
         }
     }
 }
