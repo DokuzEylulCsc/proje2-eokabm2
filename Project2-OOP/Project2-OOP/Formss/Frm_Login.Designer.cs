@@ -1,6 +1,6 @@
-﻿namespace Project2_OOP
+﻿namespace Project2_OOP.Form
 {
-    partial class HotelReservationApp
+    partial class Frm_Login
     {
         /// <summary>
         /// Required designer variable.
@@ -28,21 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // Form1
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "HotelReservationApp";
-            this.Text = "El Turistiko";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.ResumeLayout(false);
-
+            this.Text = "Frm_Login";
         }
 
         #endregion
     }
 }
-

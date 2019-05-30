@@ -17,3 +17,8 @@ C:\Users\bugra\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Projec
 C:\Users\bugra\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2-OOP.csproj.GenerateResource.Cache
 C:\Users\bugra\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2-OOP.exe
 C:\Users\bugra\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2-OOP.pdb
+C:\Users\bugra\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2_OOP.Frms.Frm_AddHotel.resources
+C:\Users\bugra\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2_OOP.Frms.Frm_Admin.resources
+C:\Users\bugra\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2_OOP.Frms.Frm_Customer.resources
+C:\Users\bugra\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2_OOP.Form_Login.resources
+C:\Users\bugra\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2_OOP.Frms.Frm_AddRoom.resources

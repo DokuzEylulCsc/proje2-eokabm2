@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Project2_OOP
 {
-    public partial class HotelReservationApp : Form
+    public partial class Form_Login : Form
     {
-        
-
-        public HotelReservationApp()
+        public Form_Login()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
         }
     }
 }
