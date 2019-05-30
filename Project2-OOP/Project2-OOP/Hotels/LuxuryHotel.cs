@@ -8,7 +8,7 @@ namespace Project2_OOP
 {
     class LuxuryHotel : Hotel
     {
-        public LuxuryHotel(int numberOfRooms, int totalCapacity, int numberOfStars) : base(numberOfRooms, totalCapacity, numberOfStars)
+        public LuxuryHotel(string name, string city, int numberOfStars) : base(name, city, numberOfStars)
         {
         }
     }

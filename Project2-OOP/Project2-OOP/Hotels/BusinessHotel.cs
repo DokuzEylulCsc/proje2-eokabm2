@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Project2_OOP
 {
-    class SuiteHotel : Hotel
+    class BusinessHotel : Hotel
     {
-        public SuiteHotel(string name, string city, int numberOfStars) : base(name, city, numberOfStars)
+        public BusinessHotel(string name, string city, int numberOfStars) : base(name, city, numberOfStars)
         {
         }
     }

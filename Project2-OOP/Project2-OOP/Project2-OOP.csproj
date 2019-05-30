@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Frms\Frm_AddHotel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,22 +79,34 @@
       <DependentUpon>Frm_Admin.cs</DependentUpon>
     </Compile>
     <Compile Include="IReservation.cs" />
+=======
+    <Compile Include="App\ElTuristiko.cs" />
+    <Compile Include="Hotels\BusinessHotel.cs" />
+    <Compile Include="Reservations\IReservation.cs" />
+>>>>>>> 8d8964ee51234f9e7c7f8d1371fcb0f7eceba0ff
     <Compile Include="Users\Administrator.cs" />
     <Compile Include="Hotels\BoutiqueHotel.cs" />
     <Compile Include="Users\Customer.cs" />
     <Compile Include="Rooms\DoubleRoom.cs" />
     <Compile Include="Hotels\Hotel.cs" />
+<<<<<<< HEAD
     <Compile Include="Frms\HotelReservationApp.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frms\HotelReservationApp.Designer.cs">
+=======
+    <Compile Include="App\HotelReservationApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App\HotelReservationApp.Designer.cs">
+>>>>>>> 8d8964ee51234f9e7c7f8d1371fcb0f7eceba0ff
       <DependentUpon>HotelReservationApp.cs</DependentUpon>
     </Compile>
     <Compile Include="Rooms\KingRoom.cs" />
     <Compile Include="Hotels\LuxuryHotel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reservation.cs" />
+    <Compile Include="Reservations\Reservation.cs" />
     <Compile Include="Hotels\ResortHotel.cs" />
     <Compile Include="Rooms\Room.cs" />
     <Compile Include="Rooms\SingleRoom.cs" />
@@ -101,6 +114,7 @@
     <Compile Include="Rooms\TripleRoom.cs" />
     <Compile Include="Rooms\TwinRoom.cs" />
     <Compile Include="Users\User.cs" />
+<<<<<<< HEAD
     <EmbeddedResource Include="Frms\Frm_AddHotel.resx">
       <DependentUpon>Frm_AddHotel.cs</DependentUpon>
     </EmbeddedResource>
@@ -117,6 +131,9 @@
       <DependentUpon>Frm_Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frms\HotelReservationApp.resx">
+=======
+    <EmbeddedResource Include="App\HotelReservationApp.resx">
+>>>>>>> 8d8964ee51234f9e7c7f8d1371fcb0f7eceba0ff
       <DependentUpon>HotelReservationApp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

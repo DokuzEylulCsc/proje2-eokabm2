@@ -17,8 +17,21 @@ C:\Users\bugra\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Projec
 C:\Users\bugra\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2-OOP.csproj.GenerateResource.Cache
 C:\Users\bugra\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2-OOP.exe
 C:\Users\bugra\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2-OOP.pdb
+<<<<<<< HEAD
 C:\Users\bugra\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2_OOP.Frms.Frm_AddHotel.resources
 C:\Users\bugra\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2_OOP.Frms.Frm_Admin.resources
 C:\Users\bugra\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2_OOP.Frms.Frm_Customer.resources
 C:\Users\bugra\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2_OOP.Form_Login.resources
 C:\Users\bugra\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2_OOP.Frms.Frm_AddRoom.resources
+=======
+C:\Users\emino\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\bin\Debug\Project2-OOP.exe.config
+C:\Users\emino\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\bin\Debug\Project2-OOP.exe
+C:\Users\emino\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\bin\Debug\Project2-OOP.pdb
+C:\Users\emino\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2-OOP.csprojAssemblyReference.cache
+C:\Users\emino\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2_OOP.HotelReservationApp.resources
+C:\Users\emino\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2_OOP.Properties.Resources.resources
+C:\Users\emino\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2-OOP.csproj.GenerateResource.cache
+C:\Users\emino\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2-OOP.csproj.CoreCompileInputs.cache
+C:\Users\emino\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2-OOP.exe
+C:\Users\emino\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2-OOP.pdb
+>>>>>>> 8d8964ee51234f9e7c7f8d1371fcb0f7eceba0ff

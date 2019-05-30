@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project2_OOP
 {
-    abstract class Room: IReservation
+    abstract internal class Room: IReservation
     {
         private int no;
         private int capacity;
@@ -18,7 +18,7 @@ namespace Project2_OOP
         private bool hasMinibar;
         private List<Reservation> reservations;
 
-        public Room(int no, int capacity, int price, bool hasAC, bool hasBalcony, bool hasSeaView, bool hasTV, bool hasMinibar)
+        internal Room(int no, int capacity, int price, bool hasAC, bool hasBalcony, bool hasSeaView, bool hasTV, bool hasMinibar)
         {
             this.No = no;
             this.Capacity = capacity;
