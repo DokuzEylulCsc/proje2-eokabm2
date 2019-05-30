@@ -47,23 +47,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IReservation.cs" />
+    <Compile Include="App\ElTuristiko.cs" />
+    <Compile Include="Hotels\BusinessHotel.cs" />
+    <Compile Include="Reservations\IReservation.cs" />
     <Compile Include="Users\Administrator.cs" />
     <Compile Include="Hotels\BoutiqueHotel.cs" />
     <Compile Include="Users\Customer.cs" />
     <Compile Include="Rooms\DoubleRoom.cs" />
     <Compile Include="Hotels\Hotel.cs" />
-    <Compile Include="HotelReservationApp.cs">
+    <Compile Include="App\HotelReservationApp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HotelReservationApp.Designer.cs">
+    <Compile Include="App\HotelReservationApp.Designer.cs">
       <DependentUpon>HotelReservationApp.cs</DependentUpon>
     </Compile>
     <Compile Include="Rooms\KingRoom.cs" />
     <Compile Include="Hotels\LuxuryHotel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reservation.cs" />
+    <Compile Include="Reservations\Reservation.cs" />
     <Compile Include="Hotels\ResortHotel.cs" />
     <Compile Include="Rooms\Room.cs" />
     <Compile Include="Rooms\SingleRoom.cs" />
@@ -71,7 +73,7 @@
     <Compile Include="Rooms\TripleRoom.cs" />
     <Compile Include="Rooms\TwinRoom.cs" />
     <Compile Include="Users\User.cs" />
-    <EmbeddedResource Include="HotelReservationApp.resx">
+    <EmbeddedResource Include="App\HotelReservationApp.resx">
       <DependentUpon>HotelReservationApp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

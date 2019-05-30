@@ -8,7 +8,7 @@ namespace Project2_OOP
 {
     class SingleRoom : Room
     {
-        public SingleRoom(int no, int capacity, int price, bool hasAC, bool hasBalcony, bool hasSeaView, bool hasTV, bool hasMinibar) : base(no, capacity, price, hasAC, hasBalcony, hasSeaView, hasTV, hasMinibar)
+        public SingleRoom(int no, int price, bool hasAC, bool hasBalcony, bool hasSeaView, bool hasTV, bool hasMinibar) : base(no, 1, price, hasAC, hasBalcony, hasSeaView, hasTV, hasMinibar)
         {
         }
     }
