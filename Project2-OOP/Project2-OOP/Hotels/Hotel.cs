@@ -14,7 +14,7 @@ namespace Project2_OOP
         private int numberOfRooms;
         private int numberOfStars;
         private int totalCapacity;
-        public List<Room> rooms; //
+        private List<Room> rooms;
         private static int hotelId = 0;
 
         internal Hotel(string name, string city, int numberOfStars)

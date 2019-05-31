@@ -89,6 +89,9 @@
     <Compile Include="Rooms\TripleRoom.cs" />
     <Compile Include="Rooms\TwinRoom.cs" />
     <Compile Include="Users\User.cs" />
+    <EmbeddedResource Include="Forms\AdminForm.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\HotelReservationApp.resx">
       <DependentUpon>HotelReservationApp.cs</DependentUpon>
     </EmbeddedResource>

@@ -18,9 +18,40 @@ namespace Project2_OOP
             return elTuristiko;
         }
 
-        internal bool AddHotel(Hotel hotel) //ismi ve şehri aynı olan otel varsa false döndürür
+        internal void AddHotel(Hotel hotel) 
         {
             this.hotels.Add(hotel);
+        }
+
+        internal bool AddHotel(string name, string city, int stars, int t) //ismi ve şehri aynı olan otel varsa false döndürür
+        {
+            foreach(Hotel hotel in hotels)
+            {
+                if(hotel.Name == name && hotel.City == city)
+                {
+                    return false;
+                }
+            }
+
+            switch (t)
+            {
+                case 0:
+                    hotels.Add(new BoutiqueHotel(name, city, stars));
+                    break;
+                case 1:
+                    hotels.Add(new BusinessHotel(name, city, stars));
+                    break;
+                case 2:
+                    hotels.Add(new LuxuryHotel(name, city, stars));
+                    break;
+                case 3:
+                    hotels.Add(new ResortHotel(name, city, stars));
+                    break;
+                case 4:
+                    hotels.Add(new SuiteHotel(name, city, stars));
+                    break;
+            }
+
             return true;
         }
 

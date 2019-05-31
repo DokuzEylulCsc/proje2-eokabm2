@@ -19,3 +19,15 @@ C:\Users\emino\Desktop\Project2-OOP\Project2-OOP\obj\Debug\Project2-OOP.csproj.C
 C:\Users\emino\Desktop\Project2-OOP\Project2-OOP\obj\Debug\Project2-OOP.exe
 C:\Users\emino\Desktop\Project2-OOP\Project2-OOP\obj\Debug\Project2-OOP.pdb
 C:\Users\emino\Desktop\Project2-OOP\Project2-OOP\obj\Debug\Project2_OOP.RegisterForm.resources
+C:\Users\emino\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\bin\Debug\Project2-OOP.exe.config
+C:\Users\emino\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\bin\Debug\Project2-OOP.exe
+C:\Users\emino\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\bin\Debug\Project2-OOP.pdb
+C:\Users\emino\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2-OOP.csprojAssemblyReference.cache
+C:\Users\emino\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2_OOP.AdminForm.resources
+C:\Users\emino\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2_OOP.HotelReservationApp.resources
+C:\Users\emino\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2_OOP.RegisterForm.resources
+C:\Users\emino\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2_OOP.Properties.Resources.resources
+C:\Users\emino\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2-OOP.csproj.GenerateResource.cache
+C:\Users\emino\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2-OOP.csproj.CoreCompileInputs.cache
+C:\Users\emino\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2-OOP.exe
+C:\Users\emino\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2-OOP.pdb

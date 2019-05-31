@@ -15,12 +15,15 @@ namespace Project2_OOP
         private ElTuristiko elTuristiko = ElTuristiko.getInstance();
         internal static User currentUser;
         private static Random random = new Random();
+        private static HotelReservationApp hotelReservationApp = new HotelReservationApp();
 
-        public HotelReservationApp()
+        private HotelReservationApp()
         {
             InitializeComponent();
             InitializeFiles();
         }
+
+        public static HotelReservationApp GetInstance() { return hotelReservationApp; }
 
         private void HotelReservationApp_Load(object sender, EventArgs e)
         {
@@ -130,12 +133,14 @@ namespace Project2_OOP
             {
                 //müşteri giriş yaptı..
                 CustomerForm customerForm = new CustomerForm();
+                customerForm.CurrentUser = currentUser;
                 customerForm.Show();
             }
             else
             {
                 //admin giriş yaptı..              
                 AdminForm adminForm = new AdminForm();
+                adminForm.CurrentUser = currentUser;
                 adminForm.Show();
             }
 

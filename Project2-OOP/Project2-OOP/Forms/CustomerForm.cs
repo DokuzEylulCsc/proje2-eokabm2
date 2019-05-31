@@ -12,9 +12,12 @@ namespace Project2_OOP
 {
     internal partial class CustomerForm : Form
     {
+        private User currentUser;
         internal CustomerForm()
         {
             InitializeComponent();
         }
+
+        internal User CurrentUser { get => currentUser; set => currentUser = value; }
     }
 }
