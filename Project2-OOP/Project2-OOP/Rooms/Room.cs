@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project2_OOP
 {
-    abstract class Room: IReservation
+    abstract internal class Room : IReservation
     {
         private int no;
         private int capacity;
@@ -18,7 +18,7 @@ namespace Project2_OOP
         private bool hasMinibar;
         private List<Reservation> reservations;
 
-        public Room(int no, int capacity, int price, bool hasAC, bool hasBalcony, bool hasSeaView, bool hasTV, bool hasMinibar)
+        internal Room(int no, int capacity, int price, bool hasAC, bool hasBalcony, bool hasSeaView, bool hasTV, bool hasMinibar)
         {
             this.No = no;
             this.Capacity = capacity;
@@ -38,9 +38,13 @@ namespace Project2_OOP
         public bool HasBalcony { get => hasBalcony; set => hasBalcony = value; }
         public bool HasSeaView { get => hasSeaView; set => hasSeaView = value; }
         public bool HasTV { get => hasTV; set => hasTV = value; }
-        public bool HasMinibar { get => hasMinibar; set => hasMinibar = value; }     
+        public bool HasMinibar { get => hasMinibar; set => hasMinibar = value; }
         internal List<Reservation> Reservations { get => reservations; set => reservations = value; }
 
+        public bool make_Reservation()
+        {
+            return false;
+        }
         public bool cancel_Reservation()
         {
             return false;
@@ -49,10 +53,7 @@ namespace Project2_OOP
         {
 
         }
-        public bool make_Reservation()
-        {
-            return false;
-        }
+
         public bool update_Reservation()
         {
             return false;

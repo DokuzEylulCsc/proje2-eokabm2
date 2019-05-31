@@ -14,10 +14,11 @@ namespace Project2_OOP
         protected User(string userId, string password)
         {
             this.userId = userId;
-            this.password = password;
+            this.Password = password;
         }
 
-        private string UserId { get => userId; }
+        internal string UserId { get => userId; }
+        internal string Password { get => password; set => password = value; }
 
     }
 }

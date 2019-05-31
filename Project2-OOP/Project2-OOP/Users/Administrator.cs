@@ -8,11 +8,6 @@ namespace Project2_OOP
 {
     class Administrator : User
     {
-        private string name;
-
-        public Administrator(string userId, string password, string name) : base(userId, password)
-        {
-            this.name = name;
-        }
+        public Administrator(string userId, string password) : base(userId, password){}
     }
 }

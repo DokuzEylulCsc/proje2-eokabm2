@@ -1,6 +1,6 @@
-﻿namespace Project2_OOP.Form
+﻿namespace Project2_OOP
 {
-    partial class Frm_Login
+    partial class CustomerForm
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Frm_Login";
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "CustomerForm";
         }
 
         #endregion

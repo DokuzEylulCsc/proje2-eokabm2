@@ -4,15 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A6324323-7728-42CF-8A98-44C7E0873832}</ProjectGuid>
+    <ProjectGuid>{C37AE08F-1EA0-4864-8C0E-9A48962D250A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Project2_OOP</RootNamespace>
     <AssemblyName>Project2-OOP</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -47,77 +45,55 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Frms\Frm_AddHotel.cs">
+    <Compile Include="Forms\CustomerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frms\Frm_AddHotel.Designer.cs">
-      <DependentUpon>Frm_AddHotel.cs</DependentUpon>
+    <Compile Include="Forms\CustomerForm.Designer.cs">
+      <DependentUpon>CustomerForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frms\Frm_AddRoom.cs">
+    <Compile Include="Forms\AdminForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frms\Frm_AddRoom.Designer.cs">
-      <DependentUpon>Frm_AddRoom.cs</DependentUpon>
+    <Compile Include="Forms\AdminForm.Designer.cs">
+      <DependentUpon>AdminForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frms\Frm_Customer.cs">
+    <Compile Include="App\ElTuristiko.cs" />
+    <Compile Include="Interfaces\IReservation.cs" />
+    <Compile Include="Forms\RegisterForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frms\Frm_Customer.Designer.cs">
-      <DependentUpon>Frm_Customer.cs</DependentUpon>
+    <Compile Include="Forms\RegisterForm.Designer.cs">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frms\Frm_Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frms\Frm_Login.Designer.cs">
-      <DependentUpon>Frm_Login.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Frms\Frm_Admin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frms\Frm_Admin.Designer.cs">
-      <DependentUpon>Frm_Admin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="IReservation.cs" />
+    <Compile Include="Reservation\Reservation.cs" />
     <Compile Include="Users\Administrator.cs" />
-    <Compile Include="Hotels\BoutiqueHotel.cs" />
     <Compile Include="Users\Customer.cs" />
     <Compile Include="Rooms\DoubleRoom.cs" />
-    <Compile Include="Hotels\Hotel.cs" />
-    <Compile Include="Frms\HotelReservationApp.cs">
+    <Compile Include="Hotels\Boutique.cs" />
+    <Compile Include="Hotels\BusinessHotel.cs" />
+    <Compile Include="Forms\HotelReservationApp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frms\HotelReservationApp.Designer.cs">
+    <Compile Include="Forms\HotelReservationApp.Designer.cs">
       <DependentUpon>HotelReservationApp.cs</DependentUpon>
     </Compile>
-    <Compile Include="Rooms\KingRoom.cs" />
+    <Compile Include="Hotels\Hotel.cs" />
     <Compile Include="Hotels\LuxuryHotel.cs" />
+    <Compile Include="Rooms\KingRoom.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reservation.cs" />
     <Compile Include="Hotels\ResortHotel.cs" />
+    <Compile Include="Hotels\SuiteHotel.cs" />
     <Compile Include="Rooms\Room.cs" />
     <Compile Include="Rooms\SingleRoom.cs" />
-    <Compile Include="Hotels\SuiteHotel.cs" />
     <Compile Include="Rooms\TripleRoom.cs" />
     <Compile Include="Rooms\TwinRoom.cs" />
     <Compile Include="Users\User.cs" />
-    <EmbeddedResource Include="Frms\Frm_AddHotel.resx">
-      <DependentUpon>Frm_AddHotel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Frms\Frm_AddRoom.resx">
-      <DependentUpon>Frm_AddRoom.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Frms\Frm_Admin.resx">
-      <DependentUpon>Frm_Admin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Frms\Frm_Customer.resx">
-      <DependentUpon>Frm_Customer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Frms\Frm_Login.resx">
-      <DependentUpon>Frm_Login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Frms\HotelReservationApp.resx">
+    <EmbeddedResource Include="Forms\HotelReservationApp.resx">
       <DependentUpon>HotelReservationApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RegisterForm.resx">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -127,9 +103,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="ProjeDiagram.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -143,5 +117,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

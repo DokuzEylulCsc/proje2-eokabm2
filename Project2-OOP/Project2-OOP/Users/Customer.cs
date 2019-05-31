@@ -13,7 +13,7 @@ namespace Project2_OOP
         private string phoneNumber;
         private List<Reservation> reservations;
 
-        protected Customer(string userId, string password, string name, string address, string phoneNumber) : base(userId, password)
+        public Customer(string userId, string password, string name, string address, string phoneNumber) : base(userId, password)
         {
             this.Name = name;
             this.Address = address;

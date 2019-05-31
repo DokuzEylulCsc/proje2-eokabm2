@@ -8,19 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Project2_OOP.Frms
+namespace Project2_OOP
 {
-    public partial class Frm_AddHotel : Form
+    internal partial class AdminForm : Form
     {
-        public Frm_AddHotel()
+        internal AdminForm()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Frm_AddRoom A = new Frm_AddRoom();
-            A.Show();
         }
     }
 }

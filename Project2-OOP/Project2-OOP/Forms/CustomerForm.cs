@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Project2_OOP
 {
-    public partial class Form_Login : Form
+    internal partial class CustomerForm : Form
     {
-        public Form_Login()
+        internal CustomerForm()
         {
             InitializeComponent();
         }
