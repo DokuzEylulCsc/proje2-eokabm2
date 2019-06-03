@@ -107,6 +107,7 @@
             // textBoxUserId
             // 
             this.textBoxUserId.Location = new System.Drawing.Point(160, 50);
+            this.textBoxUserId.MaxLength = 15;
             this.textBoxUserId.Name = "textBoxUserId";
             this.textBoxUserId.Size = new System.Drawing.Size(140, 20);
             this.textBoxUserId.TabIndex = 7;
@@ -114,6 +115,7 @@
             // textBoxPassword
             // 
             this.textBoxPassword.Location = new System.Drawing.Point(160, 90);
+            this.textBoxPassword.MaxLength = 20;
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.PasswordChar = '*';
             this.textBoxPassword.Size = new System.Drawing.Size(140, 20);
@@ -122,6 +124,7 @@
             // textBoxFName
             // 
             this.textBoxFName.Location = new System.Drawing.Point(160, 130);
+            this.textBoxFName.MaxLength = 20;
             this.textBoxFName.Name = "textBoxFName";
             this.textBoxFName.Size = new System.Drawing.Size(140, 20);
             this.textBoxFName.TabIndex = 9;
@@ -129,6 +132,7 @@
             // textBoxPhoneN
             // 
             this.textBoxPhoneN.Location = new System.Drawing.Point(160, 210);
+            this.textBoxPhoneN.MaxLength = 15;
             this.textBoxPhoneN.Name = "textBoxPhoneN";
             this.textBoxPhoneN.Size = new System.Drawing.Size(140, 20);
             this.textBoxPhoneN.TabIndex = 11;
@@ -136,6 +140,7 @@
             // textBoxLName
             // 
             this.textBoxLName.Location = new System.Drawing.Point(160, 170);
+            this.textBoxLName.MaxLength = 30;
             this.textBoxLName.Name = "textBoxLName";
             this.textBoxLName.Size = new System.Drawing.Size(140, 20);
             this.textBoxLName.TabIndex = 10;
@@ -143,6 +148,7 @@
             // textBoxAddress
             // 
             this.textBoxAddress.Location = new System.Drawing.Point(160, 250);
+            this.textBoxAddress.MaxLength = 140;
             this.textBoxAddress.Multiline = true;
             this.textBoxAddress.Name = "textBoxAddress";
             this.textBoxAddress.Size = new System.Drawing.Size(140, 65);
@@ -197,6 +203,7 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Register to El Turistiko";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.RegisterForm_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -66,18 +66,7 @@ namespace Project2_OOP
             AddRoomsRandom(hotel6, 80);
             AddRoomsRandom(hotel7, 48);
             AddRoomsRandom(hotel8, 32);
-            AddRoomsRandom(hotel9, 84);
-
-
-            /*foreach (Hotel hotel in elTuristiko.hotels)
-            {
-                textBox1.Text += hotel.Name + "\r\n";
-                foreach (Room r in hotel.rooms)
-                {
-                    textBox1.Text += (r.No + "\t" + r.Price + "\t" + r.GetType()).ToString() + "\t" + r.HasAC + "\t" + r.HasBalcony
-                        + "\t" + r.HasMinibar + "\t" + r.HasSeaView + "\t" + r.HasTV + "\r\n";
-                }
-            }*/
+            AddRoomsRandom(hotel9, 84);     
 
         }
 
@@ -148,9 +137,14 @@ namespace Project2_OOP
 
         private void ButtonRegister_Click(object sender, EventArgs e)
         {
-            //Kayıt olma formu açılacak..
+            this.Hide();
             RegisterForm registerForm = new RegisterForm();
             registerForm.Show();
+        }
+
+        private void HotelReservationApp_FormClosing(object sender, FormClosingEventArgs e) //program kapanırken gerekli işlemler yapılıcak.
+        {
+            MessageBox.Show("Thanks for using.");
         }
     }
 }

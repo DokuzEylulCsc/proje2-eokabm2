@@ -63,6 +63,7 @@
             // 
             this.textBoxUserId.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxUserId.Location = new System.Drawing.Point(135, 50);
+            this.textBoxUserId.MaxLength = 15;
             this.textBoxUserId.Name = "textBoxUserId";
             this.textBoxUserId.Size = new System.Drawing.Size(100, 22);
             this.textBoxUserId.TabIndex = 2;
@@ -71,6 +72,7 @@
             // 
             this.textBoxPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxPassword.Location = new System.Drawing.Point(135, 100);
+            this.textBoxPassword.MaxLength = 20;
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.PasswordChar = '*';
             this.textBoxPassword.Size = new System.Drawing.Size(100, 22);
@@ -156,6 +158,7 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "El Turistiko";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.HotelReservationApp_FormClosing);
             this.Load += new System.EventHandler(this.HotelReservationApp_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

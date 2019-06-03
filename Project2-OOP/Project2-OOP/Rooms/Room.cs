@@ -28,7 +28,7 @@ namespace Project2_OOP
             this.HasSeaView = hasSeaView;
             this.HasTV = hasTV;
             this.HasMinibar = hasMinibar;
-            this.Reservations = new List<Reservation> { };
+            this.reservations = new List<Reservation> { };
         }
 
         public int No { get => no; set => no = value; }
@@ -39,7 +39,6 @@ namespace Project2_OOP
         public bool HasSeaView { get => hasSeaView; set => hasSeaView = value; }
         public bool HasTV { get => hasTV; set => hasTV = value; }
         public bool HasMinibar { get => hasMinibar; set => hasMinibar = value; }
-        internal List<Reservation> Reservations { get => reservations; set => reservations = value; }
 
         public bool make_Reservation()
         {
@@ -59,5 +58,10 @@ namespace Project2_OOP
             return false;
         }
 
+        public override string ToString()
+        {
+            return "No: " + this.No + " Price: " + this.Price;
+
+        }
     }
 }

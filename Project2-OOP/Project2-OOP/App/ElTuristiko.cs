@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Project2_OOP
 {
-    internal class ElTuristiko
+    internal class ElTuristiko: IEnumerable
     {
-        private ElTuristiko() { }
+        private ElTuristiko() { } 
         private static ElTuristiko elTuristiko = new ElTuristiko();
         private List<Hotel> hotels = new List<Hotel> { };
         private List<User> users = new List<User> { };
@@ -18,16 +19,18 @@ namespace Project2_OOP
             return elTuristiko;
         }
 
+
+        //Hotels
         internal void AddHotel(Hotel hotel) 
         {
             this.hotels.Add(hotel);
         }
 
-        internal bool AddHotel(string name, string city, int stars, int t) //ismi ve şehri aynı olan otel varsa false döndürür
+        internal bool AddHotel(string name, string city, int stars, int t) //ismi aynı olan otel varsa false döndürür
         {
             foreach(Hotel hotel in hotels)
             {
-                if(hotel.Name == name && hotel.City == city)
+                if (hotel.Name.Equals(name, StringComparison.OrdinalIgnoreCase)) //büyük küçük harfleri görmezden gelir
                 {
                     return false;
                 }
@@ -55,6 +58,8 @@ namespace Project2_OOP
             return true;
         }
 
+
+        //Users
         internal void AddUser(User user) 
         {
             this.users.Add(user);
@@ -85,6 +90,60 @@ namespace Project2_OOP
             return null;
         }
 
-  
+        //IEnumarable  https://docs.microsoft.com/tr-tr/dotnet/api/system.collections.ienumerable?view=netframework-4.8
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return (IEnumerator)GetEnumerator();
+        }
+
+        public HotelEnum GetEnumerator()
+        {
+            return new HotelEnum(hotels);
+        }
+
+        public class HotelEnum : IEnumerator
+        {
+            List<Hotel> hotels;
+
+            int position = -1;
+
+            public HotelEnum(List<Hotel> list)
+            {
+                hotels = list;
+            }
+
+            public bool MoveNext()
+            {
+                position++;
+                return (position < hotels.Count);
+            }
+
+            public void Reset()
+            {
+                position = -1;
+            }
+
+            object IEnumerator.Current
+            {
+                get { return Current; }
+            }
+
+            public Hotel Current
+            {
+                get
+                {
+                    try
+                    {
+                        return hotels[position];
+                    }
+                    catch (IndexOutOfRangeException)
+                    {
+                        throw new InvalidOperationException();
+                    }
+                }
+            }
+        }
+
+
     }
 }

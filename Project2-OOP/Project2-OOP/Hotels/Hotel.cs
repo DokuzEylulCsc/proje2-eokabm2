@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Project2_OOP
 {
-    abstract internal class Hotel : IReservation
+    abstract internal class Hotel : IReservation, IEnumerable
     {
         private int id;
         private string name;
@@ -42,6 +43,39 @@ namespace Project2_OOP
             this.totalCapacity += room.Capacity;
         }
 
+        internal bool AddRoom(int no, int capacity, int price, bool hasAc, bool hasBalcony, bool hasSeaView, bool hasTv, bool hasMinibar, int t)
+        {
+            foreach(Room r in rooms)
+            {
+                if(r.No == no)
+                {
+                    return false;
+                }
+            }
+
+            switch (t)
+            {
+                case 1:
+                    AddRoom(new SingleRoom(no, price, hasAc, hasBalcony, hasSeaView, hasTv, hasMinibar));
+                    break;
+                case 2:
+                    AddRoom(new DoubleRoom(no, price, hasAc, hasBalcony, hasSeaView, hasTv, hasMinibar));
+                    break;
+                case 3:
+                    AddRoom(new TwinRoom(no, price, hasAc, hasBalcony, hasSeaView, hasTv, hasMinibar));
+                    break;
+                case 4:
+                    AddRoom(new TripleRoom(no, price, hasAc, hasBalcony, hasSeaView, hasTv, hasMinibar));
+                    break;
+                case 5:
+                    AddRoom(new KingRoom(no, capacity, price, hasAc, hasBalcony, hasSeaView, hasTv, hasMinibar));
+                    break;
+            }
+
+            return true;
+                
+        }
+
         public bool make_Reservation()
         {
             throw new NotImplementedException();
@@ -60,6 +94,65 @@ namespace Project2_OOP
         public bool update_Reservation()
         {
             throw new NotImplementedException();
+        }
+
+        //IEnumarable  
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return (IEnumerator)GetEnumerator();
+        }
+
+        public RoomEnum GetEnumerator()
+        {
+            return new RoomEnum(rooms);
+        }
+
+        public class RoomEnum : IEnumerator
+        {
+            List<Room> rooms;
+
+            int position = -1;
+
+            public RoomEnum(List<Room> list)
+            {
+                rooms = list;
+            }
+
+            public bool MoveNext()
+            {
+                position++;
+                return (position < rooms.Count);
+            }
+
+            public void Reset()
+            {
+                position = -1;
+            }
+
+            object IEnumerator.Current
+            {
+                get { return Current; }
+            }
+
+            public Room Current
+            {
+                get
+                {
+                    try
+                    {
+                        return rooms[position];
+                    }
+                    catch (IndexOutOfRangeException)
+                    {
+                        throw new InvalidOperationException();
+                    }
+                }
+            }
+        }
+
+        public override string ToString()
+        {
+            return String.Format("Name: {0}  -->  City: {1}  -->  Stars: {2}", name, city, numberOfStars);
         }
     }
 }

@@ -12,10 +12,13 @@ namespace Project2_OOP
 {
     internal partial class RegisterForm : Form
     {
-        ElTuristiko elTuristiko = ElTuristiko.getInstance();
+        private ElTuristiko elTuristiko;
+        private HotelReservationApp hotelReservationApp;
         internal RegisterForm()
         {
             InitializeComponent();
+            elTuristiko = ElTuristiko.getInstance();
+            hotelReservationApp = HotelReservationApp.GetInstance();
         }
         private void ButtonSubmit_Click(object sender, EventArgs e)
         {
@@ -31,6 +34,7 @@ namespace Project2_OOP
             {
                 MessageBox.Show("Successfully registered.");
                 this.Close();
+                hotelReservationApp.Show();
             }
             else
             {
@@ -38,6 +42,11 @@ namespace Project2_OOP
                 return;
             }
             
+        }
+
+        private void RegisterForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            hotelReservationApp.Show();
         }
     }
 }

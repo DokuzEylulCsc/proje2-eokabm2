@@ -39,10 +39,30 @@
             this.labelStarCity = new System.Windows.Forms.Label();
             this.labelStarStars = new System.Windows.Forms.Label();
             this.buttonAddHotel = new System.Windows.Forms.Button();
-            this.buttonLogOut = new System.Windows.Forms.Button();
             this.comboBoxHotelType = new System.Windows.Forms.ComboBox();
             this.labelStarHotelType = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.labelAddRoom = new System.Windows.Forms.Label();
+            this.listBoxHotels = new System.Windows.Forms.ListBox();
+            this.buttonAddRoom = new System.Windows.Forms.Button();
+            this.comboBoxRoomType = new System.Windows.Forms.ComboBox();
+            this.checkBoxHasAC = new System.Windows.Forms.CheckBox();
+            this.checkBoxHasBalcony = new System.Windows.Forms.CheckBox();
+            this.checkBoxHasSeaView = new System.Windows.Forms.CheckBox();
+            this.checkBoxHasTV = new System.Windows.Forms.CheckBox();
+            this.checkBoxHasMinibar = new System.Windows.Forms.CheckBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.labelStarRoomType = new System.Windows.Forms.Label();
+            this.labelStarHotel = new System.Windows.Forms.Label();
+            this.textBoxRoomNo = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.labelStarRoomNo = new System.Windows.Forms.Label();
+            this.textBoxRoomPrice = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.labelStarPrice = new System.Windows.Forms.Label();
+            this.labelKing = new System.Windows.Forms.Label();
+            this.textBoxCapacity = new System.Windows.Forms.TextBox();
+            this.labelStarCapacity = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelAddHotel
@@ -88,9 +108,10 @@
             // textBoxHotelName
             // 
             this.textBoxHotelName.Location = new System.Drawing.Point(100, 70);
+            this.textBoxHotelName.MaxLength = 50;
             this.textBoxHotelName.Name = "textBoxHotelName";
             this.textBoxHotelName.Size = new System.Drawing.Size(121, 20);
-            this.textBoxHotelName.TabIndex = 4;
+            this.textBoxHotelName.TabIndex = 5;
             // 
             // comboBoxHotelCity
             // 
@@ -104,7 +125,7 @@
             this.comboBoxHotelCity.Location = new System.Drawing.Point(100, 100);
             this.comboBoxHotelCity.Name = "comboBoxHotelCity";
             this.comboBoxHotelCity.Size = new System.Drawing.Size(121, 21);
-            this.comboBoxHotelCity.TabIndex = 5;
+            this.comboBoxHotelCity.TabIndex = 6;
             // 
             // comboBoxHotelStars
             // 
@@ -118,7 +139,7 @@
             this.comboBoxHotelStars.Location = new System.Drawing.Point(100, 130);
             this.comboBoxHotelStars.Name = "comboBoxHotelStars";
             this.comboBoxHotelStars.Size = new System.Drawing.Size(121, 21);
-            this.comboBoxHotelStars.TabIndex = 6;
+            this.comboBoxHotelStars.TabIndex = 7;
             // 
             // labelStarHotelName
             // 
@@ -128,7 +149,7 @@
             this.labelStarHotelName.Location = new System.Drawing.Point(227, 70);
             this.labelStarHotelName.Name = "labelStarHotelName";
             this.labelStarHotelName.Size = new System.Drawing.Size(15, 20);
-            this.labelStarHotelName.TabIndex = 7;
+            this.labelStarHotelName.TabIndex = 10;
             this.labelStarHotelName.Text = "*";
             this.labelStarHotelName.Visible = false;
             // 
@@ -140,7 +161,7 @@
             this.labelStarCity.Location = new System.Drawing.Point(227, 100);
             this.labelStarCity.Name = "labelStarCity";
             this.labelStarCity.Size = new System.Drawing.Size(15, 20);
-            this.labelStarCity.TabIndex = 8;
+            this.labelStarCity.TabIndex = 11;
             this.labelStarCity.Text = "*";
             this.labelStarCity.Visible = false;
             // 
@@ -152,7 +173,7 @@
             this.labelStarStars.Location = new System.Drawing.Point(227, 130);
             this.labelStarStars.Name = "labelStarStars";
             this.labelStarStars.Size = new System.Drawing.Size(15, 20);
-            this.labelStarStars.TabIndex = 9;
+            this.labelStarStars.TabIndex = 12;
             this.labelStarStars.Text = "*";
             this.labelStarStars.Visible = false;
             // 
@@ -162,21 +183,10 @@
             this.buttonAddHotel.Location = new System.Drawing.Point(100, 190);
             this.buttonAddHotel.Name = "buttonAddHotel";
             this.buttonAddHotel.Size = new System.Drawing.Size(120, 30);
-            this.buttonAddHotel.TabIndex = 10;
+            this.buttonAddHotel.TabIndex = 9;
             this.buttonAddHotel.Text = "Submit";
             this.buttonAddHotel.UseVisualStyleBackColor = true;
             this.buttonAddHotel.Click += new System.EventHandler(this.ButtonAddHotel_Click);
-            // 
-            // buttonLogOut
-            // 
-            this.buttonLogOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonLogOut.Location = new System.Drawing.Point(650, 10);
-            this.buttonLogOut.Name = "buttonLogOut";
-            this.buttonLogOut.Size = new System.Drawing.Size(120, 30);
-            this.buttonLogOut.TabIndex = 11;
-            this.buttonLogOut.Text = "Logout";
-            this.buttonLogOut.UseVisualStyleBackColor = true;
-            this.buttonLogOut.Click += new System.EventHandler(this.ButtonLogOut_Click);
             // 
             // comboBoxHotelType
             // 
@@ -190,7 +200,7 @@
             this.comboBoxHotelType.Location = new System.Drawing.Point(100, 160);
             this.comboBoxHotelType.Name = "comboBoxHotelType";
             this.comboBoxHotelType.Size = new System.Drawing.Size(121, 21);
-            this.comboBoxHotelType.TabIndex = 12;
+            this.comboBoxHotelType.TabIndex = 8;
             // 
             // labelStarHotelType
             // 
@@ -211,19 +221,261 @@
             this.label4.Location = new System.Drawing.Point(52, 161);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(43, 16);
-            this.label4.TabIndex = 14;
+            this.label4.TabIndex = 4;
             this.label4.Text = "Type:";
+            // 
+            // labelAddRoom
+            // 
+            this.labelAddRoom.AutoSize = true;
+            this.labelAddRoom.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelAddRoom.Location = new System.Drawing.Point(377, 40);
+            this.labelAddRoom.Name = "labelAddRoom";
+            this.labelAddRoom.Size = new System.Drawing.Size(163, 16);
+            this.labelAddRoom.TabIndex = 14;
+            this.labelAddRoom.Text = "Add New Room to a Hotel";
+            // 
+            // listBoxHotels
+            // 
+            this.listBoxHotels.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBoxHotels.FormattingEnabled = true;
+            this.listBoxHotels.ItemHeight = 15;
+            this.listBoxHotels.Location = new System.Drawing.Point(380, 70);
+            this.listBoxHotels.Name = "listBoxHotels";
+            this.listBoxHotels.Size = new System.Drawing.Size(360, 229);
+            this.listBoxHotels.TabIndex = 15;
+            // 
+            // buttonAddRoom
+            // 
+            this.buttonAddRoom.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAddRoom.Location = new System.Drawing.Point(380, 435);
+            this.buttonAddRoom.Name = "buttonAddRoom";
+            this.buttonAddRoom.Size = new System.Drawing.Size(167, 30);
+            this.buttonAddRoom.TabIndex = 29;
+            this.buttonAddRoom.Text = "Submit";
+            this.buttonAddRoom.UseVisualStyleBackColor = true;
+            this.buttonAddRoom.Click += new System.EventHandler(this.ButtonAddRoom_Click);
+            // 
+            // comboBoxRoomType
+            // 
+            this.comboBoxRoomType.FormattingEnabled = true;
+            this.comboBoxRoomType.Items.AddRange(new object[] {
+            "Single Room",
+            "Double Room",
+            "Twin Room",
+            "Triple Room",
+            "King Room"});
+            this.comboBoxRoomType.Location = new System.Drawing.Point(426, 329);
+            this.comboBoxRoomType.Name = "comboBoxRoomType";
+            this.comboBoxRoomType.Size = new System.Drawing.Size(120, 21);
+            this.comboBoxRoomType.TabIndex = 23;
+            this.comboBoxRoomType.SelectedIndexChanged += new System.EventHandler(this.ComboBoxRoomType_SelectedIndexChanged);
+            // 
+            // checkBoxHasAC
+            // 
+            this.checkBoxHasAC.AutoSize = true;
+            this.checkBoxHasAC.Location = new System.Drawing.Point(380, 305);
+            this.checkBoxHasAC.Name = "checkBoxHasAC";
+            this.checkBoxHasAC.Size = new System.Drawing.Size(40, 17);
+            this.checkBoxHasAC.TabIndex = 17;
+            this.checkBoxHasAC.Text = "AC";
+            this.checkBoxHasAC.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxHasBalcony
+            // 
+            this.checkBoxHasBalcony.AutoSize = true;
+            this.checkBoxHasBalcony.Location = new System.Drawing.Point(426, 305);
+            this.checkBoxHasBalcony.Name = "checkBoxHasBalcony";
+            this.checkBoxHasBalcony.Size = new System.Drawing.Size(64, 17);
+            this.checkBoxHasBalcony.TabIndex = 18;
+            this.checkBoxHasBalcony.Text = "Balcony";
+            this.checkBoxHasBalcony.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxHasSeaView
+            // 
+            this.checkBoxHasSeaView.AutoSize = true;
+            this.checkBoxHasSeaView.Location = new System.Drawing.Point(496, 305);
+            this.checkBoxHasSeaView.Name = "checkBoxHasSeaView";
+            this.checkBoxHasSeaView.Size = new System.Drawing.Size(71, 17);
+            this.checkBoxHasSeaView.TabIndex = 19;
+            this.checkBoxHasSeaView.Text = "Sea View";
+            this.checkBoxHasSeaView.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxHasTV
+            // 
+            this.checkBoxHasTV.AutoSize = true;
+            this.checkBoxHasTV.Location = new System.Drawing.Point(573, 305);
+            this.checkBoxHasTV.Name = "checkBoxHasTV";
+            this.checkBoxHasTV.Size = new System.Drawing.Size(40, 17);
+            this.checkBoxHasTV.TabIndex = 20;
+            this.checkBoxHasTV.Text = "TV";
+            this.checkBoxHasTV.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxHasMinibar
+            // 
+            this.checkBoxHasMinibar.AutoSize = true;
+            this.checkBoxHasMinibar.Location = new System.Drawing.Point(618, 305);
+            this.checkBoxHasMinibar.Name = "checkBoxHasMinibar";
+            this.checkBoxHasMinibar.Size = new System.Drawing.Size(60, 17);
+            this.checkBoxHasMinibar.TabIndex = 21;
+            this.checkBoxHasMinibar.Text = "Minibar";
+            this.checkBoxHasMinibar.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(377, 330);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(43, 16);
+            this.label5.TabIndex = 22;
+            this.label5.Text = "Type:";
+            // 
+            // labelStarRoomType
+            // 
+            this.labelStarRoomType.AutoSize = true;
+            this.labelStarRoomType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelStarRoomType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.labelStarRoomType.Location = new System.Drawing.Point(552, 329);
+            this.labelStarRoomType.Name = "labelStarRoomType";
+            this.labelStarRoomType.Size = new System.Drawing.Size(15, 20);
+            this.labelStarRoomType.TabIndex = 24;
+            this.labelStarRoomType.Text = "*";
+            this.labelStarRoomType.Visible = false;
+            // 
+            // labelStarHotel
+            // 
+            this.labelStarHotel.AutoSize = true;
+            this.labelStarHotel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelStarHotel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.labelStarHotel.Location = new System.Drawing.Point(746, 68);
+            this.labelStarHotel.Name = "labelStarHotel";
+            this.labelStarHotel.Size = new System.Drawing.Size(15, 20);
+            this.labelStarHotel.TabIndex = 16;
+            this.labelStarHotel.Text = "*";
+            this.labelStarHotel.Visible = false;
+            // 
+            // textBoxRoomNo
+            // 
+            this.textBoxRoomNo.Location = new System.Drawing.Point(426, 356);
+            this.textBoxRoomNo.MaxLength = 6;
+            this.textBoxRoomNo.Name = "textBoxRoomNo";
+            this.textBoxRoomNo.Size = new System.Drawing.Size(121, 20);
+            this.textBoxRoomNo.TabIndex = 26;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(378, 357);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(29, 16);
+            this.label6.TabIndex = 25;
+            this.label6.Text = "No:";
+            // 
+            // labelStarRoomNo
+            // 
+            this.labelStarRoomNo.AutoSize = true;
+            this.labelStarRoomNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelStarRoomNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.labelStarRoomNo.Location = new System.Drawing.Point(552, 354);
+            this.labelStarRoomNo.Name = "labelStarRoomNo";
+            this.labelStarRoomNo.Size = new System.Drawing.Size(15, 20);
+            this.labelStarRoomNo.TabIndex = 27;
+            this.labelStarRoomNo.Text = "*";
+            this.labelStarRoomNo.Visible = false;
+            // 
+            // textBoxRoomPrice
+            // 
+            this.textBoxRoomPrice.Location = new System.Drawing.Point(426, 382);
+            this.textBoxRoomPrice.MaxLength = 6;
+            this.textBoxRoomPrice.Name = "textBoxRoomPrice";
+            this.textBoxRoomPrice.Size = new System.Drawing.Size(121, 20);
+            this.textBoxRoomPrice.TabIndex = 28;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(378, 383);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(42, 16);
+            this.label7.TabIndex = 30;
+            this.label7.Text = "Price:";
+            // 
+            // labelStarPrice
+            // 
+            this.labelStarPrice.AutoSize = true;
+            this.labelStarPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelStarPrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.labelStarPrice.Location = new System.Drawing.Point(552, 382);
+            this.labelStarPrice.Name = "labelStarPrice";
+            this.labelStarPrice.Size = new System.Drawing.Size(15, 20);
+            this.labelStarPrice.TabIndex = 31;
+            this.labelStarPrice.Text = "*";
+            this.labelStarPrice.Visible = false;
+            // 
+            // labelKing
+            // 
+            this.labelKing.AutoSize = true;
+            this.labelKing.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelKing.Location = new System.Drawing.Point(378, 410);
+            this.labelKing.Name = "labelKing";
+            this.labelKing.Size = new System.Drawing.Size(64, 16);
+            this.labelKing.TabIndex = 32;
+            this.labelKing.Text = "Capacity:";
+            this.labelKing.Visible = false;
+            // 
+            // textBoxCapacity
+            // 
+            this.textBoxCapacity.Location = new System.Drawing.Point(446, 409);
+            this.textBoxCapacity.MaxLength = 2;
+            this.textBoxCapacity.Name = "textBoxCapacity";
+            this.textBoxCapacity.Size = new System.Drawing.Size(44, 20);
+            this.textBoxCapacity.TabIndex = 33;
+            this.textBoxCapacity.Visible = false;
+            // 
+            // labelStarCapacity
+            // 
+            this.labelStarCapacity.AutoSize = true;
+            this.labelStarCapacity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelStarCapacity.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.labelStarCapacity.Location = new System.Drawing.Point(496, 410);
+            this.labelStarCapacity.Name = "labelStarCapacity";
+            this.labelStarCapacity.Size = new System.Drawing.Size(15, 20);
+            this.labelStarCapacity.TabIndex = 34;
+            this.labelStarCapacity.Text = "*";
+            this.labelStarCapacity.Visible = false;
             // 
             // AdminForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(780, 437);
+            this.ClientSize = new System.Drawing.Size(1060, 497);
+            this.Controls.Add(this.labelStarCapacity);
+            this.Controls.Add(this.textBoxCapacity);
+            this.Controls.Add(this.labelKing);
+            this.Controls.Add(this.labelStarPrice);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.textBoxRoomPrice);
+            this.Controls.Add(this.labelStarRoomNo);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.textBoxRoomNo);
+            this.Controls.Add(this.labelStarHotel);
+            this.Controls.Add(this.labelStarRoomType);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.checkBoxHasMinibar);
+            this.Controls.Add(this.checkBoxHasTV);
+            this.Controls.Add(this.checkBoxHasSeaView);
+            this.Controls.Add(this.checkBoxHasBalcony);
+            this.Controls.Add(this.checkBoxHasAC);
+            this.Controls.Add(this.comboBoxRoomType);
+            this.Controls.Add(this.buttonAddRoom);
+            this.Controls.Add(this.listBoxHotels);
+            this.Controls.Add(this.labelAddRoom);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.labelStarHotelType);
             this.Controls.Add(this.comboBoxHotelType);
-            this.Controls.Add(this.buttonLogOut);
             this.Controls.Add(this.buttonAddHotel);
             this.Controls.Add(this.labelStarStars);
             this.Controls.Add(this.labelStarCity);
@@ -241,6 +493,9 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AdminForm_FormClosed);
+            this.Load += new System.EventHandler(this.AdminForm_Load);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.AdminForm_Paint);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -259,9 +514,29 @@
         private System.Windows.Forms.Label labelStarCity;
         private System.Windows.Forms.Label labelStarStars;
         private System.Windows.Forms.Button buttonAddHotel;
-        private System.Windows.Forms.Button buttonLogOut;
         private System.Windows.Forms.ComboBox comboBoxHotelType;
         private System.Windows.Forms.Label labelStarHotelType;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label labelAddRoom;
+        private System.Windows.Forms.ListBox listBoxHotels;
+        private System.Windows.Forms.Button buttonAddRoom;
+        private System.Windows.Forms.ComboBox comboBoxRoomType;
+        private System.Windows.Forms.CheckBox checkBoxHasAC;
+        private System.Windows.Forms.CheckBox checkBoxHasBalcony;
+        private System.Windows.Forms.CheckBox checkBoxHasSeaView;
+        private System.Windows.Forms.CheckBox checkBoxHasTV;
+        private System.Windows.Forms.CheckBox checkBoxHasMinibar;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label labelStarRoomType;
+        private System.Windows.Forms.Label labelStarHotel;
+        private System.Windows.Forms.TextBox textBoxRoomNo;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label labelStarRoomNo;
+        private System.Windows.Forms.TextBox textBoxRoomPrice;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label labelStarPrice;
+        private System.Windows.Forms.Label labelKing;
+        private System.Windows.Forms.TextBox textBoxCapacity;
+        private System.Windows.Forms.Label labelStarCapacity;
     }
 }
