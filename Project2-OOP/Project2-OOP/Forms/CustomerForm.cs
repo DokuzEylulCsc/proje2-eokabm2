@@ -12,10 +12,16 @@ namespace Project2_OOP
 {
     internal partial class CustomerForm : Form
     {
+        private readonly ElTuristiko elTuristiko;
+        private readonly HotelReservationApp hotelReservationApp;
+
+
         private User currentUser;
         internal CustomerForm()
         {
             InitializeComponent();
+            elTuristiko = ElTuristiko.getInstance();
+            hotelReservationApp = HotelReservationApp.GetInstance();
         }
 
         internal User CurrentUser { get => currentUser; set => currentUser = value; }

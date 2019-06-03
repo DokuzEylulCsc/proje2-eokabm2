@@ -18,7 +18,8 @@ namespace Project2_OOP
         {
             return elTuristiko;
         }
-
+        public List<Hotel> Hotel { get => hotels; }
+        
 
         //Hotels
         internal void AddHotel(Hotel hotel) 

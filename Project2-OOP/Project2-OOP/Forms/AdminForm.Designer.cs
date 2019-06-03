@@ -63,6 +63,17 @@
             this.labelKing = new System.Windows.Forms.Label();
             this.textBoxCapacity = new System.Windows.Forms.TextBox();
             this.labelStarCapacity = new System.Windows.Forms.Label();
+            this.listViewHotel = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listViewRoom = new System.Windows.Forms.ListView();
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.textBoxHotelID = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // labelAddHotel
@@ -446,12 +457,81 @@
             this.labelStarCapacity.Text = "*";
             this.labelStarCapacity.Visible = false;
             // 
+            // listViewHotel
+            // 
+            this.listViewHotel.AllowColumnReorder = true;
+            this.listViewHotel.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3,
+            this.columnHeader4});
+            this.listViewHotel.FullRowSelect = true;
+            this.listViewHotel.HideSelection = false;
+            this.listViewHotel.Location = new System.Drawing.Point(767, 12);
+            this.listViewHotel.Name = "listViewHotel";
+            this.listViewHotel.Size = new System.Drawing.Size(281, 228);
+            this.listViewHotel.TabIndex = 35;
+            this.listViewHotel.UseCompatibleStateImageBehavior = false;
+            this.listViewHotel.View = System.Windows.Forms.View.Details;
+            this.listViewHotel.SelectedIndexChanged += new System.EventHandler(this.listViewHotel_SelectedIndexChanged);
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "id";
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "name";
+            // 
+            // listViewRoom
+            // 
+            this.listViewRoom.AllowColumnReorder = true;
+            this.listViewRoom.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader5,
+            this.columnHeader6,
+            this.columnHeader7,
+            this.columnHeader8});
+            this.listViewRoom.FullRowSelect = true;
+            this.listViewRoom.Location = new System.Drawing.Point(767, 257);
+            this.listViewRoom.Name = "listViewRoom";
+            this.listViewRoom.Size = new System.Drawing.Size(281, 228);
+            this.listViewRoom.TabIndex = 36;
+            this.listViewRoom.UseCompatibleStateImageBehavior = false;
+            this.listViewRoom.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "No";
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "Capacity";
+            // 
+            // columnHeader7
+            // 
+            this.columnHeader7.Text = "Price";
+            // 
+            // columnHeader8
+            // 
+            this.columnHeader8.Text = "AC";
+            // 
+            // textBoxHotelID
+            // 
+            this.textBoxHotelID.Location = new System.Drawing.Point(640, 12);
+            this.textBoxHotelID.Name = "textBoxHotelID";
+            this.textBoxHotelID.Size = new System.Drawing.Size(100, 20);
+            this.textBoxHotelID.TabIndex = 37;
+            this.textBoxHotelID.TextChanged += new System.EventHandler(this.textBoxHotelID_TextChanged);
+            // 
             // AdminForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1060, 497);
+            this.Controls.Add(this.textBoxHotelID);
+            this.Controls.Add(this.listViewRoom);
+            this.Controls.Add(this.listViewHotel);
             this.Controls.Add(this.labelStarCapacity);
             this.Controls.Add(this.textBoxCapacity);
             this.Controls.Add(this.labelKing);
@@ -538,5 +618,16 @@
         private System.Windows.Forms.Label labelKing;
         private System.Windows.Forms.TextBox textBoxCapacity;
         private System.Windows.Forms.Label labelStarCapacity;
+        private System.Windows.Forms.ListView listViewHotel;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.ListView listViewRoom;
+        private System.Windows.Forms.ColumnHeader columnHeader5;
+        private System.Windows.Forms.ColumnHeader columnHeader6;
+        private System.Windows.Forms.ColumnHeader columnHeader7;
+        private System.Windows.Forms.ColumnHeader columnHeader8;
+        private System.Windows.Forms.TextBox textBoxHotelID;
     }
 }

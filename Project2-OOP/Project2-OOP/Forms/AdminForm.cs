@@ -66,10 +66,24 @@ namespace Project2_OOP
         {
             listBoxHotels.Items.Clear();
             IEnumerator enumerator = elTuristiko.GetEnumerator();
-
+            List<Hotel> deneme = elTuristiko.Hotel;
+            foreach(Hotel hotel in deneme)
+            {
+                ListViewItem item = new ListViewItem(hotel.Id.ToString());
+                item.SubItems.Add(hotel.Name);
+                item.SubItems.Add(hotel.City);
+                item.SubItems.Add(hotel.NumberOfStars.ToString());
+                listViewHotel.Items.Add(item);
+            }
+            
             while (enumerator.MoveNext())
             {
                 listBoxHotels.Items.Add(enumerator.Current.ToString());
+                //ListViewItem item = new ListViewItem();
+                //item.SubItems.Add(dr["PAd"].ToString());
+                //item.SubItems.Add(dr["PSoyad"].ToString());  //www.yazilimkodlama.com
+                //item.SubItems.Add(dr["PTelefon"].ToString());
+                //listView1.Items.Add(item);
             }
         }
 
@@ -126,5 +140,39 @@ namespace Project2_OOP
                 textBoxCapacity.Visible = false;
             }
         }
+        //Daha güzel yazılabilir 
+        private void listViewHotel_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (listViewHotel.SelectedItems.Count > 0)
+            {
+                ListViewItem item = listViewHotel.SelectedItems[0];
+                textBoxHotelID.Text = item.SubItems[0].Text;
+            }
+            else
+            {
+                textBoxHotelID.Text = string.Empty;
+            }
+        }
+
+        private void textBoxHotelID_TextChanged(object sender, EventArgs e)
+        {
+            listViewRoom.Items.Clear();
+            foreach(Hotel hotel in elTuristiko.Hotel)
+            {
+                if (hotel.Id.ToString() == textBoxHotelID.Text)
+                {
+                    foreach(Room room in hotel.Rooms)
+                    {
+                        ListViewItem item = new ListViewItem(room.No.ToString());
+                        item.SubItems.Add(room.Capacity.ToString());
+                        item.SubItems.Add(room.Price.ToString());
+                        item.SubItems.Add(room.HasAC.ToString());
+                        listViewRoom.Items.Add(item);
+                    }
+                }
+            }
+        }
+
+        
     }
 }
