@@ -34,8 +34,8 @@ namespace Project2_OOP
         {
             elTuristiko.AddUser(new Administrator("admin", "123456"));
             elTuristiko.AddUser(new Customer("eminozk", "123456", "Emin Özkaradeniz", "Bucca", "5055050"));
-            
-           
+            elTuristiko.AddUser(new Customer("abmogol", "123456", "Ahmet Buğra Moğol", "Bucca", "232323"));
+
             Hotel hotel1 = new BusinessHotel("Silence Istanbul", "Istanbul", 5);
             Hotel hotel2 = new BoutiqueHotel("Hotel Sahil", "Istanbul", 4);
             Hotel hotel3 = new ResortHotel("Dragos Resort", "Istanbul", 3);
@@ -46,6 +46,7 @@ namespace Project2_OOP
             Hotel hotel7 = new ResortHotel("Hotel Ilica", "Izmir", 5);
             Hotel hotel8 = new BoutiqueHotel("Sc Inn", "Izmir", 3);
             Hotel hotel9 = new BusinessHotel("Ege Palas", "Izmir", 4);
+ 
 
             elTuristiko.AddHotel(hotel1);
             elTuristiko.AddHotel(hotel2);

@@ -18,7 +18,7 @@ namespace Project2_OOP
         {
             return elTuristiko;
         }
-        public List<Hotel> Hotel { get => hotels; }
+        public List<Hotel> Hotels { get => hotels; }
         
 
         //Hotels

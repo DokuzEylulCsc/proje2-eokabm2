@@ -74,6 +74,7 @@
             this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.textBoxHotelID = new System.Windows.Forms.TextBox();
+            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // labelAddHotel
@@ -464,7 +465,8 @@
             this.columnHeader1,
             this.columnHeader2,
             this.columnHeader3,
-            this.columnHeader4});
+            this.columnHeader4,
+            this.columnHeader9});
             this.listViewHotel.FullRowSelect = true;
             this.listViewHotel.HideSelection = false;
             this.listViewHotel.Location = new System.Drawing.Point(767, 12);
@@ -522,6 +524,10 @@
             this.textBoxHotelID.Size = new System.Drawing.Size(100, 20);
             this.textBoxHotelID.TabIndex = 37;
             this.textBoxHotelID.TextChanged += new System.EventHandler(this.textBoxHotelID_TextChanged);
+            // 
+            // columnHeader9
+            // 
+            this.columnHeader9.Text = "Type";
             // 
             // AdminForm
             // 
@@ -629,5 +635,6 @@
         private System.Windows.Forms.ColumnHeader columnHeader7;
         private System.Windows.Forms.ColumnHeader columnHeader8;
         private System.Windows.Forms.TextBox textBoxHotelID;
+        private System.Windows.Forms.ColumnHeader columnHeader9;
     }
 }

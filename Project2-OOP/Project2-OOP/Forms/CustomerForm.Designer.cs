@@ -47,12 +47,14 @@
             this.dateTimePickerCheckIn = new System.Windows.Forms.DateTimePicker();
             this.labelCity = new System.Windows.Forms.Label();
             this.comboBoxCities = new System.Windows.Forms.ComboBox();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.listViewHotel = new System.Windows.Forms.ListView();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.listView2 = new System.Windows.Forms.ListView();
+            this.textBoxHotelID = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // checkBoxMiniBar
@@ -174,6 +176,7 @@
             this.buttonSearch.TabIndex = 37;
             this.buttonSearch.Text = "Search";
             this.buttonSearch.UseVisualStyleBackColor = true;
+            this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
             // 
             // label2
             // 
@@ -223,19 +226,23 @@
             this.comboBoxCities.Name = "comboBoxCities";
             this.comboBoxCities.Size = new System.Drawing.Size(121, 21);
             this.comboBoxCities.TabIndex = 31;
+            this.comboBoxCities.SelectedIndexChanged += new System.EventHandler(this.comboBoxCities_SelectedIndexChanged);
             // 
-            // listView1
+            // listViewHotel
             // 
-            this.listView1.Location = new System.Drawing.Point(546, 12);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(617, 535);
-            this.listView1.TabIndex = 59;
-            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listViewHotel.FullRowSelect = true;
+            this.listViewHotel.Location = new System.Drawing.Point(546, 31);
+            this.listViewHotel.Name = "listViewHotel";
+            this.listViewHotel.Size = new System.Drawing.Size(617, 228);
+            this.listViewHotel.TabIndex = 59;
+            this.listViewHotel.UseCompatibleStateImageBehavior = false;
+            this.listViewHotel.View = System.Windows.Forms.View.Details;
+            this.listViewHotel.SelectedIndexChanged += new System.EventHandler(this.listViewHotel_SelectedIndexChanged);
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(44, 52);
+            this.radioButton1.Location = new System.Drawing.Point(34, 52);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(95, 17);
             this.radioButton1.TabIndex = 54;
@@ -257,7 +264,7 @@
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(226, 52);
+            this.radioButton3.Location = new System.Drawing.Point(235, 52);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(84, 17);
             this.radioButton3.TabIndex = 56;
@@ -268,7 +275,7 @@
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(317, 52);
+            this.radioButton4.Location = new System.Drawing.Point(325, 52);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(84, 17);
             this.radioButton4.TabIndex = 57;
@@ -279,7 +286,7 @@
             // radioButton5
             // 
             this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(408, 52);
+            this.radioButton5.Location = new System.Drawing.Point(415, 52);
             this.radioButton5.Name = "radioButton5";
             this.radioButton5.Size = new System.Drawing.Size(77, 17);
             this.radioButton5.TabIndex = 58;
@@ -287,13 +294,31 @@
             this.radioButton5.Text = "Suite Hotel";
             this.radioButton5.UseVisualStyleBackColor = true;
             // 
+            // listView2
+            // 
+            this.listView2.Location = new System.Drawing.Point(546, 265);
+            this.listView2.Name = "listView2";
+            this.listView2.Size = new System.Drawing.Size(626, 281);
+            this.listView2.TabIndex = 60;
+            this.listView2.UseCompatibleStateImageBehavior = false;
+            this.listView2.View = System.Windows.Forms.View.Details;
+            // 
+            // textBoxHotelID
+            // 
+            this.textBoxHotelID.Location = new System.Drawing.Point(546, 5);
+            this.textBoxHotelID.Name = "textBoxHotelID";
+            this.textBoxHotelID.Size = new System.Drawing.Size(100, 20);
+            this.textBoxHotelID.TabIndex = 61;
+            // 
             // CustomerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1175, 559);
-            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.textBoxHotelID);
+            this.Controls.Add(this.listView2);
+            this.Controls.Add(this.listViewHotel);
             this.Controls.Add(this.radioButton5);
             this.Controls.Add(this.radioButton4);
             this.Controls.Add(this.radioButton3);
@@ -320,6 +345,7 @@
             this.Controls.Add(this.comboBoxCities);
             this.Name = "CustomerForm";
             this.Text = "CustomerForm";
+            this.Load += new System.EventHandler(this.CustomerForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -346,11 +372,13 @@
         private System.Windows.Forms.DateTimePicker dateTimePickerCheckIn;
         private System.Windows.Forms.Label labelCity;
         private System.Windows.Forms.ComboBox comboBoxCities;
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ListView listViewHotel;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.RadioButton radioButton5;
+        private System.Windows.Forms.ListView listView2;
+        private System.Windows.Forms.TextBox textBoxHotelID;
     }
 }
