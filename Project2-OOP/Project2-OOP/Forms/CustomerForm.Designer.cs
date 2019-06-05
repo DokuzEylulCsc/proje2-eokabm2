@@ -53,7 +53,7 @@
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.listView2 = new System.Windows.Forms.ListView();
+            this.listViewRooms = new System.Windows.Forms.ListView();
             this.textBoxHotelID = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -294,14 +294,14 @@
             this.radioButton5.Text = "Suite Hotel";
             this.radioButton5.UseVisualStyleBackColor = true;
             // 
-            // listView2
+            // listViewRooms
             // 
-            this.listView2.Location = new System.Drawing.Point(546, 265);
-            this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(626, 281);
-            this.listView2.TabIndex = 60;
-            this.listView2.UseCompatibleStateImageBehavior = false;
-            this.listView2.View = System.Windows.Forms.View.Details;
+            this.listViewRooms.Location = new System.Drawing.Point(546, 265);
+            this.listViewRooms.Name = "listViewRooms";
+            this.listViewRooms.Size = new System.Drawing.Size(626, 281);
+            this.listViewRooms.TabIndex = 60;
+            this.listViewRooms.UseCompatibleStateImageBehavior = false;
+            this.listViewRooms.View = System.Windows.Forms.View.Details;
             // 
             // textBoxHotelID
             // 
@@ -317,7 +317,7 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1175, 559);
             this.Controls.Add(this.textBoxHotelID);
-            this.Controls.Add(this.listView2);
+            this.Controls.Add(this.listViewRooms);
             this.Controls.Add(this.listViewHotel);
             this.Controls.Add(this.radioButton5);
             this.Controls.Add(this.radioButton4);
@@ -378,7 +378,7 @@
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.ListView listView2;
+        private System.Windows.Forms.ListView listViewRooms;
         private System.Windows.Forms.TextBox textBoxHotelID;
     }
 }
