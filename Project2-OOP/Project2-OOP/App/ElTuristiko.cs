@@ -18,8 +18,19 @@ namespace Project2_OOP
         {
             return elTuristiko;
         }
-        public List<Hotel> Hotels { get => hotels; }
-        
+
+        public List<string> GetCities() //tüm otellerin şehirlerini liste olarak geri döndürüyor.
+        {
+            List<string> cities = new List<string> { };
+            foreach(Hotel h in hotels)
+            {
+                if (!cities.Contains(h.City))
+                {
+                    cities.Add(h.City);
+                }
+            }
+            return cities;
+        }
 
         //Hotels
         internal void AddHotel(Hotel hotel) 
@@ -57,6 +68,25 @@ namespace Project2_OOP
             }
 
             return true;
+        }
+
+        internal List<string> SearchRooms(string cityName, DateTime checkIn, DateTime checkOut, string roomType, bool hasAc, bool hasBalcony, bool hasSeaView, bool hasTv, bool hasMinibar)
+        {
+            List<string> searches = new List<string> { };
+
+            foreach(Hotel hotel in hotels)
+            {
+                if (hotel.City.Equals(cityName))
+                {
+                    string s = hotel.SearchRooms(hotel.Name, hotel.GetTypeToString(), cityName, hotel.NumberOfStars, checkIn, checkOut, roomType, hasAc, hasBalcony, hasSeaView, hasTv, hasMinibar);
+                    if (s != null)
+                    {
+                        searches.Add(s);
+                    }                   
+                }
+            }
+
+            return searches;
         }
 
 

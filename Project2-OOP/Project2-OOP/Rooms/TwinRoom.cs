@@ -11,5 +11,10 @@ namespace Project2_OOP
         public TwinRoom(int no, int price, bool hasAC, bool hasBalcony, bool hasSeaView, bool hasTV, bool hasMinibar) : base(no, 2, price, hasAC, hasBalcony, hasSeaView, hasTV, hasMinibar)
         {
         }
+
+        public override string GetTypeToString()
+        {
+            return "Twin Room";
+        }
     }
 }

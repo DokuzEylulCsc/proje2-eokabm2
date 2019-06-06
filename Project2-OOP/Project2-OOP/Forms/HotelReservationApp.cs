@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Project2_OOP
@@ -13,10 +6,11 @@ namespace Project2_OOP
     public partial class HotelReservationApp : Form
     {
         private ElTuristiko elTuristiko = ElTuristiko.getInstance();
+        private static AppDate appDate = AppDate.GetInstance();
         internal static User currentUser;
         private static Random random = new Random();
         private static HotelReservationApp hotelReservationApp = new HotelReservationApp();
-
+        
         private HotelReservationApp()
         {
             InitializeComponent();
@@ -32,9 +26,12 @@ namespace Project2_OOP
 
         private void InitializeFiles() //dosyalardan bilgileri alıcak
         {
+            appDate.Date = DateTime.Now;
+
             elTuristiko.AddUser(new Administrator("admin", "123456"));
             elTuristiko.AddUser(new Customer("eminozk", "123456", "Emin Özkaradeniz", "Bucca", "5055050"));
             elTuristiko.AddUser(new Customer("abmogol", "123456", "Ahmet Buğra Moğol", "Bucca", "232323"));
+            elTuristiko.AddUser(new Customer("a", "a", "aa", "aa", "aa"));
 
             Hotel hotel1 = new BusinessHotel("Silence Istanbul", "Istanbul", 5);
             Hotel hotel2 = new BoutiqueHotel("Hotel Sahil", "Istanbul", 4);
@@ -46,6 +43,10 @@ namespace Project2_OOP
             Hotel hotel7 = new ResortHotel("Hotel Ilica", "Izmir", 5);
             Hotel hotel8 = new BoutiqueHotel("Sc Inn", "Izmir", 3);
             Hotel hotel9 = new BusinessHotel("Ege Palas", "Izmir", 4);
+
+            //deneme
+            hotel1.AddRoom(new SingleRoom(1, 100, false, false, false, false, false));
+            //deneme
  
 
             elTuristiko.AddHotel(hotel1);
@@ -147,5 +148,6 @@ namespace Project2_OOP
         {
             MessageBox.Show("Thanks for using.");
         }
+
     }
 }

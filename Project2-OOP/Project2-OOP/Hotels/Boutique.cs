@@ -11,5 +11,10 @@ namespace Project2_OOP
         public BoutiqueHotel(string name, string city, int numberOfStars) : base(name, city, numberOfStars)
         {
         }
+
+        public override string GetTypeToString()
+        {
+            return "Boutique";
+        }
     }
 }

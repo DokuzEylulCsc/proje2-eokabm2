@@ -43,3 +43,4 @@ C:\Users\bugra\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Projec
 C:\Users\bugra\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2-OOP.exe
 C:\Users\bugra\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2-OOP.pdb
 C:\Users\bugra\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2_OOP.CustomerForm.resources
+C:\Users\emino\Desktop\proje2-eokabm2\Project2-OOP\Project2-OOP\obj\Debug\Project2_OOP.CustomerForm.resources

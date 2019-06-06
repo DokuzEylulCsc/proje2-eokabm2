@@ -148,7 +148,7 @@ namespace Project2_OOP
 
         private void textBoxHotelID_TextChanged(object sender, EventArgs e)
         {
-            IEnumerator enumerator = elTuristiko.GetEnumerator();
+            /*IEnumerator enumerator = elTuristiko.GetEnumerator();
             listViewRoom.Items.Clear();
 
             listViewRoom.Items.Clear();
@@ -165,7 +165,7 @@ namespace Project2_OOP
                         listViewRoom.Items.Add(item);
                     }
                 }
-            }
+            }*/
         }
 
         

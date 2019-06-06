@@ -11,5 +11,10 @@ namespace Project2_OOP
         public SingleRoom(int no, int price, bool hasAC, bool hasBalcony, bool hasSeaView, bool hasTV, bool hasMinibar) : base(no, 1, price, hasAC, hasBalcony, hasSeaView, hasTV, hasMinibar)
         {
         }
+
+        public override string GetTypeToString()
+        {
+            return "Single Room";
+        }
     }
 }

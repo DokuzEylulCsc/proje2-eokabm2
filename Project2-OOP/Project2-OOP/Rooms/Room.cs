@@ -17,6 +17,7 @@ namespace Project2_OOP
         private bool hasTV;
         private bool hasMinibar;
         private List<Reservation> reservations;
+        private static AppDate appDate = AppDate.GetInstance();
 
         internal Room(int no, int capacity, int price, bool hasAC, bool hasBalcony, bool hasSeaView, bool hasTV, bool hasMinibar)
         {
@@ -39,6 +40,26 @@ namespace Project2_OOP
         public bool HasSeaView { get => hasSeaView; set => hasSeaView = value; }
         public bool HasTV { get => hasTV; set => hasTV = value; }
         public bool HasMinibar { get => hasMinibar; set => hasMinibar = value; }
+
+        internal bool isBookable(DateTime checkIn, DateTime checkOut, bool hasAc, bool hasBalcony, bool hasSeaView, bool hasTv, bool hasMinibar)
+        {
+            if(reservations.Count != 0)
+            {
+                foreach (Reservation r in reservations)
+                {
+                    if (checkOut >= r.CheckIn && checkIn <= r.CheckOut)
+                    {
+                        return false;
+                    }
+                }
+                if (this.HasAC == hasAc && this.HasBalcony == hasBalcony && this.HasSeaView == hasSeaView && this.HasTV == hasTv && this.HasMinibar == hasMinibar)
+                {
+                    return true;
+                }
+            }
+            
+            return true;
+        }
 
         public bool make_Reservation()
         {
@@ -63,5 +84,9 @@ namespace Project2_OOP
             return "No: " + this.No + " Price: " + this.Price;
 
         }
+
+        public abstract string GetTypeToString();
+
+        
     }
 }

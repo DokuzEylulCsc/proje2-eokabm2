@@ -9,7 +9,7 @@ namespace Project2_OOP
     class AppDate
     {
         private DateTime date;
-        public DateTime Date { get => date; set => date = value; } //set?
+        public DateTime Date { get => date; set => date = value; }
 
         private AppDate() { }
         private static AppDate appDate = new AppDate();
@@ -30,7 +30,7 @@ namespace Project2_OOP
 
         public override string ToString()
         {
-            return String.Format("{0}/{1}/{2}", Date.Day, Date.Month, Date.Year);
+            return Date.Day.ToString("00") + "/" + Date.Month.ToString("00") + "/" + Date.Year.ToString("00");
         }
 
     }

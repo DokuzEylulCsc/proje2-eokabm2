@@ -78,6 +78,24 @@ namespace Project2_OOP
                 
         }
 
+        internal string SearchRooms(string hotelName, string hotelType, string hotelCity, int numberOfStars, DateTime checkIn, DateTime checkOut, string roomType, bool hasAc, bool hasBalcony, bool hasSeaView, bool hasTv, bool hasMinibar)
+        {
+            foreach(Room r in rooms)
+            {
+                if (r.GetTypeToString().Equals(roomType))
+                {
+                   
+                    if (r.isBookable(checkIn, checkOut, hasAc, hasBalcony, hasSeaView, hasTv, hasMinibar))
+                    {
+                        int price = (checkOut.Day - checkIn.Day) * r.Price;
+                        return String.Format("{0} {1} {2} {3} {4}", hotelName, hotelType, hotelCity, numberOfStars, price);
+                    }
+                }
+            }
+
+            return null;
+        }
+
         public bool make_Reservation()
         {
             throw new NotImplementedException();
@@ -156,5 +174,7 @@ namespace Project2_OOP
         {
             return String.Format("Name: {0}  -->  City: {1}  -->  Stars: {2}", name, city, numberOfStars);
         }
+
+        public abstract string GetTypeToString();
     }
 }
