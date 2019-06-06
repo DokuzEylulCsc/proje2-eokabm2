@@ -106,7 +106,7 @@ namespace Project2_OOP
                 }
                 else
                 {
-                    hotel.AddRoom(new KingRoom((j + i % 10) * 10, random.Next(4, 10), random.Next(480, 2200), true, true, true, true, true));
+                    hotel.AddRoom(new KingRoom((j + i % 10) * 10, random.Next(4, 6), random.Next(480, 2200), true, true, true, true, true));
                 }
             }
         }

@@ -50,6 +50,10 @@ namespace Project2_OOP
 
         private void ButtonSearch_Click(object sender, EventArgs e)
         {
+            if(comboBoxCities.SelectedItem == null) { labelStarCity.Visible = true; return; } else { labelStarCity.Visible = false; }
+            if (comboBoxPersons.SelectedItem == null) { labelStarPersons.Visible = true; return; } else { labelStarPersons.Visible = false; }
+            if (comboBoxRoomType.SelectedItem == null) { labelStarRoomTypes.Visible = true; return; } else { labelStarRoomTypes.Visible = false; }
+
             listBoxReservation.Items.Clear();
 
             List<string> searches;
@@ -62,6 +66,20 @@ namespace Project2_OOP
                 list.Add(s.Split(' '));
             }
 
+            //
+            //
+            foreach(string[] s in list)
+            {
+                foreach(string ss in s)
+                {
+                    Console.Write(ss + " ");
+                }
+                Console.WriteLine();
+            }
+            //
+            //
+            
+
             if(searches.Count != 0)
             {
                 foreach(string s in searches)
@@ -73,6 +91,25 @@ namespace Project2_OOP
             {
                 MessageBox.Show("There is no room for your search.");
             }
+        }
+
+        private void ComboBoxPersons_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            comboBoxRoomType.Items.Clear();
+            comboBoxRoomType.SelectedItem = null;
+
+            int i = comboBoxPersons.SelectedIndex;
+            string[] rooms = new string[] { "Single Room", "Double Room", "Twin Room", "Triple Room", "King Room" };
+
+            if (i >= 2){ i++; }
+
+            while (i < 5){ comboBoxRoomType.Items.Add(rooms[i++]); }
+
+        }
+
+        private void ButtonMakeReservation_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

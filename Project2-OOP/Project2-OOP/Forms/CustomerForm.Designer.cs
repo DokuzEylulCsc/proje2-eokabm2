@@ -33,16 +33,26 @@
             this.checkBoxSeaView = new System.Windows.Forms.CheckBox();
             this.checkBoxBalcony = new System.Windows.Forms.CheckBox();
             this.checkBoxAC = new System.Windows.Forms.CheckBox();
-            this.buttonShowMyReservation = new System.Windows.Forms.Button();
-            this.buttonDeleteReservation = new System.Windows.Forms.Button();
+            this.buttonListMyReservation = new System.Windows.Forms.Button();
+            this.buttonCancelReservation = new System.Windows.Forms.Button();
             this.comboBoxRoomType = new System.Windows.Forms.ComboBox();
             this.comboBoxPersons = new System.Windows.Forms.ComboBox();
-            this.buttonAddReservation = new System.Windows.Forms.Button();
+            this.buttonMakeReservation = new System.Windows.Forms.Button();
             this.buttonSearch = new System.Windows.Forms.Button();
             this.dateTimePickerCheckOut = new System.Windows.Forms.DateTimePicker();
             this.dateTimePickerCheckIn = new System.Windows.Forms.DateTimePicker();
             this.comboBoxCities = new System.Windows.Forms.ComboBox();
             this.listBoxReservation = new System.Windows.Forms.ListBox();
+            this.labelStarCity = new System.Windows.Forms.Label();
+            this.labelStarPersons = new System.Windows.Forms.Label();
+            this.labelStarRoomTypes = new System.Windows.Forms.Label();
+            this.labelStarReservation = new System.Windows.Forms.Label();
+            this.listViewReservations = new System.Windows.Forms.ListView();
+            this.columnHName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHType = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHCity = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnStars = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnPrice = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // checkBoxMiniBar
@@ -95,34 +105,28 @@
             this.checkBoxAC.Text = "AC";
             this.checkBoxAC.UseVisualStyleBackColor = true;
             // 
-            // buttonShowMyReservation
+            // buttonListMyReservation
             // 
-            this.buttonShowMyReservation.Location = new System.Drawing.Point(188, 262);
-            this.buttonShowMyReservation.Name = "buttonShowMyReservation";
-            this.buttonShowMyReservation.Size = new System.Drawing.Size(137, 37);
-            this.buttonShowMyReservation.TabIndex = 48;
-            this.buttonShowMyReservation.Text = "Show My Reservations";
-            this.buttonShowMyReservation.UseVisualStyleBackColor = true;
+            this.buttonListMyReservation.Location = new System.Drawing.Point(188, 262);
+            this.buttonListMyReservation.Name = "buttonListMyReservation";
+            this.buttonListMyReservation.Size = new System.Drawing.Size(137, 37);
+            this.buttonListMyReservation.TabIndex = 48;
+            this.buttonListMyReservation.Text = "List My Reservations";
+            this.buttonListMyReservation.UseVisualStyleBackColor = true;
             // 
-            // buttonDeleteReservation
+            // buttonCancelReservation
             // 
-            this.buttonDeleteReservation.Location = new System.Drawing.Point(188, 219);
-            this.buttonDeleteReservation.Name = "buttonDeleteReservation";
-            this.buttonDeleteReservation.Size = new System.Drawing.Size(137, 37);
-            this.buttonDeleteReservation.TabIndex = 47;
-            this.buttonDeleteReservation.Text = "Delete Reservation";
-            this.buttonDeleteReservation.UseVisualStyleBackColor = true;
+            this.buttonCancelReservation.Location = new System.Drawing.Point(188, 219);
+            this.buttonCancelReservation.Name = "buttonCancelReservation";
+            this.buttonCancelReservation.Size = new System.Drawing.Size(137, 37);
+            this.buttonCancelReservation.TabIndex = 47;
+            this.buttonCancelReservation.Text = "Cancel Reservation";
+            this.buttonCancelReservation.UseVisualStyleBackColor = true;
             // 
             // comboBoxRoomType
             // 
             this.comboBoxRoomType.FormattingEnabled = true;
-            this.comboBoxRoomType.Items.AddRange(new object[] {
-            "Single Room",
-            "Double Room",
-            "Twin Room",
-            "Triple Room",
-            "King Room"});
-            this.comboBoxRoomType.Location = new System.Drawing.Point(42, 119);
+            this.comboBoxRoomType.Location = new System.Drawing.Point(42, 146);
             this.comboBoxRoomType.Name = "comboBoxRoomType";
             this.comboBoxRoomType.Size = new System.Drawing.Size(121, 21);
             this.comboBoxRoomType.TabIndex = 45;
@@ -131,22 +135,27 @@
             // 
             this.comboBoxPersons.FormattingEnabled = true;
             this.comboBoxPersons.Items.AddRange(new object[] {
-            "1 Person",
-            "2 People",
-            "3 People"});
-            this.comboBoxPersons.Location = new System.Drawing.Point(41, 146);
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"});
+            this.comboBoxPersons.Location = new System.Drawing.Point(42, 119);
             this.comboBoxPersons.Name = "comboBoxPersons";
             this.comboBoxPersons.Size = new System.Drawing.Size(121, 21);
             this.comboBoxPersons.TabIndex = 43;
+            this.comboBoxPersons.SelectedIndexChanged += new System.EventHandler(this.ComboBoxPersons_SelectedIndexChanged);
             // 
-            // buttonAddReservation
+            // buttonMakeReservation
             // 
-            this.buttonAddReservation.Location = new System.Drawing.Point(41, 262);
-            this.buttonAddReservation.Name = "buttonAddReservation";
-            this.buttonAddReservation.Size = new System.Drawing.Size(137, 37);
-            this.buttonAddReservation.TabIndex = 38;
-            this.buttonAddReservation.Text = "Add Reservation";
-            this.buttonAddReservation.UseVisualStyleBackColor = true;
+            this.buttonMakeReservation.Location = new System.Drawing.Point(41, 262);
+            this.buttonMakeReservation.Name = "buttonMakeReservation";
+            this.buttonMakeReservation.Size = new System.Drawing.Size(137, 37);
+            this.buttonMakeReservation.TabIndex = 38;
+            this.buttonMakeReservation.Text = "Make Reservation";
+            this.buttonMakeReservation.UseVisualStyleBackColor = true;
+            this.buttonMakeReservation.Click += new System.EventHandler(this.ButtonMakeReservation_Click);
             // 
             // buttonSearch
             // 
@@ -189,23 +198,112 @@
             this.listBoxReservation.Size = new System.Drawing.Size(652, 264);
             this.listBoxReservation.TabIndex = 54;
             // 
+            // labelStarCity
+            // 
+            this.labelStarCity.AutoSize = true;
+            this.labelStarCity.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelStarCity.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.labelStarCity.Location = new System.Drawing.Point(168, 41);
+            this.labelStarCity.Name = "labelStarCity";
+            this.labelStarCity.Size = new System.Drawing.Size(14, 16);
+            this.labelStarCity.TabIndex = 55;
+            this.labelStarCity.Text = "*";
+            this.labelStarCity.Visible = false;
+            // 
+            // labelStarPersons
+            // 
+            this.labelStarPersons.AutoSize = true;
+            this.labelStarPersons.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelStarPersons.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.labelStarPersons.Location = new System.Drawing.Point(164, 120);
+            this.labelStarPersons.Name = "labelStarPersons";
+            this.labelStarPersons.Size = new System.Drawing.Size(14, 16);
+            this.labelStarPersons.TabIndex = 56;
+            this.labelStarPersons.Text = "*";
+            this.labelStarPersons.Visible = false;
+            // 
+            // labelStarRoomTypes
+            // 
+            this.labelStarRoomTypes.AutoSize = true;
+            this.labelStarRoomTypes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelStarRoomTypes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.labelStarRoomTypes.Location = new System.Drawing.Point(164, 147);
+            this.labelStarRoomTypes.Name = "labelStarRoomTypes";
+            this.labelStarRoomTypes.Size = new System.Drawing.Size(14, 16);
+            this.labelStarRoomTypes.TabIndex = 57;
+            this.labelStarRoomTypes.Text = "*";
+            this.labelStarRoomTypes.Visible = false;
+            // 
+            // labelStarReservation
+            // 
+            this.labelStarReservation.AutoSize = true;
+            this.labelStarReservation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelStarReservation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.labelStarReservation.Location = new System.Drawing.Point(357, 35);
+            this.labelStarReservation.Name = "labelStarReservation";
+            this.labelStarReservation.Size = new System.Drawing.Size(14, 16);
+            this.labelStarReservation.TabIndex = 58;
+            this.labelStarReservation.Text = "*";
+            this.labelStarReservation.Visible = false;
+            // 
+            // listViewReservations
+            // 
+            this.listViewReservations.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHName,
+            this.columnHType,
+            this.columnHCity,
+            this.columnStars,
+            this.columnPrice});
+            this.listViewReservations.Location = new System.Drawing.Point(377, 305);
+            this.listViewReservations.Name = "listViewReservations";
+            this.listViewReservations.Size = new System.Drawing.Size(652, 195);
+            this.listViewReservations.TabIndex = 59;
+            this.listViewReservations.UseCompatibleStateImageBehavior = false;
+            // 
+            // columnHName
+            // 
+            this.columnHName.Text = "Hotel Name";
+            // 
+            // columnHType
+            // 
+            this.columnHType.DisplayIndex = 2;
+            this.columnHType.Text = "Type";
+            // 
+            // columnHCity
+            // 
+            this.columnHCity.DisplayIndex = 1;
+            this.columnHCity.Text = "City";
+            // 
+            // columnStars
+            // 
+            this.columnStars.Text = "Stars";
+            // 
+            // columnPrice
+            // 
+            this.columnPrice.Text = "Price";
+            // 
             // CustomerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1175, 559);
+            this.Controls.Add(this.listViewReservations);
+            this.Controls.Add(this.labelStarReservation);
+            this.Controls.Add(this.labelStarRoomTypes);
+            this.Controls.Add(this.labelStarPersons);
+            this.Controls.Add(this.labelStarCity);
             this.Controls.Add(this.listBoxReservation);
             this.Controls.Add(this.checkBoxMiniBar);
             this.Controls.Add(this.checkBoxTV);
             this.Controls.Add(this.checkBoxSeaView);
             this.Controls.Add(this.checkBoxBalcony);
             this.Controls.Add(this.checkBoxAC);
-            this.Controls.Add(this.buttonShowMyReservation);
-            this.Controls.Add(this.buttonDeleteReservation);
+            this.Controls.Add(this.buttonListMyReservation);
+            this.Controls.Add(this.buttonCancelReservation);
             this.Controls.Add(this.comboBoxRoomType);
             this.Controls.Add(this.comboBoxPersons);
-            this.Controls.Add(this.buttonAddReservation);
+            this.Controls.Add(this.buttonMakeReservation);
             this.Controls.Add(this.buttonSearch);
             this.Controls.Add(this.dateTimePickerCheckOut);
             this.Controls.Add(this.dateTimePickerCheckIn);
@@ -226,15 +324,25 @@
         private System.Windows.Forms.CheckBox checkBoxSeaView;
         private System.Windows.Forms.CheckBox checkBoxBalcony;
         private System.Windows.Forms.CheckBox checkBoxAC;
-        private System.Windows.Forms.Button buttonShowMyReservation;
-        private System.Windows.Forms.Button buttonDeleteReservation;
+        private System.Windows.Forms.Button buttonListMyReservation;
+        private System.Windows.Forms.Button buttonCancelReservation;
         private System.Windows.Forms.ComboBox comboBoxRoomType;
         private System.Windows.Forms.ComboBox comboBoxPersons;
-        private System.Windows.Forms.Button buttonAddReservation;
+        private System.Windows.Forms.Button buttonMakeReservation;
         private System.Windows.Forms.Button buttonSearch;
         private System.Windows.Forms.DateTimePicker dateTimePickerCheckOut;
         private System.Windows.Forms.DateTimePicker dateTimePickerCheckIn;
         private System.Windows.Forms.ComboBox comboBoxCities;
         private System.Windows.Forms.ListBox listBoxReservation;
+        private System.Windows.Forms.Label labelStarCity;
+        private System.Windows.Forms.Label labelStarPersons;
+        private System.Windows.Forms.Label labelStarRoomTypes;
+        private System.Windows.Forms.Label labelStarReservation;
+        private System.Windows.Forms.ListView listViewReservations;
+        private System.Windows.Forms.ColumnHeader columnHName;
+        private System.Windows.Forms.ColumnHeader columnHCity;
+        private System.Windows.Forms.ColumnHeader columnHType;
+        private System.Windows.Forms.ColumnHeader columnStars;
+        private System.Windows.Forms.ColumnHeader columnPrice;
     }
 }
