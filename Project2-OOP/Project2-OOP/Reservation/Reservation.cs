@@ -29,5 +29,11 @@ namespace Project2_OOP
         public DateTime CheckOut { get => checkOut; set => checkOut = value; }
         public string HotelName { get => hotelName; set => hotelName = value; }
         public int RoomNo { get => roomNo; set => roomNo = value; }
+
+        public override string ToString()
+        {
+            return hotelName + "\t" + roomNo + "\t" + checkIn.ToShortDateString() + "\t\t" + checkOut.ToShortDateString(); 
+        }
+
     }
 }

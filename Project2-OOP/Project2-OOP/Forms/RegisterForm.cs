@@ -17,7 +17,7 @@ namespace Project2_OOP
         internal RegisterForm()
         {
             InitializeComponent();
-            elTuristiko = ElTuristiko.getInstance();
+            elTuristiko = ElTuristiko.GetInstance();
             hotelReservationApp = HotelReservationApp.GetInstance();
         }
         private void ButtonSubmit_Click(object sender, EventArgs e)

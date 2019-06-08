@@ -26,22 +26,51 @@ namespace Project2_OOP
         public string PhoneNumber { get => phoneNumber; set => phoneNumber = value; }
         internal List<Reservation> Reservations { get => reservations; set => reservations = value; }
 
-        public bool cancel_Reservation()
+        public void Cancel_Reservation(Reservation r)
         {
-            return false;
+            reservations.Remove(r);
         }
-        public void list_Reservations()
+
+        public bool Cancel_Reservation()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void List_Reservations()
         {
 
         }
-        public bool make_Reservation()
+        public void Make_Reservation(Reservation r)
+        {
+            this.reservations.Add(r);
+        }
+
+        public Reservation Make_Reservation()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Update_Reservation()
         {
             return false;
         }
-        public bool update_Reservation()
+
+        internal bool isBookable(DateTime checkIn, DateTime checkOut)
         {
-            return false;
+            if (reservations.Count != 0)
+            {
+                foreach (Reservation r in reservations)
+                {
+                    if (checkOut >= r.CheckIn && checkIn <= r.CheckOut)
+                    {
+                        return false;
+                    }
+                }
+            }
+
+            return true;
         }
+
 
     }
 }

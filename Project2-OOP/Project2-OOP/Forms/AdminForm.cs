@@ -18,7 +18,7 @@ namespace Project2_OOP
         internal AdminForm()
         {
             InitializeComponent();
-            elTuristiko = ElTuristiko.getInstance();
+            elTuristiko = ElTuristiko.GetInstance();
             hotelReservationApp = HotelReservationApp.GetInstance();
         }
 

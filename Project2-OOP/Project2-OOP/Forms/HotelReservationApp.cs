@@ -5,7 +5,7 @@ namespace Project2_OOP
 {
     public partial class HotelReservationApp : Form
     {
-        private ElTuristiko elTuristiko = ElTuristiko.getInstance();
+        private ElTuristiko elTuristiko = ElTuristiko.GetInstance();
         private static AppDate appDate = AppDate.GetInstance();
         internal static User currentUser;
         private static Random random = new Random();

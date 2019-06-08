@@ -18,10 +18,13 @@ namespace Project2_OOP
         private readonly AppDate appDate;
         private User currentUser;
         internal User CurrentUser { get => currentUser; set => currentUser = value; }
+
+        private List<string[]> res_list;
+
         internal CustomerForm()
         {
             InitializeComponent();
-            elTuristiko = ElTuristiko.getInstance();
+            elTuristiko = ElTuristiko.GetInstance();
             hotelReservationApp = HotelReservationApp.GetInstance();
             appDate = AppDate.GetInstance();
         }
@@ -50,47 +53,25 @@ namespace Project2_OOP
 
         private void ButtonSearch_Click(object sender, EventArgs e)
         {
+            if(!((Customer)currentUser).isBookable(dateTimePickerCheckIn.Value, dateTimePickerCheckOut.Value))
+            {
+                MessageBox.Show("You have a reservation between these dates.");
+                return;
+            }
+
             if(comboBoxCities.SelectedItem == null) { labelStarCity.Visible = true; return; } else { labelStarCity.Visible = false; }
             if (comboBoxPersons.SelectedItem == null) { labelStarPersons.Visible = true; return; } else { labelStarPersons.Visible = false; }
             if (comboBoxRoomType.SelectedItem == null) { labelStarRoomTypes.Visible = true; return; } else { labelStarRoomTypes.Visible = false; }
 
             listBoxReservation.Items.Clear();
 
-            List<string> searches;
-            searches = elTuristiko.SearchRooms(comboBoxCities.SelectedItem.ToString(), dateTimePickerCheckIn.Value, dateTimePickerCheckOut.Value, comboBoxRoomType.SelectedItem.ToString(),
+            res_list = elTuristiko.SearchRooms(comboBoxCities.SelectedItem.ToString(), dateTimePickerCheckIn.Value, dateTimePickerCheckOut.Value, comboBoxRoomType.SelectedItem.ToString(),
                 checkBoxAC.Checked, checkBoxBalcony.Checked, checkBoxSeaView.Checked, checkBoxTV.Checked, checkBoxMiniBar.Checked);
 
-            List<string[]> list = new List<string[]> { };
-            foreach(string s in searches)
-            {
-                list.Add(s.Split(' '));
+            foreach(string[] s in res_list){
+                listBoxReservation.Items.Add(s[2] + " " + s[3] + " " + s[4] + " " + s[5] + " " + s[6]);
             }
-
-            //
-            //
-            foreach(string[] s in list)
-            {
-                foreach(string ss in s)
-                {
-                    Console.Write(ss + " ");
-                }
-                Console.WriteLine();
-            }
-            //
-            //
-            
-
-            if(searches.Count != 0)
-            {
-                foreach(string s in searches)
-                {
-                    listBoxReservation.Items.Add(s);
-                }
-            }
-            else
-            {
-                MessageBox.Show("There is no room for your search.");
-            }
+     
         }
 
         private void ComboBoxPersons_SelectedIndexChanged(object sender, EventArgs e)
@@ -109,6 +90,93 @@ namespace Project2_OOP
 
         private void ButtonMakeReservation_Click(object sender, EventArgs e)
         {
+            if (listBoxReservation.SelectedItem == null) { labelStarReservation.Visible = true; } else { labelStarReservation.Visible = false; }
+
+            int index = 0;
+            int hotelId = 0;
+            int roomNo = 0;
+            try
+            {
+                index = listBoxReservation.SelectedIndex;
+                hotelId = Convert.ToInt32(res_list[index][0]);
+                roomNo = Convert.ToInt32(res_list[index][1]);
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return;
+            }
+            
+
+            IEnumerator enumeratorH = elTuristiko.GetEnumerator();
+            while (enumeratorH.MoveNext())
+            {
+                if(((Hotel)enumeratorH.Current).Id == hotelId)
+                {
+                    IEnumerator enumeratorR = ((Hotel)enumeratorH.Current).GetEnumerator();
+                    while (enumeratorR.MoveNext())
+                    {
+                        if(((Room)enumeratorR.Current).No == roomNo)
+                        {
+                            Reservation r = ((Room)enumeratorR.Current).Make_Reservation(((Hotel)enumeratorH.Current).Name,
+                                roomNo, Convert.ToDateTime(res_list[index][7]), Convert.ToDateTime(res_list[index][8]));
+                            ((Customer)currentUser).Make_Reservation(r);
+                        }
+                    }
+                }
+            }
+
+            listBoxReservation.Items.Clear();
+
+        }
+
+        private void buttonListMyReservation_Click(object sender, EventArgs e)
+        {
+            listBoxMyReservations.Items.Clear();
+            foreach(Reservation r in ((Customer)currentUser).Reservations)
+            {
+                listBoxMyReservations.Items.Add(r.ToString());
+            }
+        }
+
+        private void buttonCancelReservation_Click(object sender, EventArgs e)
+        {
+            if (listBoxMyReservations.SelectedItem == null) { labelStarMyReservation.Visible = true; } else { labelStarMyReservation.Visible = false; }
+
+            int index = 0;
+
+            try
+            {
+                index = listBoxMyReservations.SelectedIndex;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return;
+            }
+
+            Reservation r = ((Customer)currentUser).Reservations[index];
+
+            IEnumerator enumeratorH = elTuristiko.GetEnumerator();
+            while (enumeratorH.MoveNext())
+            {
+                if (((Hotel)enumeratorH.Current).Name == r.HotelName)
+                {
+                    IEnumerator enumeratorR = ((Hotel)enumeratorH.Current).GetEnumerator();
+                    while (enumeratorR.MoveNext())
+                    {
+                        if (((Room)enumeratorR.Current).No == r.RoomNo)
+                        {
+                            ((Room)enumeratorR.Current).Cancel_Reservation(r);
+                        }
+                    }
+                }
+            }
+
+            ((Customer)currentUser).Cancel_Reservation(r);
+
+            listBoxMyReservations.Items.Clear();
+
 
         }
     }

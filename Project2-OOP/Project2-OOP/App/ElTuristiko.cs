@@ -14,7 +14,7 @@ namespace Project2_OOP
         private List<Hotel> hotels = new List<Hotel> { };
         private List<User> users = new List<User> { };
 
-        internal static ElTuristiko getInstance()
+        internal static ElTuristiko GetInstance()
         {
             return elTuristiko;
         }
@@ -70,15 +70,15 @@ namespace Project2_OOP
             return true;
         }
 
-        internal List<string> SearchRooms(string cityName, DateTime checkIn, DateTime checkOut, string roomType, bool hasAc, bool hasBalcony, bool hasSeaView, bool hasTv, bool hasMinibar)
+        internal List<string[]> SearchRooms(string cityName, DateTime checkIn, DateTime checkOut, string roomType, bool hasAc, bool hasBalcony, bool hasSeaView, bool hasTv, bool hasMinibar)
         {
-            List<string> searches = new List<string> { };
+            List<string[]> searches = new List<string[]> { };
 
             foreach(Hotel hotel in hotels)
             {
                 if (hotel.City.Equals(cityName))
                 {
-                    string s = hotel.SearchRooms(hotel.Name, hotel.GetTypeToString(), cityName, hotel.NumberOfStars, checkIn, checkOut, roomType, hasAc, hasBalcony, hasSeaView, hasTv, hasMinibar);
+                    string[] s = hotel.SearchRooms(hotel.Name, hotel.GetTypeToString(), cityName, hotel.NumberOfStars, checkIn, checkOut, roomType, hasAc, hasBalcony, hasSeaView, hasTv, hasMinibar);
                     if (s != null)
                     {
                         searches.Add(s);

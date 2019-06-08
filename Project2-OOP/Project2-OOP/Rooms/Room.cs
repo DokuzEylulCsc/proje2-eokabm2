@@ -61,20 +61,22 @@ namespace Project2_OOP
             return true;
         }
 
-        public bool make_Reservation()
+        public Reservation Make_Reservation(string hotelName , int roomNo, DateTime checkIn, DateTime checkOut)
         {
-            return false;
+            Reservation reservation = new Reservation(hotelName, roomNo, checkIn, checkOut);
+            reservations.Add(reservation);
+            return reservation;
         }
-        public bool cancel_Reservation()
+        public void Cancel_Reservation(Reservation r)
         {
-            return false;
+            reservations.Remove(r);
         }
-        public void list_Reservations()
+        public void List_Reservations()
         {
 
         }
 
-        public bool update_Reservation()
+        public bool Update_Reservation()
         {
             return false;
         }
@@ -87,6 +89,14 @@ namespace Project2_OOP
 
         public abstract string GetTypeToString();
 
-        
+        public Reservation Make_Reservation()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Cancel_Reservation()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

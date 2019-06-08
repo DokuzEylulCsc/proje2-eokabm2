@@ -78,7 +78,7 @@ namespace Project2_OOP
                 
         }
 
-        internal string SearchRooms(string hotelName, string hotelType, string hotelCity, int numberOfStars, DateTime checkIn, DateTime checkOut, string roomType, bool hasAc, bool hasBalcony, bool hasSeaView, bool hasTv, bool hasMinibar)
+        internal string[] SearchRooms(string hotelName, string hotelType, string hotelCity, int numberOfStars, DateTime checkIn, DateTime checkOut, string roomType, bool hasAc, bool hasBalcony, bool hasSeaView, bool hasTv, bool hasMinibar)
         {
             foreach(Room r in rooms)
             {
@@ -88,7 +88,17 @@ namespace Project2_OOP
                     if (r.isBookable(checkIn, checkOut, hasAc, hasBalcony, hasSeaView, hasTv, hasMinibar))
                     {
                         int price = (checkOut.Day - checkIn.Day) * r.Price;
-                        return String.Format("{0} {1} {2} {3} {4}", hotelName, hotelType, hotelCity, numberOfStars, price);
+                        string[] str = new string[9];
+                        str[0] = this.Id.ToString();
+                        str[1] = r.No.ToString();
+                        str[2] = hotelName;
+                        str[3] = hotelType;
+                        str[4] = hotelCity;
+                        str[5] = numberOfStars.ToString();
+                        str[6] = price.ToString();
+                        str[7] = checkIn.ToString();
+                        str[8] = checkOut.ToString();
+                        return str;
                     }
                 }
             }
@@ -96,22 +106,22 @@ namespace Project2_OOP
             return null;
         }
 
-        public bool make_Reservation()
+        public Reservation Make_Reservation()
         {
             throw new NotImplementedException();
         }
 
-        public bool cancel_Reservation()
+        public bool Cancel_Reservation()
         {
             throw new NotImplementedException();
         }
 
-        public void list_Reservations()
+        public void List_Reservations()
         {
             throw new NotImplementedException();
         }
 
-        public bool update_Reservation()
+        public bool Update_Reservation()
         {
             throw new NotImplementedException();
         }
