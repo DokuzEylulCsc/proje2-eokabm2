@@ -13,6 +13,9 @@ namespace Project2_OOP
         private static ElTuristiko elTuristiko = new ElTuristiko();
         private List<Hotel> hotels = new List<Hotel> { };
         private List<User> users = new List<User> { };
+        
+        internal List<Hotel> Hotels { get => hotels; set => hotels = value; }
+        internal List<User> Users { get => users; set => users = value; }
 
         internal static ElTuristiko GetInstance()
         {
@@ -22,7 +25,7 @@ namespace Project2_OOP
         public List<string> GetCities() //tüm otellerin şehirlerini liste olarak geri döndürüyor.
         {
             List<string> cities = new List<string> { };
-            foreach(Hotel h in hotels)
+            foreach(Hotel h in Hotels)
             {
                 if (!cities.Contains(h.City))
                 {
@@ -35,12 +38,12 @@ namespace Project2_OOP
         //Hotels
         internal void AddHotel(Hotel hotel) 
         {
-            this.hotels.Add(hotel);
+            this.Hotels.Add(hotel);
         }
 
         internal bool AddHotel(string name, string city, int stars, int t) //ismi aynı olan otel varsa false döndürür
         {
-            foreach(Hotel hotel in hotels)
+            foreach(Hotel hotel in Hotels)
             {
                 if (hotel.Name.Equals(name, StringComparison.OrdinalIgnoreCase)) //büyük küçük harfleri görmezden gelir
                 {
@@ -51,19 +54,19 @@ namespace Project2_OOP
             switch (t)
             {
                 case 0:
-                    hotels.Add(new BoutiqueHotel(name, city, stars));
+                    Hotels.Add(new BoutiqueHotel(name, city, stars));
                     break;
                 case 1:
-                    hotels.Add(new BusinessHotel(name, city, stars));
+                    Hotels.Add(new BusinessHotel(name, city, stars));
                     break;
                 case 2:
-                    hotels.Add(new LuxuryHotel(name, city, stars));
+                    Hotels.Add(new LuxuryHotel(name, city, stars));
                     break;
                 case 3:
-                    hotels.Add(new ResortHotel(name, city, stars));
+                    Hotels.Add(new ResortHotel(name, city, stars));
                     break;
                 case 4:
-                    hotels.Add(new SuiteHotel(name, city, stars));
+                    Hotels.Add(new SuiteHotel(name, city, stars));
                     break;
             }
 
@@ -74,7 +77,7 @@ namespace Project2_OOP
         {
             List<string[]> searches = new List<string[]> { };
 
-            foreach(Hotel hotel in hotels)
+            foreach(Hotel hotel in Hotels)
             {
                 if (hotel.City.Equals(cityName))
                 {
@@ -93,25 +96,25 @@ namespace Project2_OOP
         //Users
         internal void AddUser(User user) 
         {
-            this.users.Add(user);
+            this.Users.Add(user);
         }
 
         internal bool AddCustomer(string userId, string password, string fullName, string address, string phone) // aynı id ye sahip kullanıcı varsa false döndürür
         {
-            foreach(User user in users)
+            foreach(User user in Users)
             {
                 if (user.UserId.Equals(userId))
                 {
                     return false;
                 }
             }
-            this.users.Add(new Customer(userId, password, fullName, address, phone));
+            this.Users.Add(new Customer(userId, password, fullName, address, phone));
             return true;
         }
 
         internal User VerifyLogin(String id, String password) //doğru giriş yapıldıysa o kullanıcıya ait instance döndürür.
         {
-            foreach(User user in users)
+            foreach(User user in Users)
             {
                 if(user.UserId.Equals(id) && user.Password.Equals(password))
                 {
@@ -129,7 +132,7 @@ namespace Project2_OOP
 
         public HotelEnum GetEnumerator()
         {
-            return new HotelEnum(hotels);
+            return new HotelEnum(Hotels);
         }
 
         public class HotelEnum : IEnumerator

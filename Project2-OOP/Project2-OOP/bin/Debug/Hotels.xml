@@ -1,0 +1,4986 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Hotels>
+  <Hotel id="1" type="BusinessHotel">
+    <name>Silence Istanbul</name>
+    <city>Istanbul</city>
+    <Stars>5</Stars>
+    <Rooms>
+      <Room No="101" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>346</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="102" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>77</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="103" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>224</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="1040" Type="KingRoom">
+        <Capacity>5</Capacity>
+        <Price>1701</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="105" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>164</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="106" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>229</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="107" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>105</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="108" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>97</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="109" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>169</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="2000" Type="KingRoom">
+        <Capacity>5</Capacity>
+        <Price>1778</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="201" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>145</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="202" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>99</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="203" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>119</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="204" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>305</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="205" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>206</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="206" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>246</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="207" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>218</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="2080" Type="KingRoom">
+        <Capacity>5</Capacity>
+        <Price>1184</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="2090" Type="KingRoom">
+        <Capacity>5</Capacity>
+        <Price>1507</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="300" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>211</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="301" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>263</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="302" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>217</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="303" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>119</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="304" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>251</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+    </Rooms>
+  </Hotel>
+  <Hotel id="2" type="BoutiqueHotel">
+    <name>Hotel Sahil</name>
+    <city>Istanbul</city>
+    <Stars>4</Stars>
+    <Rooms>
+      <Room No="101" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>217</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="102" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>202</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="103" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>276</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="104" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>238</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="105" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>111</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="1060" Type="KingRoom">
+        <Capacity>5</Capacity>
+        <Price>1565</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="1070" Type="KingRoom">
+        <Capacity>5</Capacity>
+        <Price>610</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="108" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>256</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="109" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>135</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="200" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>217</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="201" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>234</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="202" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>180</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="203" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>185</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="204" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>230</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="205" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>134</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="206" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>70</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="207" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>144</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="208" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>225</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="209" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>307</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="300" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>210</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+    </Rooms>
+  </Hotel>
+  <Hotel id="3" type="ResortHotel">
+    <name>Dragos Resort</name>
+    <city>Istanbul</city>
+    <Stars>3</Stars>
+    <Rooms>
+      <Room No="101" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>175</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="102" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>219</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="103" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>201</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="104" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>232</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="105" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>120</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="106" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>247</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="107" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>176</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="108" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>130</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="109" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>274</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="200" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>158</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="2010" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>873</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="202" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>230</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="203" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>158</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="204" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>140</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="2050" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>1492</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="206" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>70</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="207" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>92</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="208" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>188</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="209" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>138</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="300" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>209</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="301" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>159</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="302" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>176</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="303" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>267</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="304" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>125</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="305" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>74</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="306" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>120</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="307" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>164</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="308" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>225</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="309" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>136</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="400" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>111</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="4010" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>731</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="4020" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>1514</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="403" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>131</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="404" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>207</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="405" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>230</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="406" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>205</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+    </Rooms>
+  </Hotel>
+  <Hotel id="4" type="SuiteHotel">
+    <name>Hotel Ramada</name>
+    <city>Istanbul</city>
+    <Stars>4</Stars>
+    <Rooms>
+      <Room No="101" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>201</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="102" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>104</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="103" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>112</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="104" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>168</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="105" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>263</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="106" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>156</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="107" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>250</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="108" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>208</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="1090" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>1797</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="200" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>168</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="201" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>80</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="202" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>204</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="203" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>141</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="204" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>229</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="205" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>122</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="206" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>274</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="207" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>216</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="208" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>135</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="209" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>220</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="300" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>191</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="301" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>192</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="302" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>144</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="3030" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>1230</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="304" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>169</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="3050" Type="KingRoom">
+        <Capacity>5</Capacity>
+        <Price>1167</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="306" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>180</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="307" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>112</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="308" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>228</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="309" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>125</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="400" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>76</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="401" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>275</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="402" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>151</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="403" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>138</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="404" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>223</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="405" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>178</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="406" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>203</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="407" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>198</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="4080" Type="KingRoom">
+        <Capacity>5</Capacity>
+        <Price>2052</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="4090" Type="KingRoom">
+        <Capacity>5</Capacity>
+        <Price>1219</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="500" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>238</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="5010" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>1953</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="502" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>164</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="503" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>107</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="504" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>337</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="505" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>282</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="506" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>281</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="5070" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>495</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="5080" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>997</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="509" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>257</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="6000" Type="KingRoom">
+        <Capacity>5</Capacity>
+        <Price>783</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="601" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>97</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="602" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>170</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="603" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>60</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="604" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>71</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="605" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>154</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="606" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>105</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="607" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>219</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="608" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>213</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="609" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>187</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="700" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>136</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="701" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>247</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="702" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>180</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="703" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>182</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="704" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>335</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="705" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>167</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="706" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>292</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="707" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>163</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="708" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>275</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="7090" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>1479</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="800" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>230</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="801" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>153</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="8020" Type="KingRoom">
+        <Capacity>5</Capacity>
+        <Price>2108</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+    </Rooms>
+  </Hotel>
+  <Hotel id="5" type="LuxuryHotel">
+    <name>Hilton Istanbul</name>
+    <city>Istanbul</city>
+    <Stars>5</Stars>
+    <Rooms>
+      <Room No="101" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>189</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="102" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>121</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="103" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>226</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="1040" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>1506</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="105" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>109</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="106" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>171</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="107" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>181</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="108" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>265</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="109" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>270</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="200" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>187</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="201" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>122</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="202" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>63</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="203" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>223</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="204" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>178</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="205" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>194</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="206" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>167</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="2070" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>1732</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="208" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>128</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="209" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>356</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="3000" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>1929</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="301" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>210</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="302" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>145</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="303" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>140</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="304" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>232</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="305" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>87</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="306" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>104</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="307" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>302</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="308" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>258</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="309" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>124</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="400" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>259</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="401" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>236</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="402" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>247</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="403" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>222</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="404" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>152</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="405" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>123</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="406" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>128</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="407" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>175</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="408" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>145</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="409" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>185</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="500" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>138</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="501" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>162</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="502" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>191</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="503" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>281</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="504" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>108</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="505" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>153</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="506" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>72</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="507" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>105</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="508" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>228</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="509" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>182</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="600" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>193</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="601" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>150</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="602" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>93</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="603" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>248</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="604" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>209</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="605" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>133</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="606" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>247</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="607" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>187</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="608" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>353</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="609" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>266</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="700" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>155</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="701" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>85</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="7020" Type="KingRoom">
+        <Capacity>5</Capacity>
+        <Price>1133</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="703" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>123</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="704" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>128</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="705" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>185</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="7060" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>1626</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="707" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>290</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="708" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>164</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="709" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>114</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="800" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>72</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="801" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>154</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="802" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>208</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="803" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>188</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="804" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>128</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="805" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>233</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="806" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>196</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="807" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>211</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="808" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>342</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="809" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>218</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="900" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>190</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="901" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>210</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="902" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>224</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="903" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>339</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="904" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>182</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="905" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>238</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="906" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>252</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="9070" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>1403</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="908" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>237</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="909" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>247</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="1000" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>144</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="1001" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>131</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="10020" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>1865</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="1003" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>301</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="1004" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>111</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="1005" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>195</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="1006" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>116</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+    </Rooms>
+  </Hotel>
+  <Hotel id="6" type="LuxuryHotel">
+    <name>Swiss</name>
+    <city>Izmir</city>
+    <Stars>5</Stars>
+    <Rooms>
+      <Room No="101" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>225</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="102" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>274</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="103" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>226</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="104" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>148</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="105" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>84</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="106" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>123</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="107" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>268</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="108" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>245</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="109" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>347</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="200" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>237</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="201" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>254</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="202" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>101</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="203" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>212</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="204" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>143</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="205" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>177</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="2060" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>1815</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="207" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>199</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="2080" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>2035</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="2090" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>1313</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="300" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>208</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="301" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>257</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="302" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>305</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="303" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>174</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="304" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>308</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="305" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>246</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="306" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>283</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="307" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>120</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="308" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>162</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="309" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>146</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="400" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>174</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="401" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>180</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="402" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>204</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="403" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>131</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="404" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>261</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="405" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>256</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="406" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>171</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="407" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>203</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="408" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>117</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="409" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>263</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="500" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>157</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="501" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>96</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="502" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>162</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="503" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>355</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="504" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>151</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="505" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>198</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="506" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>211</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="507" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>153</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="508" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>165</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="509" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>91</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="600" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>132</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="601" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>224</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="602" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>202</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="603" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>206</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="6040" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>1548</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="605" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>128</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="606" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>219</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="6070" Type="KingRoom">
+        <Capacity>5</Capacity>
+        <Price>883</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="608" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>277</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="609" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>144</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="700" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>171</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="701" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>129</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="702" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>225</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="703" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>141</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="704" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>175</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="705" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>161</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="706" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>259</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="707" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>251</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="708" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>69</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="709" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>217</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="800" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>155</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="801" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>179</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="802" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>103</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="803" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>171</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="8040" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>1517</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="805" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>134</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="806" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>111</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="807" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>336</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="808" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>232</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="809" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>171</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="900" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>229</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+    </Rooms>
+  </Hotel>
+  <Hotel id="7" type="ResortHotel">
+    <name>Hotel Ilica</name>
+    <city>Izmir</city>
+    <Stars>5</Stars>
+    <Rooms>
+      <Room No="101" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>236</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="102" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>110</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="103" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>102</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="104" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>181</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="1050" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>1397</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="106" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>154</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="107" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>180</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="108" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>86</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="109" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>132</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="200" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>179</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="201" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>151</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="202" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>98</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="203" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>125</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="204" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>266</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="205" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>326</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="206" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>131</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="207" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>199</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="208" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>199</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="209" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>164</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="300" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>244</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="301" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>132</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="302" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>203</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="303" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>134</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="304" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>153</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="305" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>300</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="306" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>165</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="3070" Type="KingRoom">
+        <Capacity>5</Capacity>
+        <Price>2074</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="308" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>219</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="309" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>190</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="4000" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>1142</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="401" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>314</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="402" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>206</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="403" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>240</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="404" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>358</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="4050" Type="KingRoom">
+        <Capacity>5</Capacity>
+        <Price>1677</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="406" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>309</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="407" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>113</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="408" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>158</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="409" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>160</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="500" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>77</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="501" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>232</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="502" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>192</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="503" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>174</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="504" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>158</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="505" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>239</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="506" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>165</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="507" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>110</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="508" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>276</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+    </Rooms>
+  </Hotel>
+  <Hotel id="8" type="BoutiqueHotel">
+    <name>Sc Inn</name>
+    <city>Izmir</city>
+    <Stars>3</Stars>
+    <Rooms>
+      <Room No="101" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>281</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="102" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>133</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="103" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>123</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="104" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>213</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="105" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>315</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="106" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>248</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="107" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>236</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="108" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>185</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="109" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>88</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="200" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>215</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="201" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>177</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="202" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>358</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="203" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>176</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="204" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>181</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="2050" Type="KingRoom">
+        <Capacity>5</Capacity>
+        <Price>1640</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="206" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>168</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="207" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>166</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="208" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>245</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="209" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>259</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="300" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>126</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="301" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>211</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="302" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>296</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="303" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>177</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="304" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>260</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="305" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>135</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="306" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>247</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="307" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>228</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="308" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>263</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="3090" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>549</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="400" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>144</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="401" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>141</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="402" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>280</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+    </Rooms>
+  </Hotel>
+  <Hotel id="9" type="BusinessHotel">
+    <name>Ege Palas</name>
+    <city>Izmir</city>
+    <Stars>4</Stars>
+    <Rooms>
+      <Room No="101" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>189</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="102" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>247</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="103" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>169</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="104" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>190</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="105" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>140</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="1060" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>959</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="1070" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>633</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="108" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>249</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="109" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>142</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="200" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>149</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="201" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>170</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="202" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>146</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="203" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>103</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="204" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>89</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="2050" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>1667</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="206" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>338</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="207" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>187</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="208" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>118</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="209" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>244</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="300" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>220</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="301" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>220</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="302" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>75</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="303" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>220</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="304" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>132</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="305" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>162</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="306" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>352</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="307" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>208</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="308" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>154</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="309" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>118</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="400" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>106</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="401" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>201</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="402" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>140</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="403" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>224</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="404" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>110</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="405" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>99</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="406" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>289</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="407" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>271</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="408" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>87</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="409" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>176</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="500" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>226</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="501" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>323</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="502" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>81</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="503" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>87</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="504" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>226</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="505" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>251</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="506" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>158</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="507" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>148</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="508" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>94</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="5090" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>1670</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="600" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>147</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="601" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>194</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="602" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>118</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="6030" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>1854</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="604" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>189</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="605" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>240</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="606" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>190</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="607" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>145</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="608" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>119</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="6090" Type="KingRoom">
+        <Capacity>4</Capacity>
+        <Price>1832</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="7000" Type="KingRoom">
+        <Capacity>5</Capacity>
+        <Price>1213</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="701" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>88</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="702" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>230</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="703" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>197</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="704" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>134</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="705" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>169</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="706" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>212</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="707" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>196</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="708" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>227</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="709" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>182</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="800" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>266</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="801" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>230</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="802" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>132</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="803" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>206</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="804" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>253</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="805" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>201</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="806" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>238</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="807" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>226</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="808" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>198</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="809" Type="TwinRoom">
+        <Capacity>2</Capacity>
+        <Price>139</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="900" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>160</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="901" Type="SingleRoom">
+        <Capacity>1</Capacity>
+        <Price>146</Price>
+        <hasAC>False</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>False</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="902" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>149</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>False</hasBalcony>
+        <hasSeaView>False</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="903" Type="TripleRoom">
+        <Capacity>3</Capacity>
+        <Price>327</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>True</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+      <Room No="904" Type="DoubleRoom">
+        <Capacity>2</Capacity>
+        <Price>214</Price>
+        <hasAC>True</hasAC>
+        <hasBalcony>True</hasBalcony>
+        <hasSeaView>True</hasSeaView>
+        <hasTV>False</hasTV>
+        <hasMinibar>True</hasMinibar>
+        <Reservations />
+      </Room>
+    </Rooms>
+  </Hotel>
+</Hotels>

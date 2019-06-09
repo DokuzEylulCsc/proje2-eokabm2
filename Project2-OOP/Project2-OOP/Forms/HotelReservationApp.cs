@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Windows.Forms;
 
 namespace Project2_OOP
@@ -10,10 +11,12 @@ namespace Project2_OOP
         internal static User currentUser;
         private static Random random = new Random();
         private static HotelReservationApp hotelReservationApp = new HotelReservationApp();
+        private XXmlClass a;
         
         private HotelReservationApp()
         {
             InitializeComponent();
+            a = new XXmlClass();
             InitializeFiles();
         }
 
@@ -44,11 +47,6 @@ namespace Project2_OOP
             Hotel hotel8 = new BoutiqueHotel("Sc Inn", "Izmir", 3);
             Hotel hotel9 = new BusinessHotel("Ege Palas", "Izmir", 4);
 
-            //deneme
-            hotel1.AddRoom(new SingleRoom(1, 100, false, false, false, false, false));
-            //deneme
- 
-
             elTuristiko.AddHotel(hotel1);
             elTuristiko.AddHotel(hotel2);
             elTuristiko.AddHotel(hotel3);
@@ -68,8 +66,9 @@ namespace Project2_OOP
             AddRoomsRandom(hotel6, 80);
             AddRoomsRandom(hotel7, 48);
             AddRoomsRandom(hotel8, 32);
-            AddRoomsRandom(hotel9, 84);     
+            AddRoomsRandom(hotel9, 84);
 
+            a.xReadHotel();
         }
 
         private void AddRoomsRandom(Hotel hotel, int n)
@@ -147,6 +146,9 @@ namespace Project2_OOP
         private void HotelReservationApp_FormClosing(object sender, FormClosingEventArgs e) //program kapanırken gerekli işlemler yapılıcak.
         {
             MessageBox.Show("Thanks for using.");
+            a.xWriteHotel(elTuristiko.Hotels);
+            a.xWriteUser(elTuristiko.Users);
+
         }
 
     }

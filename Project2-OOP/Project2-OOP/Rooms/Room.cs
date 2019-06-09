@@ -29,7 +29,7 @@ namespace Project2_OOP
             this.HasSeaView = hasSeaView;
             this.HasTV = hasTV;
             this.HasMinibar = hasMinibar;
-            this.reservations = new List<Reservation> { };
+            this.Reservations = new List<Reservation> { };
         }
 
         public int No { get => no; set => no = value; }
@@ -40,12 +40,13 @@ namespace Project2_OOP
         public bool HasSeaView { get => hasSeaView; set => hasSeaView = value; }
         public bool HasTV { get => hasTV; set => hasTV = value; }
         public bool HasMinibar { get => hasMinibar; set => hasMinibar = value; }
+        internal List<Reservation> Reservations { get => reservations; set => reservations = value; }
 
         internal bool isBookable(DateTime checkIn, DateTime checkOut, bool hasAc, bool hasBalcony, bool hasSeaView, bool hasTv, bool hasMinibar)
         {
-            if(reservations.Count != 0)
+            if(Reservations.Count != 0)
             {
-                foreach (Reservation r in reservations)
+                foreach (Reservation r in Reservations)
                 {
                     if (checkOut >= r.CheckIn && checkIn <= r.CheckOut)
                     {
@@ -64,12 +65,12 @@ namespace Project2_OOP
         public Reservation Make_Reservation(string hotelName , int roomNo, DateTime checkIn, DateTime checkOut)
         {
             Reservation reservation = new Reservation(hotelName, roomNo, checkIn, checkOut);
-            reservations.Add(reservation);
+            Reservations.Add(reservation);
             return reservation;
         }
         public void Cancel_Reservation(Reservation r)
         {
-            reservations.Remove(r);
+            Reservations.Remove(r);
         }
         public void List_Reservations()
         {

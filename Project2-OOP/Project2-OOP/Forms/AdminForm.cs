@@ -15,11 +15,13 @@ namespace Project2_OOP
     {
         private readonly ElTuristiko elTuristiko;
         private readonly HotelReservationApp hotelReservationApp;
+        private readonly AppDate appDate;
         internal AdminForm()
         {
             InitializeComponent();
             elTuristiko = ElTuristiko.GetInstance();
             hotelReservationApp = HotelReservationApp.GetInstance();
+            appDate = AppDate.GetInstance();
         }
 
         internal User CurrentUser { get; set; }
@@ -60,6 +62,7 @@ namespace Project2_OOP
         private void AdminForm_Load(object sender, EventArgs e)
         {
             ListAllHotels();
+            label8.Text = appDate.Date.ToShortDateString();
         }
 
         private void ListAllHotels()
@@ -168,6 +171,11 @@ namespace Project2_OOP
             }*/
         }
 
-        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            appDate.NextDay();
+            MessageBox.Show(appDate.Date.ToString());
+            label8.Text = appDate.Date.ToString();
+        }
     }
 }

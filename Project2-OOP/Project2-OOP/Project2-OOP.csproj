@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App\AppDate.cs" />
+    <Compile Include="App\XXmlClass.cs" />
     <Compile Include="Forms\CustomerForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,7 +91,6 @@
     <Compile Include="Rooms\TripleRoom.cs" />
     <Compile Include="Rooms\TwinRoom.cs" />
     <Compile Include="Users\User.cs" />
-    <Compile Include="App\XmlStation.cs" />
     <EmbeddedResource Include="Forms\AdminForm.resx">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </EmbeddedResource>

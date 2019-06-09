@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Users>
+  <User userid="admin" usertype="Administrator" />
+  <User userid="eminozk" usertype="Customer">
+    <name>Emin Özkaradeniz</name>
+    <adress>Bucca</adress>
+    <PhoneNumber>5055050</PhoneNumber>
+    <Reservations />
+  </User>
+  <User userid="abmogol" usertype="Customer">
+    <name>Ahmet Buğra Moğol</name>
+    <adress>Bucca</adress>
+    <PhoneNumber>232323</PhoneNumber>
+    <Reservations />
+  </User>
+  <User userid="a" usertype="Customer">
+    <name>aa</name>
+    <adress>aa</adress>
+    <PhoneNumber>aa</PhoneNumber>
+    <Reservations />
+  </User>
+</Users>

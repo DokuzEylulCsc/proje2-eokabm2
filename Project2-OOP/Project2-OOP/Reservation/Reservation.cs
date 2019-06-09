@@ -22,13 +22,14 @@ namespace Project2_OOP
             this.HotelName = hotelName;
             this.RoomNo = roomNo;
             resId++;
-            this.id = resId;
+            this.Id = resId;
         }
 
         public DateTime CheckIn { get => checkIn; set => checkIn = value; }
         public DateTime CheckOut { get => checkOut; set => checkOut = value; }
         public string HotelName { get => hotelName; set => hotelName = value; }
         public int RoomNo { get => roomNo; set => roomNo = value; }
+        public int Id { get => id; set => id = value; }
 
         public override string ToString()
         {
