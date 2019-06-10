@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Project2_OOP
 {
@@ -77,25 +74,20 @@ namespace Project2_OOP
 
         }
 
-        public bool Update_Reservation()
+        public Reservation Update_Reservation()
         {
-            return false;
+            throw new NotImplementedException();
         }
 
         public override string ToString()
         {
-            return "No: " + this.No + " Price: " + this.Price;
+            return "Type: " + this.GetTypeToString() + " No: " + this.No + " Price: " + this.Price + " Capacity: " + this.Capacity + " " + hasAC + " " + hasBalcony + " " + hasSeaView + " " + hasTV + " " + hasMinibar;
 
         }
 
         public abstract string GetTypeToString();
 
         public Reservation Make_Reservation()
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool Cancel_Reservation()
         {
             throw new NotImplementedException();
         }

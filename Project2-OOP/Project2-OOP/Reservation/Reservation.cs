@@ -33,7 +33,7 @@ namespace Project2_OOP
 
         public override string ToString()
         {
-            return hotelName + "\t" + roomNo + "\t" + checkIn.ToShortDateString() + "\t\t" + checkOut.ToShortDateString(); 
+            return hotelName + "\t\t" + roomNo + "\t" + checkIn.ToShortDateString() + "\t\t" + checkOut.ToShortDateString(); 
         }
 
     }

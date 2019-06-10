@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Project2_OOP
 {
@@ -31,11 +28,6 @@ namespace Project2_OOP
             reservations.Remove(r);
         }
 
-        public bool Cancel_Reservation()
-        {
-            throw new NotImplementedException();
-        }
-
         public void List_Reservations()
         {
 
@@ -48,11 +40,6 @@ namespace Project2_OOP
         public Reservation Make_Reservation()
         {
             throw new NotImplementedException();
-        }
-
-        public bool Update_Reservation()
-        {
-            return false;
         }
 
         internal bool isBookable(DateTime checkIn, DateTime checkOut)
@@ -71,6 +58,9 @@ namespace Project2_OOP
             return true;
         }
 
-
+        Reservation IReservation.Update_Reservation()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

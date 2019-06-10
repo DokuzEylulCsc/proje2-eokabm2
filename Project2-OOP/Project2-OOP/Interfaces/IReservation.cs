@@ -9,9 +9,9 @@ namespace Project2_OOP
     interface IReservation
     {
         Reservation Make_Reservation();
-        bool Cancel_Reservation();
+        void Cancel_Reservation(Reservation r);
         void List_Reservations();
-        bool Update_Reservation();
+        Reservation Update_Reservation();
     
     }
 }

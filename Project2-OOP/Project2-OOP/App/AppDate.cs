@@ -28,10 +28,10 @@ namespace Project2_OOP
             return false;
         }
 
-        /*public override string ToString()
+        public override string ToString()
         {
             return Date.Day.ToString("00") + "/" + Date.Month.ToString("00") + "/" + Date.Year.ToString("00");
-        }*/
+        }
 
     }
 }

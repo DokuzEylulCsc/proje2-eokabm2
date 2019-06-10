@@ -36,6 +36,7 @@ namespace Project2_OOP
             elTuristiko.AddUser(new Customer("abmogol", "123456", "Ahmet Buğra Moğol", "Bucca", "232323"));
             elTuristiko.AddUser(new Customer("a", "a", "aa", "aa", "aa"));
 
+            /*
             Hotel hotel1 = new BusinessHotel("Silence Istanbul", "Istanbul", 5);
             Hotel hotel2 = new BoutiqueHotel("Hotel Sahil", "Istanbul", 4);
             Hotel hotel3 = new ResortHotel("Dragos Resort", "Istanbul", 3);
@@ -66,7 +67,7 @@ namespace Project2_OOP
             AddRoomsRandom(hotel6, 80);
             AddRoomsRandom(hotel7, 48);
             AddRoomsRandom(hotel8, 32);
-            AddRoomsRandom(hotel9, 84);
+            AddRoomsRandom(hotel9, 84);*/
 
             a.xReadHotel();
         }
@@ -145,9 +146,9 @@ namespace Project2_OOP
 
         private void HotelReservationApp_FormClosing(object sender, FormClosingEventArgs e) //program kapanırken gerekli işlemler yapılıcak.
         {
-            MessageBox.Show("Thanks for using.");
-            a.xWriteHotel(elTuristiko.Hotels);
-            a.xWriteUser(elTuristiko.Users);
+            //MessageBox.Show("Thanks for using.");
+            //a.xWriteHotel(elTuristiko.Hotels);
+            //a.xWriteUser(elTuristiko.Users);
 
         }
 

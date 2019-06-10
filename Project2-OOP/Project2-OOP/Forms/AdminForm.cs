@@ -174,8 +174,8 @@ namespace Project2_OOP
         private void button1_Click(object sender, EventArgs e)
         {
             appDate.NextDay();
-            MessageBox.Show(appDate.Date.ToString());
-            label8.Text = appDate.Date.ToString();
+            label8.Text = appDate.ToString();
+
         }
     }
 }

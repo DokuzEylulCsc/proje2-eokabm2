@@ -141,7 +141,7 @@ namespace Project2_OOP
 
         private void buttonCancelReservation_Click(object sender, EventArgs e)
         {
-            if (listBoxMyReservations.SelectedItem == null) { labelStarMyReservation.Visible = true; } else { labelStarMyReservation.Visible = false; }
+            if (listBoxMyReservations.SelectedItem == null) { labelStarMyReservation.Visible = true; return; } else { labelStarMyReservation.Visible = false; }
 
             int index = 0;
 

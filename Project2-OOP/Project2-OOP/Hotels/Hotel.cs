@@ -1,14 +1,11 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Project2_OOP
 {
-    abstract internal class Hotel : IReservation, IEnumerable
-    {
+    abstract internal class Hotel : IEnumerable
+    { 
         private int id;
         private string name;
         private string city;
@@ -104,26 +101,6 @@ namespace Project2_OOP
             }
 
             return null;
-        }
-
-        public Reservation Make_Reservation()
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool Cancel_Reservation()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void List_Reservations()
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool Update_Reservation()
-        {
-            throw new NotImplementedException();
         }
 
         //IEnumarable  

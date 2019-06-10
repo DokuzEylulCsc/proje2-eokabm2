@@ -128,6 +128,34 @@ namespace Project2_OOP
 
                 //Console.WriteLine("id: " + id + " Hotelname: " + hotelname + " Typename: " + typename + " City: " + city + " Stars: " + stars);
 
+
+                //
+                Hotel hotel = null;
+                switch (typename)
+                {
+                    case "BoutiqueHotel":
+                        hotel = new BoutiqueHotel(hotelname, city, Int32.Parse(stars));
+                        elTuristiko.AddHotel(hotel);
+                        break;
+                    case "BusinessHotel":
+                        hotel = new BusinessHotel(hotelname, city, Int32.Parse(stars));
+                        elTuristiko.AddHotel(hotel);
+                        break;
+                    case "LuxuryHotel":
+                        hotel = new LuxuryHotel(hotelname, city, Int32.Parse(stars));
+                        elTuristiko.AddHotel(hotel);
+                        break;
+                    case "ResortHotel":
+                        hotel = new ResortHotel(hotelname, city, Int32.Parse(stars));
+                        elTuristiko.AddHotel(hotel);
+                        break;
+                    case "SuiteHotel":
+                        hotel = new SuiteHotel(hotelname, city, Int32.Parse(stars));
+                        elTuristiko.AddHotel(hotel);
+                        break;
+                }
+                //
+                Console.WriteLine(hotel.ToString());
                 
                 foreach(XElement elRooms in elHotel.Descendants("Rooms"))
                 {
@@ -142,15 +170,43 @@ namespace Project2_OOP
                         hasSea = ell.Element("hasSeaView").Value;
                         hasTV = ell.Element("hasTV").Value;
                         hasMinibar = ell.Element("hasMinibar").Value;
-                        /*
-                        foreach(XElement elReservations in ell.Descendants("Reservations"))
-                        {
-                            foreach(XElement elReservation in elReservations.Descendants("Reservation"))
-                            {
 
-                            }
-                        }*/
-                        //Console.WriteLine("roomn: " + roomn + " typename: " + type);//hotelname + " Typename: " + typename + " City: " + city + " Stars: " + stars);
+
+
+                        //
+                        Room room = null;
+                        switch (type)
+                        {
+                            case "DoubleRoom":
+                                room = new DoubleRoom(Int32.Parse(roomn), Int32.Parse(price), Boolean.Parse(hasAC), Boolean.Parse(hasBalcony), Boolean.Parse(hasSea)
+                                    , Boolean.Parse(hasTV), Boolean.Parse(hasMinibar));
+                                hotel.AddRoom(room);
+                                break;
+                            case "SingleRoom":
+                                room = new SingleRoom(Int32.Parse(roomn), Int32.Parse(price), Boolean.Parse(hasAC), Boolean.Parse(hasBalcony), Boolean.Parse(hasSea)
+                                    , Boolean.Parse(hasTV), Boolean.Parse(hasMinibar));
+                                hotel.AddRoom(room);
+                                break;
+                            case "TripleRoom":
+                                room = new TripleRoom(Int32.Parse(roomn), Int32.Parse(price), Boolean.Parse(hasAC), Boolean.Parse(hasBalcony), Boolean.Parse(hasSea)
+                                    , Boolean.Parse(hasTV), Boolean.Parse(hasMinibar));
+                                hotel.AddRoom(room);
+                                break;
+                            case "KingRoom":
+                                room = new KingRoom(Int32.Parse(roomn), Int32.Parse(capacity), Int32.Parse(price), Boolean.Parse(hasAC), Boolean.Parse(hasBalcony), Boolean.Parse(hasSea)
+                                    , Boolean.Parse(hasTV), Boolean.Parse(hasMinibar));
+                                hotel.AddRoom(room);
+                                break;
+                            case "TwinRoom":
+                                room = new TwinRoom(Int32.Parse(roomn), Int32.Parse(price), Boolean.Parse(hasAC), Boolean.Parse(hasBalcony), Boolean.Parse(hasSea)
+                                    , Boolean.Parse(hasTV), Boolean.Parse(hasMinibar));
+                                hotel.AddRoom(room);
+                                break;
+
+                        }
+                        //
+                        Console.WriteLine(room.ToString());
+
                     }
 
                 }
