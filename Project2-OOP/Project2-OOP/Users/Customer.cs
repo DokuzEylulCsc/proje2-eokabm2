@@ -28,16 +28,17 @@ namespace Project2_OOP
             reservations.Remove(r);
         }
 
-        public void List_Reservations()
-        {
-
-        }
         public void Make_Reservation(Reservation r)
         {
             this.reservations.Add(r);
         }
 
         public Reservation Make_Reservation()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Reservation Update_Reservation()
         {
             throw new NotImplementedException();
         }
@@ -58,9 +59,11 @@ namespace Project2_OOP
             return true;
         }
 
-        Reservation IReservation.Update_Reservation()
+        public override string ToString()
         {
-            throw new NotImplementedException();
+            return "(Customer) " + " " + this.UserId;
         }
+
+       
     }
 }

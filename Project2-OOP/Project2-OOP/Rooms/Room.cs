@@ -69,12 +69,13 @@ namespace Project2_OOP
         {
             Reservations.Remove(r);
         }
-        public void List_Reservations()
-        {
-
-        }
 
         public Reservation Update_Reservation()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Reservation Make_Reservation()
         {
             throw new NotImplementedException();
         }
@@ -87,9 +88,6 @@ namespace Project2_OOP
 
         public abstract string GetTypeToString();
 
-        public Reservation Make_Reservation()
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

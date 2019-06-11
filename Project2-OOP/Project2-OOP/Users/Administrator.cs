@@ -9,5 +9,10 @@ namespace Project2_OOP
     class Administrator : User
     {
         public Administrator(string userId, string password) : base(userId, password){}
+
+        public override string ToString()
+        {
+            return "(Admin) " + " " + this.UserId;
+        }
     }
 }

@@ -10,7 +10,6 @@ namespace Project2_OOP
     {
         Reservation Make_Reservation();
         void Cancel_Reservation(Reservation r);
-        void List_Reservations();
         Reservation Update_Reservation();
     
     }

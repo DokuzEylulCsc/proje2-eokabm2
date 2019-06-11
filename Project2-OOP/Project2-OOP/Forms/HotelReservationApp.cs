@@ -31,6 +31,8 @@ namespace Project2_OOP
         {
             appDate.Date = DateTime.Now;
 
+            
+
             elTuristiko.AddUser(new Administrator("admin", "123456"));
             elTuristiko.AddUser(new Customer("eminozk", "123456", "Emin Özkaradeniz", "Bucca", "5055050"));
             elTuristiko.AddUser(new Customer("abmogol", "123456", "Ahmet Buğra Moğol", "Bucca", "232323"));
@@ -124,7 +126,7 @@ namespace Project2_OOP
             {
                 //müşteri giriş yaptı..
                 CustomerForm customerForm = new CustomerForm();
-                customerForm.CurrentUser = currentUser;
+                customerForm.CurrentUser = (Customer)currentUser;
                 customerForm.Show();
             }
             else
@@ -134,6 +136,11 @@ namespace Project2_OOP
                 adminForm.CurrentUser = currentUser;
                 adminForm.Show();
             }
+
+            //
+            string s = currentUser.ToString() + " signed in.";
+            AppLogs.WriteLog(s);
+            //
 
         }
 
@@ -147,9 +154,9 @@ namespace Project2_OOP
         private void HotelReservationApp_FormClosing(object sender, FormClosingEventArgs e) //program kapanırken gerekli işlemler yapılıcak.
         {
             //MessageBox.Show("Thanks for using.");
-            //a.xWriteHotel(elTuristiko.Hotels);
-            //a.xWriteUser(elTuristiko.Users);
-
+            a.xWriteHotel();
+            a.xWriteUser(elTuristiko.Users);
+            AppLogs.Sr.Close();
         }
 
     }

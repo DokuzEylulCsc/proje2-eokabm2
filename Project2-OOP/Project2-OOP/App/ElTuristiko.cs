@@ -14,7 +14,7 @@ namespace Project2_OOP
         private List<Hotel> hotels = new List<Hotel> { };
         private List<User> users = new List<User> { };
         
-        internal List<Hotel> Hotels { get => hotels; set => hotels = value; }
+        //internal List<Hotel> Hotels { get => hotels; set => hotels = value; }
         internal List<User> Users { get => users; set => users = value; }
 
         internal static ElTuristiko GetInstance()
@@ -25,7 +25,7 @@ namespace Project2_OOP
         public List<string> GetCities() //tüm otellerin şehirlerini liste olarak geri döndürüyor.
         {
             List<string> cities = new List<string> { };
-            foreach(Hotel h in Hotels)
+            foreach(Hotel h in this.hotels)
             {
                 if (!cities.Contains(h.City))
                 {
@@ -38,46 +38,28 @@ namespace Project2_OOP
         //Hotels
         internal void AddHotel(Hotel hotel) 
         {
-            this.Hotels.Add(hotel);
+            this.hotels.Add(hotel);
         }
 
-        internal bool AddHotel(string name, string city, int stars, int t) //ismi aynı olan otel varsa false döndürür
+        internal bool HasSameHotel(string name) //ismi aynı olan otel varsa false döndürür
         {
-            foreach(Hotel hotel in Hotels)
+            foreach(Hotel hotel in this.hotels)
             {
-                if (hotel.Name.Equals(name, StringComparison.OrdinalIgnoreCase)) //büyük küçük harfleri görmezden gelir
+                if (hotel.Name.Equals(name, StringComparison.OrdinalIgnoreCase))
                 {
-                    return false;
+                    return true;
                 }
             }
+            return false;
 
-            switch (t)
-            {
-                case 0:
-                    Hotels.Add(new BoutiqueHotel(name, city, stars));
-                    break;
-                case 1:
-                    Hotels.Add(new BusinessHotel(name, city, stars));
-                    break;
-                case 2:
-                    Hotels.Add(new LuxuryHotel(name, city, stars));
-                    break;
-                case 3:
-                    Hotels.Add(new ResortHotel(name, city, stars));
-                    break;
-                case 4:
-                    Hotels.Add(new SuiteHotel(name, city, stars));
-                    break;
-            }
-
-            return true;
         }
 
         internal List<string[]> SearchRooms(string cityName, DateTime checkIn, DateTime checkOut, string roomType, bool hasAc, bool hasBalcony, bool hasSeaView, bool hasTv, bool hasMinibar)
         {
+            //Aramaya uygun olan odaları customer forma liste olarak geri gönderiyor.
             List<string[]> searches = new List<string[]> { };
 
-            foreach(Hotel hotel in Hotels)
+            foreach(Hotel hotel in this.hotels)
             {
                 if (hotel.City.Equals(cityName))
                 {
@@ -132,7 +114,7 @@ namespace Project2_OOP
 
         public HotelEnum GetEnumerator()
         {
-            return new HotelEnum(Hotels);
+            return new HotelEnum(hotels);
         }
 
         public class HotelEnum : IEnumerator

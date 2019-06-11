@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -50,14 +51,19 @@ namespace Project2_OOP
             //rootElement.Add(Use);
             xDoc.Save(@"Users.xml");
         }
-        internal void xWriteHotel(List<Hotel> hotels)
+        internal void xWriteHotel()
         {
             XDocument xDoc = XDocument.Load(@"Hotels.xml");
             XElement rootElement = xDoc.Root;
             rootElement.RemoveAll();
             XElement newElement = new XElement("Hotel");
-            foreach (Hotel hotel in hotels)
+
+            IEnumerator enumeratorH = elTuristiko.GetEnumerator();
+
+            while (enumeratorH.MoveNext())
             {
+                Hotel hotel = (Hotel)enumeratorH.Current;
+
                 XElement Hotel = new XElement("Hotel");
                 XAttribute idHotel = new XAttribute("id", hotel.Id.ToString());
                 XAttribute typeHotel = new XAttribute("type", hotel.GetType().Name);
@@ -65,8 +71,13 @@ namespace Project2_OOP
                 XElement city = new XElement("city", hotel.City);
                 XElement numberofStars = new XElement("Stars", hotel.NumberOfStars.ToString());
                 XElement RoomRoot = new XElement("Rooms");
-                foreach (Room room in hotel.Rooms)
+
+                IEnumerator enumeratorR = hotel.GetEnumerator();
+
+                while (enumeratorR.MoveNext())
                 {
+                    Room room = (Room)enumeratorR.Current;
+
                     XElement Room = new XElement("Room");
                     XAttribute idRoom = new XAttribute("No", room.No);
                     XAttribute typeroom = new XAttribute("Type", room.GetType().Name);
@@ -128,39 +139,17 @@ namespace Project2_OOP
 
                 //Console.WriteLine("id: " + id + " Hotelname: " + hotelname + " Typename: " + typename + " City: " + city + " Stars: " + stars);
 
-
-                //
-                Hotel hotel = null;
-                switch (typename)
-                {
-                    case "BoutiqueHotel":
-                        hotel = new BoutiqueHotel(hotelname, city, Int32.Parse(stars));
-                        elTuristiko.AddHotel(hotel);
-                        break;
-                    case "BusinessHotel":
-                        hotel = new BusinessHotel(hotelname, city, Int32.Parse(stars));
-                        elTuristiko.AddHotel(hotel);
-                        break;
-                    case "LuxuryHotel":
-                        hotel = new LuxuryHotel(hotelname, city, Int32.Parse(stars));
-                        elTuristiko.AddHotel(hotel);
-                        break;
-                    case "ResortHotel":
-                        hotel = new ResortHotel(hotelname, city, Int32.Parse(stars));
-                        elTuristiko.AddHotel(hotel);
-                        break;
-                    case "SuiteHotel":
-                        hotel = new SuiteHotel(hotelname, city, Int32.Parse(stars));
-                        elTuristiko.AddHotel(hotel);
-                        break;
-                }
+                Hotel hotel = AppFactory.BuildHotel(hotelname, city, Int32.Parse(stars), typename);
+                elTuristiko.AddHotel(hotel);
                 //
                 Console.WriteLine(hotel.ToString());
-                
+                //
+
                 foreach(XElement elRooms in elHotel.Descendants("Rooms"))
                 {
                     foreach(XElement ell in elRooms.Descendants("Room"))
                     {
+
                         roomn = ell.Attribute("No").Value;
                         type = ell.Attribute("Type").Value;
                         capacity = ell.Element("Capacity").Value;
@@ -172,40 +161,13 @@ namespace Project2_OOP
                         hasMinibar = ell.Element("hasMinibar").Value;
 
 
-
-                        //
                         Room room = null;
-                        switch (type)
-                        {
-                            case "DoubleRoom":
-                                room = new DoubleRoom(Int32.Parse(roomn), Int32.Parse(price), Boolean.Parse(hasAC), Boolean.Parse(hasBalcony), Boolean.Parse(hasSea)
-                                    , Boolean.Parse(hasTV), Boolean.Parse(hasMinibar));
-                                hotel.AddRoom(room);
-                                break;
-                            case "SingleRoom":
-                                room = new SingleRoom(Int32.Parse(roomn), Int32.Parse(price), Boolean.Parse(hasAC), Boolean.Parse(hasBalcony), Boolean.Parse(hasSea)
-                                    , Boolean.Parse(hasTV), Boolean.Parse(hasMinibar));
-                                hotel.AddRoom(room);
-                                break;
-                            case "TripleRoom":
-                                room = new TripleRoom(Int32.Parse(roomn), Int32.Parse(price), Boolean.Parse(hasAC), Boolean.Parse(hasBalcony), Boolean.Parse(hasSea)
-                                    , Boolean.Parse(hasTV), Boolean.Parse(hasMinibar));
-                                hotel.AddRoom(room);
-                                break;
-                            case "KingRoom":
-                                room = new KingRoom(Int32.Parse(roomn), Int32.Parse(capacity), Int32.Parse(price), Boolean.Parse(hasAC), Boolean.Parse(hasBalcony), Boolean.Parse(hasSea)
-                                    , Boolean.Parse(hasTV), Boolean.Parse(hasMinibar));
-                                hotel.AddRoom(room);
-                                break;
-                            case "TwinRoom":
-                                room = new TwinRoom(Int32.Parse(roomn), Int32.Parse(price), Boolean.Parse(hasAC), Boolean.Parse(hasBalcony), Boolean.Parse(hasSea)
-                                    , Boolean.Parse(hasTV), Boolean.Parse(hasMinibar));
-                                hotel.AddRoom(room);
-                                break;
-
-                        }
+                        room = AppFactory.BuildRoom(Int32.Parse(roomn), Int32.Parse(capacity), Int32.Parse(price), Boolean.Parse(hasAC), Boolean.Parse(hasBalcony), 
+                            Boolean.Parse(hasSea), Boolean.Parse(hasTV), Boolean.Parse(hasMinibar), type);
+                        hotel.AddRoom(room);
                         //
                         Console.WriteLine(room.ToString());
+                        //
 
                     }
 
@@ -256,6 +218,10 @@ namespace Project2_OOP
                         resroom = ell.Element("RoomNo").Value;
                         rescheckin = ell.Element("Checkin").Value;
                         rescheckout = ell.Element("Checkout").Value;
+
+                        Console.WriteLine("Reservation: ");
+                        Console.WriteLine("Id: {0}  Hotel: {1}  Room: {2}  CheckIn: {3}  CheckOut: {4}", resid, reshotel, resroom, rescheckin, rescheckout);
+
                     }
 
                 }

@@ -45,6 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App\AppFactory.cs" />
+    <Compile Include="App\AppLogs.cs" />
     <Compile Include="App\AppDate.cs" />
     <Compile Include="App\XXmlClass.cs" />
     <Compile Include="Forms\CustomerForm.cs">

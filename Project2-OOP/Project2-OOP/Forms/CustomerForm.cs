@@ -1,11 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Collections;
 
@@ -16,8 +10,8 @@ namespace Project2_OOP
         private readonly ElTuristiko elTuristiko;
         private readonly HotelReservationApp hotelReservationApp;
         private readonly AppDate appDate;
-        private User currentUser;
-        internal User CurrentUser { get => currentUser; set => currentUser = value; }
+        private Customer currentUser;
+        internal Customer CurrentUser { get => currentUser; set => currentUser = value; }
 
         private List<string[]> res_list;
 
@@ -53,7 +47,7 @@ namespace Project2_OOP
 
         private void ButtonSearch_Click(object sender, EventArgs e)
         {
-            if(!((Customer)currentUser).isBookable(dateTimePickerCheckIn.Value, dateTimePickerCheckOut.Value))
+            if(!currentUser.isBookable(dateTimePickerCheckIn.Value, dateTimePickerCheckOut.Value))
             {
                 MessageBox.Show("You have a reservation between these dates.");
                 return;
@@ -111,16 +105,17 @@ namespace Project2_OOP
             IEnumerator enumeratorH = elTuristiko.GetEnumerator();
             while (enumeratorH.MoveNext())
             {
-                if(((Hotel)enumeratorH.Current).Id == hotelId)
+                Hotel hotel = (Hotel)enumeratorH.Current;
+                if (hotel.Id == hotelId)
                 {
-                    IEnumerator enumeratorR = ((Hotel)enumeratorH.Current).GetEnumerator();
+                    IEnumerator enumeratorR = hotel.GetEnumerator();
                     while (enumeratorR.MoveNext())
                     {
-                        if(((Room)enumeratorR.Current).No == roomNo)
+                        Room room = (Room)enumeratorR.Current;
+                        if (room.No == roomNo)
                         {
-                            Reservation r = ((Room)enumeratorR.Current).Make_Reservation(((Hotel)enumeratorH.Current).Name,
-                                roomNo, Convert.ToDateTime(res_list[index][7]), Convert.ToDateTime(res_list[index][8]));
-                            ((Customer)currentUser).Make_Reservation(r);
+                            Reservation r = room.Make_Reservation(hotel.Name, roomNo, Convert.ToDateTime(res_list[index][7]), Convert.ToDateTime(res_list[index][8]));
+                            currentUser.Make_Reservation(r);
                         }
                     }
                 }
@@ -155,28 +150,28 @@ namespace Project2_OOP
                 return;
             }
 
-            Reservation r = ((Customer)currentUser).Reservations[index];
+            Reservation r = currentUser.Reservations[index];
 
             IEnumerator enumeratorH = elTuristiko.GetEnumerator();
             while (enumeratorH.MoveNext())
             {
-                if (((Hotel)enumeratorH.Current).Name == r.HotelName)
+                Hotel hotel = (Hotel)enumeratorH.Current;
+                if (hotel.Name == r.HotelName)
                 {
-                    IEnumerator enumeratorR = ((Hotel)enumeratorH.Current).GetEnumerator();
+                    IEnumerator enumeratorR = hotel.GetEnumerator();
                     while (enumeratorR.MoveNext())
                     {
-                        if (((Room)enumeratorR.Current).No == r.RoomNo)
+                        Room room = (Room)enumeratorR.Current;
+                        if (room.No == r.RoomNo)
                         {
-                            ((Room)enumeratorR.Current).Cancel_Reservation(r);
+                            room.Cancel_Reservation(r);
                         }
                     }
                 }
             }
 
-            ((Customer)currentUser).Cancel_Reservation(r);
-
+            currentUser.Cancel_Reservation(r);
             listBoxMyReservations.Items.Clear();
-
 
         }
     }

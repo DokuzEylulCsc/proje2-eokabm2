@@ -15,8 +15,6 @@ namespace Project2_OOP
         private List<Room> rooms;
         private static int hotelId = 0;
 
-        public List<Room> Rooms { get => rooms; }
-
         internal Hotel(string name, string city, int numberOfStars)
         {
             this.Name = name;
@@ -33,7 +31,7 @@ namespace Project2_OOP
         public string City { get => city; set => city = value; }
         public int NumberOfStars { get => numberOfStars; set => numberOfStars = value; }
         public int NumberOfRooms { get => numberOfRooms; set => numberOfRooms = value; }
-        public int Id { get => id; set => id = value; }
+        public int Id { get => id; set => id = value; }     
 
         internal void AddRoom(Room room)
         {
@@ -42,37 +40,17 @@ namespace Project2_OOP
             this.totalCapacity += room.Capacity;
         }
 
-        internal bool AddRoom(int no, int capacity, int price, bool hasAc, bool hasBalcony, bool hasSeaView, bool hasTv, bool hasMinibar, int t)
+        internal bool HasSameRoomNo(int no)
         {
             foreach(Room r in rooms)
             {
                 if(r.No == no)
                 {
-                    return false;
+                    return true;
                 }
             }
-
-            switch (t)
-            {
-                case 1:
-                    AddRoom(new SingleRoom(no, price, hasAc, hasBalcony, hasSeaView, hasTv, hasMinibar));
-                    break;
-                case 2:
-                    AddRoom(new DoubleRoom(no, price, hasAc, hasBalcony, hasSeaView, hasTv, hasMinibar));
-                    break;
-                case 3:
-                    AddRoom(new TwinRoom(no, price, hasAc, hasBalcony, hasSeaView, hasTv, hasMinibar));
-                    break;
-                case 4:
-                    AddRoom(new TripleRoom(no, price, hasAc, hasBalcony, hasSeaView, hasTv, hasMinibar));
-                    break;
-                case 5:
-                    AddRoom(new KingRoom(no, capacity, price, hasAc, hasBalcony, hasSeaView, hasTv, hasMinibar));
-                    break;
-            }
-
-            return true;
-                
+            return false;
+            
         }
 
         internal string[] SearchRooms(string hotelName, string hotelType, string hotelCity, int numberOfStars, DateTime checkIn, DateTime checkOut, string roomType, bool hasAc, bool hasBalcony, bool hasSeaView, bool hasTv, bool hasMinibar)
