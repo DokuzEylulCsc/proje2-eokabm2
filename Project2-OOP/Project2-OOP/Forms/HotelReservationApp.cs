@@ -27,51 +27,17 @@ namespace Project2_OOP
 
         }
 
-        private void InitializeFiles() //dosyalardan bilgileri alıcak
+        private void InitializeFiles() 
         {
             appDate.Date = DateTime.Now;
-
-            
 
             elTuristiko.AddUser(new Administrator("admin", "123456"));
             elTuristiko.AddUser(new Customer("eminozk", "123456", "Emin Özkaradeniz", "Bucca", "5055050"));
             elTuristiko.AddUser(new Customer("abmogol", "123456", "Ahmet Buğra Moğol", "Bucca", "232323"));
             elTuristiko.AddUser(new Customer("a", "a", "aa", "aa", "aa"));
 
-            /*
-            Hotel hotel1 = new BusinessHotel("Silence Istanbul", "Istanbul", 5);
-            Hotel hotel2 = new BoutiqueHotel("Hotel Sahil", "Istanbul", 4);
-            Hotel hotel3 = new ResortHotel("Dragos Resort", "Istanbul", 3);
-            Hotel hotel4 = new SuiteHotel("Hotel Ramada", "Istanbul", 4);
-            Hotel hotel5 = new LuxuryHotel("Hilton Istanbul", "Istanbul", 5);
-
-            Hotel hotel6 = new LuxuryHotel("Swiss", "Izmir", 5);
-            Hotel hotel7 = new ResortHotel("Hotel Ilica", "Izmir", 5);
-            Hotel hotel8 = new BoutiqueHotel("Sc Inn", "Izmir", 3);
-            Hotel hotel9 = new BusinessHotel("Ege Palas", "Izmir", 4);
-
-            elTuristiko.AddHotel(hotel1);
-            elTuristiko.AddHotel(hotel2);
-            elTuristiko.AddHotel(hotel3);
-            elTuristiko.AddHotel(hotel4);
-            elTuristiko.AddHotel(hotel5);
-            elTuristiko.AddHotel(hotel6);
-            elTuristiko.AddHotel(hotel7);
-            elTuristiko.AddHotel(hotel8);
-            elTuristiko.AddHotel(hotel9);
-
-            AddRoomsRandom(hotel1, 24);
-            AddRoomsRandom(hotel2, 20);
-            AddRoomsRandom(hotel3, 36);
-            AddRoomsRandom(hotel4, 72);
-            AddRoomsRandom(hotel5, 96);
-
-            AddRoomsRandom(hotel6, 80);
-            AddRoomsRandom(hotel7, 48);
-            AddRoomsRandom(hotel8, 32);
-            AddRoomsRandom(hotel9, 84);*/
-
             a.xReadHotel();
+
         }
 
         private void AddRoomsRandom(Hotel hotel, int n)
@@ -133,7 +99,7 @@ namespace Project2_OOP
             {
                 //admin giriş yaptı..              
                 AdminForm adminForm = new AdminForm();
-                adminForm.CurrentUser = currentUser;
+                adminForm.CurrentUser = (Administrator)currentUser;
                 adminForm.Show();
             }
 

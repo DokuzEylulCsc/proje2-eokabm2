@@ -65,6 +65,8 @@
             this.labelStarCapacity = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // labelAddHotel
@@ -230,7 +232,7 @@
             // 
             this.labelAddRoom.AutoSize = true;
             this.labelAddRoom.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelAddRoom.Location = new System.Drawing.Point(377, 40);
+            this.labelAddRoom.Location = new System.Drawing.Point(577, 40);
             this.labelAddRoom.Name = "labelAddRoom";
             this.labelAddRoom.Size = new System.Drawing.Size(163, 16);
             this.labelAddRoom.TabIndex = 14;
@@ -241,7 +243,7 @@
             this.listBoxHotels.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBoxHotels.FormattingEnabled = true;
             this.listBoxHotels.ItemHeight = 15;
-            this.listBoxHotels.Location = new System.Drawing.Point(380, 70);
+            this.listBoxHotels.Location = new System.Drawing.Point(580, 71);
             this.listBoxHotels.Name = "listBoxHotels";
             this.listBoxHotels.Size = new System.Drawing.Size(360, 229);
             this.listBoxHotels.TabIndex = 15;
@@ -249,7 +251,7 @@
             // buttonAddRoom
             // 
             this.buttonAddRoom.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAddRoom.Location = new System.Drawing.Point(380, 435);
+            this.buttonAddRoom.Location = new System.Drawing.Point(580, 455);
             this.buttonAddRoom.Name = "buttonAddRoom";
             this.buttonAddRoom.Size = new System.Drawing.Size(167, 30);
             this.buttonAddRoom.TabIndex = 29;
@@ -266,7 +268,7 @@
             "TwinRoom",
             "TripleRoom",
             "KingRoom"});
-            this.comboBoxRoomType.Location = new System.Drawing.Point(426, 329);
+            this.comboBoxRoomType.Location = new System.Drawing.Point(626, 335);
             this.comboBoxRoomType.Name = "comboBoxRoomType";
             this.comboBoxRoomType.Size = new System.Drawing.Size(120, 21);
             this.comboBoxRoomType.TabIndex = 23;
@@ -275,7 +277,7 @@
             // checkBoxHasAC
             // 
             this.checkBoxHasAC.AutoSize = true;
-            this.checkBoxHasAC.Location = new System.Drawing.Point(380, 305);
+            this.checkBoxHasAC.Location = new System.Drawing.Point(580, 306);
             this.checkBoxHasAC.Name = "checkBoxHasAC";
             this.checkBoxHasAC.Size = new System.Drawing.Size(40, 17);
             this.checkBoxHasAC.TabIndex = 17;
@@ -285,7 +287,7 @@
             // checkBoxHasBalcony
             // 
             this.checkBoxHasBalcony.AutoSize = true;
-            this.checkBoxHasBalcony.Location = new System.Drawing.Point(426, 305);
+            this.checkBoxHasBalcony.Location = new System.Drawing.Point(626, 306);
             this.checkBoxHasBalcony.Name = "checkBoxHasBalcony";
             this.checkBoxHasBalcony.Size = new System.Drawing.Size(64, 17);
             this.checkBoxHasBalcony.TabIndex = 18;
@@ -295,7 +297,7 @@
             // checkBoxHasSeaView
             // 
             this.checkBoxHasSeaView.AutoSize = true;
-            this.checkBoxHasSeaView.Location = new System.Drawing.Point(496, 305);
+            this.checkBoxHasSeaView.Location = new System.Drawing.Point(696, 306);
             this.checkBoxHasSeaView.Name = "checkBoxHasSeaView";
             this.checkBoxHasSeaView.Size = new System.Drawing.Size(71, 17);
             this.checkBoxHasSeaView.TabIndex = 19;
@@ -305,7 +307,7 @@
             // checkBoxHasTV
             // 
             this.checkBoxHasTV.AutoSize = true;
-            this.checkBoxHasTV.Location = new System.Drawing.Point(573, 305);
+            this.checkBoxHasTV.Location = new System.Drawing.Point(773, 306);
             this.checkBoxHasTV.Name = "checkBoxHasTV";
             this.checkBoxHasTV.Size = new System.Drawing.Size(40, 17);
             this.checkBoxHasTV.TabIndex = 20;
@@ -315,7 +317,7 @@
             // checkBoxHasMinibar
             // 
             this.checkBoxHasMinibar.AutoSize = true;
-            this.checkBoxHasMinibar.Location = new System.Drawing.Point(618, 305);
+            this.checkBoxHasMinibar.Location = new System.Drawing.Point(818, 306);
             this.checkBoxHasMinibar.Name = "checkBoxHasMinibar";
             this.checkBoxHasMinibar.Size = new System.Drawing.Size(60, 17);
             this.checkBoxHasMinibar.TabIndex = 21;
@@ -326,7 +328,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(377, 330);
+            this.label5.Location = new System.Drawing.Point(577, 336);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(43, 16);
             this.label5.TabIndex = 22;
@@ -337,7 +339,7 @@
             this.labelStarRoomType.AutoSize = true;
             this.labelStarRoomType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelStarRoomType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.labelStarRoomType.Location = new System.Drawing.Point(552, 329);
+            this.labelStarRoomType.Location = new System.Drawing.Point(752, 335);
             this.labelStarRoomType.Name = "labelStarRoomType";
             this.labelStarRoomType.Size = new System.Drawing.Size(15, 20);
             this.labelStarRoomType.TabIndex = 24;
@@ -349,7 +351,7 @@
             this.labelStarHotel.AutoSize = true;
             this.labelStarHotel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelStarHotel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.labelStarHotel.Location = new System.Drawing.Point(746, 68);
+            this.labelStarHotel.Location = new System.Drawing.Point(944, 69);
             this.labelStarHotel.Name = "labelStarHotel";
             this.labelStarHotel.Size = new System.Drawing.Size(15, 20);
             this.labelStarHotel.TabIndex = 16;
@@ -358,7 +360,7 @@
             // 
             // textBoxRoomNo
             // 
-            this.textBoxRoomNo.Location = new System.Drawing.Point(426, 356);
+            this.textBoxRoomNo.Location = new System.Drawing.Point(626, 362);
             this.textBoxRoomNo.MaxLength = 6;
             this.textBoxRoomNo.Name = "textBoxRoomNo";
             this.textBoxRoomNo.Size = new System.Drawing.Size(121, 20);
@@ -368,7 +370,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(378, 357);
+            this.label6.Location = new System.Drawing.Point(578, 363);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(29, 16);
             this.label6.TabIndex = 25;
@@ -379,7 +381,7 @@
             this.labelStarRoomNo.AutoSize = true;
             this.labelStarRoomNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelStarRoomNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.labelStarRoomNo.Location = new System.Drawing.Point(552, 354);
+            this.labelStarRoomNo.Location = new System.Drawing.Point(752, 360);
             this.labelStarRoomNo.Name = "labelStarRoomNo";
             this.labelStarRoomNo.Size = new System.Drawing.Size(15, 20);
             this.labelStarRoomNo.TabIndex = 27;
@@ -388,7 +390,7 @@
             // 
             // textBoxRoomPrice
             // 
-            this.textBoxRoomPrice.Location = new System.Drawing.Point(426, 382);
+            this.textBoxRoomPrice.Location = new System.Drawing.Point(626, 388);
             this.textBoxRoomPrice.MaxLength = 6;
             this.textBoxRoomPrice.Name = "textBoxRoomPrice";
             this.textBoxRoomPrice.Size = new System.Drawing.Size(121, 20);
@@ -398,7 +400,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(378, 383);
+            this.label7.Location = new System.Drawing.Point(578, 389);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(42, 16);
             this.label7.TabIndex = 30;
@@ -409,7 +411,7 @@
             this.labelStarPrice.AutoSize = true;
             this.labelStarPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelStarPrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.labelStarPrice.Location = new System.Drawing.Point(552, 382);
+            this.labelStarPrice.Location = new System.Drawing.Point(752, 388);
             this.labelStarPrice.Name = "labelStarPrice";
             this.labelStarPrice.Size = new System.Drawing.Size(15, 20);
             this.labelStarPrice.TabIndex = 31;
@@ -420,7 +422,7 @@
             // 
             this.labelKing.AutoSize = true;
             this.labelKing.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelKing.Location = new System.Drawing.Point(378, 410);
+            this.labelKing.Location = new System.Drawing.Point(578, 415);
             this.labelKing.Name = "labelKing";
             this.labelKing.Size = new System.Drawing.Size(64, 16);
             this.labelKing.TabIndex = 32;
@@ -429,7 +431,7 @@
             // 
             // textBoxCapacity
             // 
-            this.textBoxCapacity.Location = new System.Drawing.Point(446, 409);
+            this.textBoxCapacity.Location = new System.Drawing.Point(646, 414);
             this.textBoxCapacity.MaxLength = 2;
             this.textBoxCapacity.Name = "textBoxCapacity";
             this.textBoxCapacity.Size = new System.Drawing.Size(44, 20);
@@ -441,7 +443,7 @@
             this.labelStarCapacity.AutoSize = true;
             this.labelStarCapacity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelStarCapacity.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.labelStarCapacity.Location = new System.Drawing.Point(496, 410);
+            this.labelStarCapacity.Location = new System.Drawing.Point(696, 415);
             this.labelStarCapacity.Name = "labelStarCapacity";
             this.labelStarCapacity.Size = new System.Drawing.Size(15, 20);
             this.labelStarCapacity.TabIndex = 34;
@@ -467,12 +469,34 @@
             this.label8.TabIndex = 39;
             this.label8.Text = "label8";
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(12, 283);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(72, 16);
+            this.label9.TabIndex = 40;
+            this.label9.Text = "Summary";
+            // 
+            // listBox1
+            // 
+            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 15;
+            this.listBox1.Location = new System.Drawing.Point(12, 305);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(428, 184);
+            this.listBox1.TabIndex = 41;
+            // 
             // AdminForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(820, 497);
+            this.ClientSize = new System.Drawing.Size(1069, 497);
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.labelStarCapacity);
@@ -563,5 +587,7 @@
         private System.Windows.Forms.Label labelStarCapacity;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }

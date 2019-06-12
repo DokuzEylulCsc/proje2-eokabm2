@@ -56,3 +56,153 @@
 
 (Customer)  a signed in.	11/06/2019
 
+(Customer)  a signed in.	12/06/2019
+
+(Customer) a has made a new reservation to Hotel Silence Istanbul	12/06/2019
+
+(Customer) a has made a new reservation to Hotel Hilton Istanbul	12/06/2019
+
+(Customer) a has canceled a reservation to HotelHilton Istanbul	12/06/2019
+
+(Customer) a has made a new reservation to Hotel AAA	12/06/2019
+
+(Customer) a has made a new reservation to Hotel AAA	12/06/2019
+
+(Customer) a has made a new reservation to Hotel AAA	12/06/2019
+
+(Customer) a has made a new reservation to Hotel AAA	12/06/2019
+
+(Customer) a has canceled a reservation to HotelAAA	12/06/2019
+
+(Customer) a has canceled a reservation to HotelAAA	12/06/2019
+
+(Customer) a has canceled a reservation to HotelAAA	12/06/2019
+
+(Customer) a has canceled a reservation to HotelAAA	12/06/2019
+
+(Customer) a has canceled a reservation to HotelSilence Istanbul	12/06/2019
+
+(Admin)  admin signed in.	12/06/2019
+
+(Admin) admin has Added new Hotel	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin) admin has added new Room to Hotel BBB	12/06/2019
+
+(Admin)  admin signed in.	12/06/2019
+
+(Admin)  admin signed in.	12/06/2019
+
+(Admin)  admin signed in.	12/06/2019
+
+(Customer)  a signed in.	13/06/2019
+
+(Customer) a has made a new reservation to Hotel Silence Istanbul	13/06/2019
+
+(Customer) a has made a new reservation to Hotel Hotel Sahil	13/06/2019
+
+(Customer) a has made a new reservation to Hotel Dragos Resort	13/06/2019
+
+(Customer) a has made a new reservation to Hotel Silence Istanbul	13/06/2019
+
+(Customer) a has made a new reservation to Hotel Hotel Ramada	13/06/2019
+
+(Customer) a has made a new reservation to Hotel Hotel Ramada	13/06/2019
+
+(Customer) a has made a new reservation to Hotel Hilton Istanbul	13/06/2019
+
+(Customer) a has made a new reservation to Hotel Hilton Istanbul	13/06/2019
+
+(Customer) a has made a new reservation to Hotel Ege Palas	13/06/2019
+
+(Customer) a has made a new reservation to Hotel Sc Inn	13/06/2019
+
+(Customer) a has made a new reservation to Hotel Ege Palas	13/06/2019
+
+(Customer) a has made a new reservation to Hotel AAA	13/06/2019
+
+(Customer) a has made a new reservation to Hotel AAA	13/06/2019
+
+(Admin)  admin signed in.	13/06/2019
+

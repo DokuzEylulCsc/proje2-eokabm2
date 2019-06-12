@@ -18,7 +18,7 @@ namespace Project2_OOP
             appDate = AppDate.GetInstance();
         }
 
-        internal User CurrentUser { get; set; }
+        internal Administrator CurrentUser { get; set; }
 
         private void ButtonAddHotel_Click(object sender, EventArgs e)
         {
@@ -37,6 +37,7 @@ namespace Project2_OOP
                 elTuristiko.AddHotel(AppFactory.BuildHotel(textBoxHotelName.Text, comboBoxHotelCity.SelectedItem.ToString(),
                     comboBoxHotelStars.SelectedIndex + 1, comboBoxHotelType.SelectedItem.ToString()));
                 MessageBox.Show("Hotel " + textBoxHotelName.Text + " added.");
+                AppLogs.WriteLog("(Admin) " + CurrentUser.UserId + " has Added new Hotel");
                 ListAllHotels();
             }
 
@@ -47,7 +48,7 @@ namespace Project2_OOP
         {
             Graphics g = CreateGraphics();
             Pen pen = new Pen(Color.Black, 2);
-            g.DrawLine(pen, 300, 0, 300, this.Height);
+            g.DrawLine(pen, 510, 0, 510, this.Height);
             
         }
 
@@ -111,27 +112,24 @@ namespace Project2_OOP
             
             IEnumerator enumerator = elTuristiko.GetEnumerator();
             int typeHotel = listBoxHotels.SelectedIndex;
+            string typeRoom = comboBoxRoomType.SelectedItem.ToString();
 
-            for(int i = 0; i <= typeHotel; i++)
+            for (int i = 0; i <= typeHotel; i++)
             {
                 enumerator.MoveNext();
             } //enumerator seçilen oteli gösteriyor.
-            Hotel hotel = ((Hotel)enumerator.Current);
-
-
-            string typeRoom = comboBoxRoomType.SelectedItem.ToString();
-
+            Hotel hotel = ((Hotel)enumerator.Current);      
             
             if(hotel.HasSameRoomNo(roomNo))
             {
-                MessageBox.Show("A room with this number already exists.");
-                
+                MessageBox.Show("A room with this number already exists.");              
             }
             else
             {
                 hotel.AddRoom(AppFactory.BuildRoom(roomNo, capacity, price, checkBoxHasAC.Checked, checkBoxHasBalcony.Checked, checkBoxHasSeaView.Checked,
                     checkBoxHasTV.Checked, checkBoxHasMinibar.Checked, typeRoom));
                 MessageBox.Show("Room added to Hotel " + hotel.Name);
+                AppLogs.WriteLog("(Admin) " + CurrentUser.UserId + " has added new Room to Hotel " + hotel.Name);
             }
 
         }
@@ -154,6 +152,35 @@ namespace Project2_OOP
         {
             appDate.NextDay();
             label8.Text = appDate.ToString();
+            listBox1.Items.Clear();
+
+            IEnumerator enumeratorH = elTuristiko.GetEnumerator();
+            while (enumeratorH.MoveNext())
+            {
+                Hotel hotel = (Hotel)enumeratorH.Current;
+                IEnumerator enumeratorR = hotel.GetEnumerator();
+                int roomSum = 0; int priceSum = 0;
+
+                while (enumeratorR.MoveNext())
+                {
+                    
+                    Room room = (Room)enumeratorR.Current;
+
+                    foreach(Reservation r in room.Reservations)
+                    {
+                        if(appDate.AreBetween(r.CheckIn, r.CheckOut))
+                        {
+                            roomSum++;
+                            priceSum += room.Price;
+                            break;
+                        }
+                    }
+
+                    
+                }
+                listBox1.Items.Add("Hotel:  " + hotel.Name + "  Rooms:  " + roomSum + "/" + hotel.NumberOfRooms + "  Total Income:  " + priceSum + " \u20BA");
+
+            }
 
         }
     }

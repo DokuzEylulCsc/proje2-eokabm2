@@ -45,10 +45,8 @@ namespace Project2_OOP
                     User.Add(name, adress, phoneNumber,Reservations);
                 }
                 User.Add(idUser, type);
-                rootElement.Add(User);
-                //rootElement.Add(User);
-            }
-            //rootElement.Add(Use);
+                rootElement.Add(User);              
+            }           
             xDoc.Save(@"Users.xml");
         }
         internal void xWriteHotel()
@@ -137,13 +135,8 @@ namespace Project2_OOP
                 city = elHotel.Element("city").Value;
                 stars = elHotel.Element("Stars").Value;
 
-                //Console.WriteLine("id: " + id + " Hotelname: " + hotelname + " Typename: " + typename + " City: " + city + " Stars: " + stars);
-
                 Hotel hotel = AppFactory.BuildHotel(hotelname, city, Int32.Parse(stars), typename);
                 elTuristiko.AddHotel(hotel);
-                //
-                Console.WriteLine(hotel.ToString());
-                //
 
                 foreach(XElement elRooms in elHotel.Descendants("Rooms"))
                 {
@@ -165,9 +158,6 @@ namespace Project2_OOP
                         room = AppFactory.BuildRoom(Int32.Parse(roomn), Int32.Parse(capacity), Int32.Parse(price), Boolean.Parse(hasAC), Boolean.Parse(hasBalcony), 
                             Boolean.Parse(hasSea), Boolean.Parse(hasTV), Boolean.Parse(hasMinibar), type);
                         hotel.AddRoom(room);
-                        //
-                        Console.WriteLine(room.ToString());
-                        //
 
                     }
 

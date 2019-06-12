@@ -33,6 +33,7 @@ namespace Project2_OOP
             if(elTuristiko.AddCustomer(textBoxUserId.Text, textBoxPassword.Text, textBoxFName.Text + " " + textBoxLName.Text, textBoxAddress.Text, textBoxPhoneN.Text))
             {
                 MessageBox.Show("Successfully registered.");
+                AppLogs.WriteLog("(Register) New Customer Register. UserId: " + textBoxUserId.Text);
                 this.Close();
                 hotelReservationApp.Show();
             }

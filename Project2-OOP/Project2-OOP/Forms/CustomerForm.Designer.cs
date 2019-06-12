@@ -74,7 +74,7 @@
             // checkBoxSeaView
             // 
             this.checkBoxSeaView.AutoSize = true;
-            this.checkBoxSeaView.Location = new System.Drawing.Point(188, 173);
+            this.checkBoxSeaView.Location = new System.Drawing.Point(173, 173);
             this.checkBoxSeaView.Name = "checkBoxSeaView";
             this.checkBoxSeaView.Size = new System.Drawing.Size(68, 17);
             this.checkBoxSeaView.TabIndex = 51;
@@ -84,7 +84,7 @@
             // checkBoxBalcony
             // 
             this.checkBoxBalcony.AutoSize = true;
-            this.checkBoxBalcony.Location = new System.Drawing.Point(98, 173);
+            this.checkBoxBalcony.Location = new System.Drawing.Point(95, 173);
             this.checkBoxBalcony.Name = "checkBoxBalcony";
             this.checkBoxBalcony.Size = new System.Drawing.Size(64, 17);
             this.checkBoxBalcony.TabIndex = 50;

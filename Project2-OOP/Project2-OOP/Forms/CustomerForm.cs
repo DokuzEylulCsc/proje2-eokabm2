@@ -116,6 +116,7 @@ namespace Project2_OOP
                         {
                             Reservation r = room.Make_Reservation(hotel.Name, roomNo, Convert.ToDateTime(res_list[index][7]), Convert.ToDateTime(res_list[index][8]));
                             currentUser.Make_Reservation(r);
+                            AppLogs.WriteLog("(Customer) " + currentUser.UserId + " has made a new reservation to Hotel " + hotel.Name);
                         }
                     }
                 }
@@ -164,13 +165,14 @@ namespace Project2_OOP
                         Room room = (Room)enumeratorR.Current;
                         if (room.No == r.RoomNo)
                         {
-                            room.Cancel_Reservation(r);
+                            room.Cancel_Reservation(r);                          
                         }
                     }
                 }
             }
 
-            currentUser.Cancel_Reservation(r);
+            AppLogs.WriteLog("(Customer) " + currentUser.UserId + " has canceled a reservation to Hotel " + r.HotelName);
+            currentUser.Cancel_Reservation(r);         
             listBoxMyReservations.Items.Clear();
 
         }

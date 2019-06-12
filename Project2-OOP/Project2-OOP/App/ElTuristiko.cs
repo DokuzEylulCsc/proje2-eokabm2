@@ -14,7 +14,6 @@ namespace Project2_OOP
         private List<Hotel> hotels = new List<Hotel> { };
         private List<User> users = new List<User> { };
         
-        //internal List<Hotel> Hotels { get => hotels; set => hotels = value; }
         internal List<User> Users { get => users; set => users = value; }
 
         internal static ElTuristiko GetInstance()
