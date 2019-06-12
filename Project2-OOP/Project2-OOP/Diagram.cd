@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Project2_OOP.AppDate" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAEAAAABAAABAAAAIABAAAAAQAAAAA=</HashCode>
+      <FileName>App\AppDate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project2_OOP.AppFactory" Collapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App\AppFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project2_OOP.AppLogs" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAoAAAAIAAAAAAAA=</HashCode>
+      <FileName>App\AppLogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project2_OOP.ElTuristiko" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAACABAABBAAAJIAAAABCAAAAAkEAAAAAAAAAA=</HashCode>
+      <FileName>App\ElTuristiko.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Project2_OOP.XXmlClass" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAIAAAABAAAAEAAAAAAAAQAAAA=</HashCode>
+      <FileName>App\XXmlClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project2_OOP.AdminForm" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIQAAkCkaAAAFAAAJSMBQADgAIIhIQBIkQAgCSAgQg=</HashCode>
+      <FileName>Forms\AdminForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project2_OOP.CustomerForm" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAIAEKAAAIiAAADIRAJCIQDCAoECEAcGEAUBABE=</HashCode>
+      <FileName>Forms\CustomerForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project2_OOP.HotelReservationApp" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAACACACIAARSJAAAAIAgJQQAIBAAIQI=</HashCode>
+      <FileName>Forms\HotelReservationApp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project2_OOP.RegisterForm" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAECEAEAIAAAmIABQCQAAAEAAAAQAAIABAoAA=</HashCode>
+      <FileName>Forms\RegisterForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project2_OOP.BoutiqueHotel" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hotels\Boutique.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project2_OOP.BusinessHotel" Collapsed="true">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hotels\BusinessHotel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project2_OOP.Hotel" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAEAAAABAABCMEAJACAQAAAAEBAAEAAAAAGgAAgA=</HashCode>
+      <FileName>Hotels\Hotel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Project2_OOP.LuxuryHotel" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hotels\LuxuryHotel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project2_OOP.ResortHotel" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hotels\ResortHotel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project2_OOP.SuiteHotel" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hotels\SuiteHotel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project2_OOP.Program" Collapsed="true">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project2_OOP.Reservation" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAEEAAAARgQEAAIEAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Reservation\Reservation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project2_OOP.DoubleRoom" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rooms\DoubleRoom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project2_OOP.KingRoom" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rooms\KingRoom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project2_OOP.Room" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABAABABQQAAAgGEAIAIJCCACCAAIACAAAABACACAQ=</HashCode>
+      <FileName>Rooms\Room.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Project2_OOP.SingleRoom" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rooms\SingleRoom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project2_OOP.TripleRoom" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rooms\TripleRoom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project2_OOP.TwinRoom" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rooms\TwinRoom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project2_OOP.Administrator" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Users\Administrator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project2_OOP.Customer" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAABABAAAAAAEEAAAQBQAAEIEAAACAAAAAAAAAAQ=</HashCode>
+      <FileName>Users\Customer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Project2_OOP.User" Collapsed="true">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAgAAAAAAAACAAAAAgAAAAA=</HashCode>
+      <FileName>Users\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project2_OOP.Properties.Resources" Collapsed="true">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project2_OOP.Properties.Settings" Collapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Project2_OOP.IReservation" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Interfaces\IReservation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

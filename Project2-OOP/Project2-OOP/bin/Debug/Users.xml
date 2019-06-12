@@ -15,12 +15,6 @@
       <Reservation id="1">
         <Hotelname>1</Hotelname>
         <Roomno>103</Roomno>
-        <Checkin>6/12/2019</Checkin>
-        <Checkout>6/13/2019</Checkout>
-      </Reservation>
-      <Reservation id="2">
-        <Hotelname>2</Hotelname>
-        <Roomno>103</Roomno>
         <Checkin>6/14/2019</Checkin>
         <Checkout>6/15/2019</Checkout>
       </Reservation>
@@ -31,11 +25,24 @@
     <adress>aa</adress>
     <PhoneNumber>aa</PhoneNumber>
     <Reservations>
-      <Reservation id="3">
-        <Hotelname>Silence Istanbul</Hotelname>
+      <Reservation id="2">
+        <Hotelname>2</Hotelname>
         <Roomno>1040</Roomno>
         <Checkin>6/14/2019</Checkin>
         <Checkout>6/15/2019</Checkout>
+      </Reservation>
+    </Reservations>
+  </User>
+  <User userid="user" password="user" usertype="Customer">
+    <name>user usser</name>
+    <adress>usser</adress>
+    <PhoneNumber>1234</PhoneNumber>
+    <Reservations>
+      <Reservation id="3">
+        <Hotelname>Hilton Istanbul</Hotelname>
+        <Roomno>202</Roomno>
+        <Checkin>6/12/2019</Checkin>
+        <Checkout>6/14/2019</Checkout>
       </Reservation>
     </Reservations>
   </User>

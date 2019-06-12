@@ -256,3 +256,21 @@
 
 (Customer) a has made a new reservation to Hotel Silence Istanbul	12/06/2019
 
+(Customer)  abmogol signed in.	12/06/2019
+
+(Customer)  abmogol signed in.	12/06/2019
+
+(Customer) abmogol has canceled a reservation to Hotel 1	12/06/2019
+
+(Admin)  admin signed in.	12/06/2019
+
+(Admin)  admin signed in.	12/06/2019
+
+(Admin)  admin signed in.	12/06/2019
+
+(Register) New Customer Register. UserId: user	12/06/2019
+
+(Customer)  user signed in.	12/06/2019
+
+(Customer) user has made a new reservation to Hotel Hilton Istanbul	12/06/2019
+
