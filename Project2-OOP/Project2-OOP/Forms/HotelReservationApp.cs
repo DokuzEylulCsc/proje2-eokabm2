@@ -31,13 +31,13 @@ namespace Project2_OOP
         {
             appDate.Date = DateTime.Now;
 
-            elTuristiko.AddUser(new Administrator("admin", "123456"));
-            elTuristiko.AddUser(new Customer("eminozk", "123456", "Emin Özkaradeniz", "Bucca", "5055050"));
-            elTuristiko.AddUser(new Customer("abmogol", "123456", "Ahmet Buğra Moğol", "Bucca", "232323"));
-            elTuristiko.AddUser(new Customer("a", "a", "aa", "aa", "aa"));
+            //elTuristiko.AddUser(new Administrator("admin", "123456"));
+            //elTuristiko.AddUser(new Customer("eminozk", "123456", "Emin Özkaradeniz", "Bucca", "5055050"));
+            //elTuristiko.AddUser(new Customer("abmogol", "123456", "Ahmet Buğra Moğol", "Bucca", "232323"));
+            //elTuristiko.AddUser(new Customer("a", "a", "aa", "aa", "aa"));
 
             a.xReadHotel();
-
+            a.xReadUsers();
         }
 
         private void AddRoomsRandom(Hotel hotel, int n)

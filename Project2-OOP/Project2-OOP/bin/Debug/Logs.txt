@@ -206,3 +206,53 @@
 
 (Admin)  admin signed in.	13/06/2019
 
+(Customer)  abmogol signed in.	12/06/2019
+
+(Admin)  admin signed in.	12/06/2019
+
+(Customer)  abmogol signed in.	12/06/2019
+
+(Admin)  admin signed in.	12/06/2019
+
+(Admin)  admin signed in.	12/06/2019
+
+(Admin)  admin signed in.	12/06/2019
+
+(Admin)  admin signed in.	12/06/2019
+
+(Customer)  abmogol signed in.	12/06/2019
+
+(Customer)  abmogol signed in.	12/06/2019
+
+(Customer)  abmogol signed in.	12/06/2019
+
+(Customer) abmogol has made a new reservation to Hotel Silence Istanbul	12/06/2019
+
+(Customer) abmogol has made a new reservation to Hotel Swiss	12/06/2019
+
+(Customer)  abmogol signed in.	12/06/2019
+
+(Customer)  abmogol signed in.	12/06/2019
+
+(Customer) abmogol has made a new reservation to Hotel Hotel Sahil	12/06/2019
+
+(Customer)  abmogol signed in.	12/06/2019
+
+(Customer)  abmogol signed in.	12/06/2019
+
+(Customer)  abmogol signed in.	12/06/2019
+
+(Customer) abmogol has made a new reservation to Hotel Sc Inn	12/06/2019
+
+(Customer) abmogol has made a new reservation to Hotel Swiss	12/06/2019
+
+(Customer)  abmogol signed in.	12/06/2019
+
+(Customer)  abmogol signed in.	12/06/2019
+
+(Admin)  admin signed in.	12/06/2019
+
+(Customer)  a signed in.	12/06/2019
+
+(Customer) a has made a new reservation to Hotel Silence Istanbul	12/06/2019
+

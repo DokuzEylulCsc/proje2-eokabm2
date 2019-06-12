@@ -40,11 +40,11 @@ namespace Project2_OOP
                         XElement checkin = new XElement("Checkin", reservation.CheckIn.ToShortDateString());
                         XElement checkout = new XElement("Checkout", reservation.CheckOut.ToShortDateString());
                         Reservation.Add(id, hotelname, roomno, checkin, checkout);
-                        Reservations.Add(reservation);
+                        Reservations.Add(Reservation);
                     }
                     User.Add(name, adress, phoneNumber,Reservations);
                 }
-                User.Add(idUser, type);
+                User.Add(idUser , password , type);
                 rootElement.Add(User);              
             }           
             xDoc.Save(@"Users.xml");
@@ -104,9 +104,7 @@ namespace Project2_OOP
                 }
                 Hotel.Add(idHotel, typeHotel, nameHotel, city, numberofStars,RoomRoot);
                 rootElement.Add(Hotel);
-            }
-            
-                             
+            }               
             xDoc.Save(@"Hotels.xml");
         }
         
@@ -167,7 +165,7 @@ namespace Project2_OOP
 
         }
 
-        internal void xReadUsers(List<User> users)
+        internal void xReadUsers()
         {
             XDocument xDoc = null;
             try
@@ -190,32 +188,37 @@ namespace Project2_OOP
                 password = elUser.Attribute("password").Value;
                 if (typename == "Administrator")
                 {
-
+                    elTuristiko.AddUser(new Administrator(id, password));
                 }
                 else if (typename == "Customer")
                 {
                     username = elUser.Element("name").Value;
                     adress = elUser.Element("adress").Value;
                     phone = elUser.Element("PhoneNumber").Value;
-                }
-
-                foreach (XElement elRooms in elUser.Descendants("Reservations"))
-                {
-                    foreach (XElement ell in elRooms.Descendants("Reservation"))
+                    Customer custom = new Customer(id, password, username, adress, phone);
+                    
+                    
+                    foreach (XElement elRooms in elUser.Descendants("Reservations"))
                     {
-                        resid = ell.Attribute("id").Value;
-                        reshotel = ell.Element("Hotelname").Value;
-                        resroom = ell.Element("RoomNo").Value;
-                        rescheckin = ell.Element("Checkin").Value;
-                        rescheckout = ell.Element("Checkout").Value;
+                        //if (elRooms!=null)
+                        //{
+                            foreach (XElement ele in elRooms.Descendants("Reservation"))
+                            {
+                                resid = ele.Attribute("id").Value;
+                                reshotel = ele.Element("Hotelname").Value;
+                                resroom = ele.Element("Roomno").Value;
+                                rescheckin = ele.Element("Checkin").Value;
+                                rescheckout = ele.Element("Checkout").Value;
 
-                        Console.WriteLine("Reservation: ");
-                        Console.WriteLine("Id: {0}  Hotel: {1}  Room: {2}  CheckIn: {3}  CheckOut: {4}", resid, reshotel, resroom, rescheckin, rescheckout);
-
+                                //Console.WriteLine("Reservation: ");
+                                //Console.WriteLine("Id: {0}  Hotel: {1}  Room: {2}  CheckIn: {3}  CheckOut: {4}", resid, reshotel, resroom, rescheckin, rescheckout);
+                                Reservation K = new Reservation(resid, Int32.Parse(resroom), DateTime.Parse(rescheckin), DateTime.Parse(rescheckout));
+                                custom.Reservations.Add(K);
+                            }
+                        //}
                     }
-
+                    elTuristiko.AddUser(custom);
                 }
-
             }
         }
     } 
