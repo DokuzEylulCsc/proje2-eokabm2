@@ -274,3 +274,33 @@
 
 (Customer) user has made a new reservation to Hotel Hilton Istanbul	12/06/2019
 
+(Customer)  user signed in.	12/06/2019
+
+(Customer)  a signed in.	12/06/2019
+
+(Customer)  a signed in.	12/06/2019
+
+(Customer) a has made a new reservation to Hotel Swiss	12/06/2019
+
+(Customer)  a signed in.	12/06/2019
+
+(Admin)  admin signed in.	12/06/2019
+
+(Customer)  a signed in.	12/06/2019
+
+(Customer)  a signed in.	12/06/2019
+
+(Customer) a has made a new reservation to Hotel Ege Palas	12/06/2019
+
+(Customer) a has canceled a reservation to Hotel Swiss	12/06/2019
+
+(Customer)  eminozk signed in.	12/06/2019
+
+(Customer) eminozk has made a new reservation to Hotel Ege Palas	12/06/2019
+
+(Customer) eminozk has made a new reservation to Hotel Swiss	12/06/2019
+
+(Customer)  eminozk signed in.	12/06/2019
+
+(Customer)  a signed in.	12/06/2019
+

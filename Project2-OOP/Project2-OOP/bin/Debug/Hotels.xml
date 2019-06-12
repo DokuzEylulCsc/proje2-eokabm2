@@ -1671,7 +1671,7 @@
         <hasSeaView>True</hasSeaView>
         <hasTV>True</hasTV>
         <hasMinibar>False</hasMinibar>
-        <Reservations>Hilton Istanbul	202	6/12/2019	6/14/2019</Reservations>
+        <Reservations />
       </Room>
       <Room No="203" Type="TwinRoom">
         <Capacity>2</Capacity>
@@ -2628,7 +2628,7 @@
         <hasSeaView>True</hasSeaView>
         <hasTV>True</hasTV>
         <hasMinibar>True</hasMinibar>
-        <Reservations />
+        <Reservations>Swiss	2010	16/06/2019	20/06/2019</Reservations>
       </Room>
       <Room No="202" Type="TwinRoom">
         <Capacity>2</Capacity>
@@ -4149,7 +4149,7 @@
         <hasSeaView>True</hasSeaView>
         <hasTV>True</hasTV>
         <hasMinibar>False</hasMinibar>
-        <Reservations />
+        <Reservations>Ege Palas	101	24/06/2019	28/06/2019</Reservations>
       </Room>
       <Room No="102" Type="DoubleRoom">
         <Capacity>2</Capacity>
@@ -4169,7 +4169,7 @@
         <hasSeaView>True</hasSeaView>
         <hasTV>True</hasTV>
         <hasMinibar>True</hasMinibar>
-        <Reservations />
+        <Reservations>Ege Palas	1030	12/06/2019	15/06/2019</Reservations>
       </Room>
       <Room No="104" Type="TwinRoom">
         <Capacity>2</Capacity>

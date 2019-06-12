@@ -5,20 +5,26 @@
     <name>Emin Özkaradeniz</name>
     <adress>Bucca</adress>
     <PhoneNumber>5055050</PhoneNumber>
-    <Reservations />
+    <Reservations>
+      <Reservation id="3">
+        <Hotelname>Ege Palas</Hotelname>
+        <Roomno>1030</Roomno>
+        <Checkin>12/06/2019</Checkin>
+        <Checkout>15/06/2019</Checkout>
+      </Reservation>
+      <Reservation id="4">
+        <Hotelname>Swiss</Hotelname>
+        <Roomno>2010</Roomno>
+        <Checkin>16/06/2019</Checkin>
+        <Checkout>20/06/2019</Checkout>
+      </Reservation>
+    </Reservations>
   </User>
   <User userid="abmogol" password="123456" usertype="Customer">
     <name>Ahmet Buğra Moğol</name>
     <adress>Bucca</adress>
     <PhoneNumber>232323</PhoneNumber>
-    <Reservations>
-      <Reservation id="1">
-        <Hotelname>1</Hotelname>
-        <Roomno>103</Roomno>
-        <Checkin>6/14/2019</Checkin>
-        <Checkout>6/15/2019</Checkout>
-      </Reservation>
-    </Reservations>
+    <Reservations />
   </User>
   <User userid="a" password="a" usertype="Customer">
     <name>aa</name>
@@ -26,10 +32,10 @@
     <PhoneNumber>aa</PhoneNumber>
     <Reservations>
       <Reservation id="2">
-        <Hotelname>2</Hotelname>
-        <Roomno>1040</Roomno>
-        <Checkin>6/14/2019</Checkin>
-        <Checkout>6/15/2019</Checkout>
+        <Hotelname>Ege Palas</Hotelname>
+        <Roomno>101</Roomno>
+        <Checkin>24/06/2019</Checkin>
+        <Checkout>28/06/2019</Checkout>
       </Reservation>
     </Reservations>
   </User>
@@ -37,13 +43,6 @@
     <name>user usser</name>
     <adress>usser</adress>
     <PhoneNumber>1234</PhoneNumber>
-    <Reservations>
-      <Reservation id="3">
-        <Hotelname>Hilton Istanbul</Hotelname>
-        <Roomno>202</Roomno>
-        <Checkin>6/12/2019</Checkin>
-        <Checkout>6/14/2019</Checkout>
-      </Reservation>
-    </Reservations>
+    <Reservations />
   </User>
 </Users>

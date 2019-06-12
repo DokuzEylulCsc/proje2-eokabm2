@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Linq;
 
 namespace Project2_OOP
@@ -200,22 +197,40 @@ namespace Project2_OOP
                     
                     foreach (XElement elRooms in elUser.Descendants("Reservations"))
                     {
-                        //if (elRooms!=null)
-                        //{
-                            foreach (XElement ele in elRooms.Descendants("Reservation"))
-                            {
-                                resid = ele.Attribute("id").Value;
-                                reshotel = ele.Element("Hotelname").Value;
-                                resroom = ele.Element("Roomno").Value;
-                                rescheckin = ele.Element("Checkin").Value;
-                                rescheckout = ele.Element("Checkout").Value;
+                        foreach (XElement ele in elRooms.Descendants("Reservation"))
+                        {
+                            resid = ele.Attribute("id").Value;
+                            reshotel = ele.Element("Hotelname").Value;
+                            resroom = ele.Element("Roomno").Value;
+                            rescheckin = ele.Element("Checkin").Value;
+                            rescheckout = ele.Element("Checkout").Value;
 
-                                //Console.WriteLine("Reservation: ");
-                                //Console.WriteLine("Id: {0}  Hotel: {1}  Room: {2}  CheckIn: {3}  CheckOut: {4}", resid, reshotel, resroom, rescheckin, rescheckout);
-                                Reservation K = new Reservation(resid, Int32.Parse(resroom), DateTime.Parse(rescheckin), DateTime.Parse(rescheckout));
-                                custom.Reservations.Add(K);
+                            //Console.WriteLine("Reservation: ");
+                            //Console.WriteLine("Id: {0}  Hotel: {1}  Room: {2}  CheckIn: {3}  CheckOut: {4}", resid, reshotel, resroom, rescheckin, rescheckout);
+                            Reservation reservation = new Reservation(Int32.Parse(resid), reshotel, Int32.Parse(resroom), DateTime.Parse(rescheckin), DateTime.Parse(rescheckout));
+                            custom.Reservations.Add(reservation);
+
+                            IEnumerator enumeratorH = elTuristiko.GetEnumerator();
+                            while (enumeratorH.MoveNext())
+                            {
+                                Hotel hotel = (Hotel)enumeratorH.Current;
+
+                                if(hotel.Name.Equals(reservation.HotelName))
+                                {
+                                    IEnumerator enumeratorR = hotel.GetEnumerator();
+                                    while (enumeratorR.MoveNext())
+                                    {
+                                        Room room = (Room)enumeratorR.Current;
+                                        if(reservation.RoomNo ==  room.No)
+                                        {
+                                            room.Add_Reservation(reservation);
+                                        }
+                                    }
+                                }
+
                             }
-                        //}
+
+                        }
                     }
                     elTuristiko.AddUser(custom);
                 }

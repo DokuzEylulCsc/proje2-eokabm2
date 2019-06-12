@@ -59,6 +59,11 @@ namespace Project2_OOP
             return true;
         }
 
+        public void Add_Reservation(Reservation r)
+        {
+            this.reservations.Add(r);
+        }
+
         public Reservation Make_Reservation(string hotelName , int roomNo, DateTime checkIn, DateTime checkOut)
         {
             Reservation reservation = new Reservation(hotelName, roomNo, checkIn, checkOut);
